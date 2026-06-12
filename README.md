@@ -1,4 +1,4 @@
-# 今天做什么RAG知识库
+# 今天吃什么RAG知识库
 
 本项目基于LLM和RAG系统搭建一个「今天吃什么」的知识库，使用最小可行性产品MVP的原则，从一个初级的通用RAG架构逐渐完善成生产可用的系统。
 
@@ -10,12 +10,12 @@
 ![alt text](data/imgs/image-1.png)
 
 ## 技术和模型
-**开发环境**：本地Python虚拟环境（需安装miniConda）
-**开发语言**：Python
-**核心API**：LangChain
-**向量化存储**：FAISS
-**LLM模型**：Kimi2.5
-**Embedding模型**：BAAI/bge-small-zh-v1.5（远程连接HuggingFace使用,需🪜）
+- **开发环境**：本地Python虚拟环境（需安装miniConda）
+- **开发语言**：Python
+- **核心API**：LangChain
+- **向量化存储**：FAISS
+- **LLM模型**：Kimi2.5
+- **Embedding模型**：BAAI/bge-small-zh-v1.5（远程连接HuggingFace使用,需🪜）
 
 ## 安装使用
 ### 初始化python环境
@@ -72,6 +72,19 @@ python main.py
 
 #### 项目流程
 ![alt text](data/imgs/image-2.png)
+
+#### 提示词
+输入用户问题和向量检索结果，使用简单的提示词让大模型生成答案。
+```markdown
+你是一位专业的烹饪助手。请根据以下食谱信息回答用户的问题。
+
+用户问题: {question}
+
+相关食谱信息:
+{context}
+
+请提供详细、实用的回答。如果信息不足，请诚实说明。
+```
 
 #### 模型效果
 针对以下几类问答的回复各有优劣：
