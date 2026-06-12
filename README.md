@@ -3,10 +3,10 @@
 本项目基于LLM和RAG系统搭建一个「今天吃什么」的知识库，使用最小可行性产品MVP的原则，从一个初级的通用RAG架构逐渐完善成生产可用的系统。
 
 ## 系统架构
-通用RAG架构
+**通用RAG架构**
 ![alt text](data/imgs/image.png)
 
-生产级RAG架构
+**生产级RAG架构**
 ![alt text](data/imgs/image-1.png)
 
 ## 技术和模型
@@ -15,22 +15,69 @@
 **核心API**：LangChain
 **向量化存储**：FAISS
 **LLM模型**：Kimi2.5
-**Embedding模型**：BAAI/bge-small-zh-v1.5（远程连接HuggingFace使用）
+**Embedding模型**：BAAI/bge-small-zh-v1.5（远程连接HuggingFace使用,需🪜）
 
+## 安装使用
+### 初始化python环境
+**安装miniConda**
+```bash
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh
+bash ~/miniconda.sh
+```
+- 按 Enter 阅读许可协议
+- 输入 yes 同意协议
+- 安装路径提示时直接按 Enter（使用默认路径 /home/ubuntu/miniconda3）
+- 是否初始化Miniconda：输入 yes 将Miniconda添加到您的PATH环境变量中。
+```bash
+source ~/.bashrc
+conda --version
+```
+如果显示版本号，说明安装成功。
+
+为了加快后续使用 conda 安装包的速度，强烈建议配置国内镜像源。打开一个新的终端或 Anaconda Prompt，运行以下命令：
+```bash
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --set show_channel_urls yes
+```
+配置完成后，可以通过 `conda config --show channels` 命令查看已添加的源。
+
+**配置API_KEY**
+从MoonShot开发者平台申请API_KEY，配置到本地环境变量文件 `~/.bashrc` 中。
+```bash
+export MOONSHOT_API_KEY=[你的大模型 API 密钥]
+```
+保存文件后退出并执行 `source ~/.bashrc` 命令生效。
+
+**创建虚拟环境**
+```bash
+conda create -n cook-rag python=3.12.11
+conda activate cook-rag
+```
+
+**安装依赖文件**
+```bash
+pip install -r requirements.txt
+```
+
+**启动程序**
+```bash
+python main.py
+```
 
 ## 版本及功能
 ### V1（tag-xx)
 #### 版本介绍
-使用通用RAG架构对数据做「基于Markdown文档结构的」分块和使用FAISS向量化，并存储到本地。用户输入问题后直接检索发给大模型生成答案。
+使用通用RAG架构对数据做「基于Markdown文档结构的」分块和使用FAISS向量化，并存储到本地。用户输入问题后直接检索后，使用提示词发给大模型生成答案。
 
 #### 项目流程
 ![alt text](data/imgs/image-2.png)
 
 #### 模型效果
 针对以下几类问答的回复各有优劣：
-1. **给我推荐几道湖南菜**：向量检索不准确（没有语义理解），只取Top k，依赖知识库的回答也不准确，模型自己补充答案，输出格式有废话不统一；
+1. **给我推荐几道xx菜**：向量检索不准确（没有语义理解），只取Top k，依赖知识库的回答也不准确，模型自己补充答案，输出格式有废话不统一；
 ```markdown
-> 今天吃什么，给我推荐几道 江浙菜
+> 今天吃什么，给我推荐几道江浙菜
 根据您提供的食谱信息，我来为您分析：
 
 ## 符合江浙菜的推荐（1道）
