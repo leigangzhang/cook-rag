@@ -52,6 +52,8 @@ Thumbs.db
 
 # python环境相关目录
 rag/
+vector_index/
+data/imgs/
 
 # Model files
 *.h5
