@@ -6,11 +6,13 @@ from typing import Optional
 from dotenv import load_dotenv
 from config import DEFAULT_CONFIG, RAGConf
 from build_index import BuildIndex
+from query_retrial import QueryRetrail
 
 # 添加模块路径
 sys.path.append(str(Path(__file__).parent))
 
 from build_index import BuildIndex
+from query_retrial import QueryRetrail
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_community.chat_models.moonshot import MoonshotChat
@@ -42,21 +44,19 @@ class RAGSystem:
         if not os.getenv(self.config.api_key):
             raise ValueError(f"请设置环境变量 {self.config.api_key}")
         
-        # 初始化依赖组件
-        # logger.info("初始化索引构建组件")
-        self.index_builder = BuildIndex()
-        
 
     def run(self):
         logger.info("开始运行RAG系统")
+        self.index_builder = BuildIndex()
         # 检查索引是否存在
         vectorstore = self.index_builder.load_index()
 
         # 如果索引不存在，则构建新的索引
+        documents =self.index_builder.add_documents();
+        enhanced_docs = self.index_builder.enhance_metadata(documents)
+        chunks = self.index_builder.chunk_documents(enhanced_docs)
         if not vectorstore:
             logger.info("未找到索引，开始构建新的索引")
-            documents =self.index_builder.add_documents();
-            chunks = self.index_builder.chunk_documents(documents)
             vectorstore = self.index_builder.build_index(chunks)
             self.index_builder.save_index(vectorstore)
             logger.info("知识库构建完成")
@@ -72,9 +72,11 @@ class RAGSystem:
                     break
                 
                 # 查询检索
-                vector_retriver = vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": self.config.top_k})
-                vector_chunks = vector_retriver.invoke(user_query)
-                logger.info(f"检索到 {len(vector_chunks)} 个相关文档块")
+                self.query_retriver = QueryRetrail(vectorstore)
+                docs = self.query_retriver.hybrid_retrial(user_query, chunks)
+                filter_docs = self.query_retriver.metadata_filter_query(user_query, docs, self.config.top_k)
+                parent_docs = self.query_retriver.get_parent_documents(filter_docs, documents)
+                logger.info(f"检索到 {len(parent_docs)} 个相关文档块")
 
                 # 生成答案
                 prompt = ChatPromptTemplate.from_template("""
@@ -97,7 +99,7 @@ class RAGSystem:
                 )
                 
                 chain = (
-                    {"question": RunnablePassthrough(), "context": lambda _: vector_chunks} 
+                    {"question": RunnablePassthrough(), "context": lambda _: parent_docs} 
                     | prompt
                     | llm
                     | StrOutputParser()
