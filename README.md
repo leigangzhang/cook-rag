@@ -122,7 +122,12 @@ class BuildIndex module
 #### 模型效果
 针对以下两类问答的回复各有优劣：
 1. **给我推荐几道xx菜**：向量检索不准确（没有语义理解），只取Top k，依赖知识库的回答也不准确，模型自己补充答案，输出格式有废话不统一；
+
+<details>
+  <summary>点击查看示例</summary>
+
 ```markdown
+
 > 今天吃什么，给我推荐几道江浙菜
 根据您提供的食谱信息，我来为您分析：
 
@@ -151,10 +156,17 @@ class BuildIndex module
 - **响油鳝丝**（本帮菜经典）
 
 **建议今天就做那道鳊鱼炖豆腐**，鱼肉鲜嫩，豆腐吸满汤汁，配米饭非常合适！需要具体的烹饪步骤吗？
+
 ```
+</details>
 
 2. **水煮鱼怎么做**：文档分成多个子块后，向量检索只能查到部分子块，依赖知识库的回答残缺不完整，模型自己补充答案，但是不可靠不统一；
+
+<details>
+  <summary>点击查看示例</summary>
+
 ```markdown
+
 > 水煮鱼怎么做
 根据您提供的食谱信息，**目前文档中关于水煮鱼的具体制作步骤是缺失的**，仅包含以下基础信息：
 
@@ -179,6 +191,8 @@ class BuildIndex module
 如果您需要，我可以基于一般烹饪知识为您介绍水煮鱼的标准做法框架，但请注意这**并非来自您提供的食谱文档**。
 ```
 
+</details>
+
 #### 存在问题
 - 仅支持向量检索，不理解用户语义，生成结果不准确
 - 文本分块后检索，上下文不充分，生成结果不完整
@@ -186,10 +200,10 @@ class BuildIndex module
 ### V1.2（tag-v1.2.0)
 #### 版本介绍
 在V1.0版本的通用RAG架构基础上，针对性的做了以下功能和优化：
-- 检索优化：优化查询检索方式，使用向量检索+关键词检索，并使用RRF策略混合输出最终TopK
-- 数据构建：文本分块时构建元数据，检索时在混合检索步骤后再做元数据过滤缩小检索范围
-- 上下文扩展：使用"小块检索，大块生成"策略，文本分块时添加子块和父块映射，实现上下文扩展
-- 智能去重：检索到多个子块后（可能存在重复），进行排序去重后，再获取父文档给大模型生成
+- **检索优化**：优化查询检索方式，使用向量检索+关键词检索，并使用RRF策略混合输出最终TopK
+- **数据构建**：文本分块时构建元数据，检索时在混合检索步骤后再做元数据过滤缩小检索范围
+- **上下文扩展**：使用"小块检索，大块生成"策略，文本分块时添加子块和父块映射，实现上下文扩展
+- **智能去重**：检索到多个子块后（可能存在重复），进行排序去重后，再获取父文档给大模型生成
 
 #### 项目流程
 ```mermaid
@@ -248,9 +262,14 @@ class METADATA_FILTER,HYBRID_RETRIAL,VECTOR_RETRILA,RFF_RERANK,BM25_QUERY,FETCH_
 该版本的提示词和V1.0版本的保持不变。
 
 #### 模型效果
-针对以下两类问答的回复有所改进：
-1. **给我推荐几道早餐**：向量检索可以准确检索到用户想要的早餐，而不是随机返回其他菜品，说明元数据增强和混合检索后的基于元数据的过滤生效了。但是用户可能只要菜品名字，不需要详细做法，回答可以直给菜品名，再简洁一些。
+针对以下三类问答的回复有所改进：
+1. **给我推荐几道早餐**：向量检索可以准确检索到用户想要的早餐，而不是随机返回其他菜品，说明元数据增强和混合检索后的基于元数据的过滤生效了。但是用户可能只要菜品名字，不需要详细做法，回答可以再简洁一些，只给菜品名。
+
+<details>
+  <summary>点击查看示例</summary>
+
 ```markdown
+
 根据您提供的食谱信息，我为您推荐以下两道营养早餐：
 
 ## 1. 牛奶燕麦（极简快手版）
@@ -312,8 +331,15 @@ class METADATA_FILTER,HYBRID_RETRIAL,VECTOR_RETRILA,RFF_RERANK,BM25_QUERY,FETCH_
 两道早餐都基于燕麦和鸡蛋，食材重叠度高，您可以根据当天的时间和心情灵活选择！
 ```
 
+</details>
+
 2. **水煮鱼怎么做**：LLM给出的水煮鱼做法是根据知识库中水煮鱼的完整文档生成的，可见“小块检索、大块生成”的策略已经实现和生效，V1.0中向量检索的知识库不完整问题也不见了，在提示词不变的情况下，生成质量有明显的提升。
+
+<details>
+  <summary>点击查看示例</summary>
+
 ```markdown
+
 **水煮鱼**是一道经典的川菜，以麻辣鲜香著称。根据食谱，这是一道**难度较高**（★★★★）的硬菜，使用巴沙鱼制作，搭配时令蔬菜，营养丰富。以下是详细做法：
 
 ---
@@ -405,9 +431,15 @@ class METADATA_FILTER,HYBRID_RETRIAL,VECTOR_RETRILA,RFF_RERANK,BM25_QUERY,FETCH_
 祝你做出麻辣鲜香、鱼肉嫩滑的水煮鱼！如有具体步骤不清楚，欢迎追问。
 ```
 
+</details>
+
 3. **我想吃下午茶了**：用户输入意图描述不够清晰，既没有说明是要下午茶清单、还是要下午茶做法，直接提供给用户大量做法信息，可能不太符合用户意图。
 
+<details>
+  <summary>点击查看示例</summary>
+
 ```markdown
+
 根据您提供的食谱信息，我强烈推荐**英式司康**作为您的下午茶选择！这是一道经典的下午茶点心，制作相对简单，非常适合搭配茶或咖啡享用。
 
 ## 🫖 为什么推荐英式司康？
@@ -467,6 +499,279 @@ class METADATA_FILTER,HYBRID_RETRIAL,VECTOR_RETRILA,RFF_RERANK,BM25_QUERY,FETCH_
 祝您下午茶愉快！如果想喝饮品搭配，文档中的冬瓜茶也是不错的选择，清爽解腻，与司康的奶香形成完美互补。
 ```
 
+</details>
+
 #### 存在问题
 - 用户问“给我推荐几道xx菜”，回答包含菜品做法，冗长不够简洁，可以改为只推荐菜品名字；
 - 用户查询不太清晰的时候，生成内容偏向菜品详细做法，可能不符合用户意图（用户可能是到店点单、也可能是在家做菜），要能够准确识别用户意图，生成可靠的答案。
+
+### V1.5（tag-v1.5.0）
+#### 版本介绍
+在V1.2版本的基础上，针对性地做了以下功能和优化：
+- **路由规则**：根据用户不同的查询意图，生成不同的查询类型；根据不同大的查询类型，使用不同方式生成回复；包括查询路由和生成路由。
+- **查询重写**：对用户描述不清楚的问题，进行前置的LLM翻译重写（也可多轮交互），明确问题意图后再发送LLM生成答案。
+
+#### 项目流程
+```mermaid
+flowchart LR
+
+%% 多流程分支
+START[开始] --> |Embedding流程| BuildIndex
+BuildIndex --> FAISS_STORE[本地向量数据库]
+START[开始] --> |用户交互流程| SYSTEM_INIT[初始化]
+
+%% 知识库构建
+SYSTEM_INIT --> INDEX_CHECK[检查是否存在索引]
+INDEX_CHECK --> FAISS_STORE
+FAISS_STORE --> LOAD_INDEX[加载索引]
+
+%% 用户检索
+LOAD_INDEX --> UserQuestionRefactor
+UserQuestionRefactor --> HybridRetrial
+
+%% LLM生成
+HybridRetrial --> LLMGenerate
+LLMGenerate --> RESPONSE_USER[返回结果]
+
+%% 构建索引子流程
+subgraph BuildIndex ["构建索引流程(Embedding)"]
+    LOAD_DATA[加载数据] --> ADD_METADATA[元数据增强]
+    ADD_METADATA --> DATA_CHUNCK[文本分块] 
+    DATA_CHUNCK --> RELATION_MAPPING[父子关系映射]
+    RELATION_MAPPING --> BUILD_INDEX[构建索引]
+    BUILD_INDEX --> STORE_INDEX[存储到本地]
+end
+
+%% 用户问题子流程
+subgraph UserQuestionRefactor ["用户查询优化流程(QuestionRefactor)"]
+    USER_QUERSTION[用户问题] --> QUESTION_ROUTER[查询路由]
+    QUESTION_ROUTER --> |list|LIST_QUESTION[查询菜品列表]
+    QUESTION_ROUTER --> |detail|DETAIL_QUESTION[查询菜品做法]
+    QUESTION_ROUTER --> |general|DENERAL_QUESTION[查询一般问题]
+    LIST_QUESTION --> KEEP_QUESTION[保持原查询]
+    DETAIL_QUESTION --> QUESTION_REWRITE[查询重写]
+    DENERAL_QUESTION --> QUESTION_REWRITE
+end
+
+%% 混合检索子六层
+subgraph HybridRetrial ["混合检索流程(Retrial)"]
+    HYBRID_RETRIAL[混合过滤] --> VECTOR_RETRILA[向量检索]
+    VECTOR_RETRILA --> RFF_RERANK[RFF重排混合]
+    HYBRID_RETRIAL --> BM25_QUERY[BM25检索]
+    BM25_QUERY --> RFF_RERANK
+    RFF_RERANK --> METADATA_FILTER[元数据过滤检索] 
+    METADATA_FILTER --> FETCH_SUB_CHUNCKS[检索到子块]
+    FETCH_SUB_CHUNCKS --> DISTINCT_RANK[智能去重]
+    DISTINCT_RANK --> FETCH_PARENT_CHUNCKS[获取父文档]
+end
+
+%% LLM生成子流程
+subgraph LLMGenerate ["LLM生成结果(Generate)"]
+    GENERATE_ROUTER[生成路由] --> |list|GENERATE_FOOD_LIST[生成菜品列表]
+    GENERATE_ROUTER --> |detail|GENERATE_FOOD_DETAIL[生成菜品做法]
+    GENERATE_ROUTER --> |general|GENERATE_NORMAL_INFO[生成一般答复]
+end
+
+%% 样式定义
+classDef module fill:#f1f8e9,stroke:#33691e,stroke-width:2px
+classDef retrieval fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px
+
+%% 样式应用
+class BuildIndex,HybridRetrial,UserQuestionRefactor,LLMGenerate module
+class LOAD_DATA,ADD_METADATA,DATA_CHUNCK,RELATION_MAPPING,BUILD_INDEX,STORE_INDEX retrieval
+class METADATA_FILTER,HYBRID_RETRIAL,VECTOR_RETRILA,RFF_RERANK,BM25_QUERY,FETCH_SUB_CHUNCKS,DISTINCT_RANK,FETCH_PARENT_CHUNCKS retrieval
+class GENERATE_ROUTER,GENERATE_FOOD_LIST,GENERATE_FOOD_DETAIL,GENERATE_NORMAL_INFO retrieval
+class USER_QUERSTION,QUESTION_ROUTER,LIST_QUESTION,DETAIL_QUESTION,DENERAL_QUESTION,KEEP_QUESTION,QUESTION_REWRITE retrieval
+```
+
+#### 提示词
+LLM识别用户问题后对其进行路由分类和查询重写，分为「查询菜品列表」、「查询菜品做法」和「查询一般问题」三种类型：
+**查询路由规则提示词**
+<details>
+  <summary>点击查看提示词</summary>
+
+```python
+QUESTION_ROUTER_PROMPT = """
+根据用户的问题，将其分类为以下三种类型之一：
+
+1. 'list' - 用户想要获取菜品列表或推荐，只需要菜名
+   例如：推荐几个素菜、有什么川菜、给我3个简单的菜
+
+2. 'detail' - 用户想要具体的制作方法或详细信息
+   例如：宫保鸡丁怎么做、制作步骤、需要什么食材
+
+3. 'general' - 其他一般性问题
+   例如：什么是川菜、制作技巧、营养价值
+
+请只返回分类结果：list、detail 或 general
+
+用户问题: {query}
+
+分类结果:"""
+```
+</details>
+
+「查询菜品列表」类问题比较简单不需要做查询重写，「查询菜品做法」和「查询一般问题」两种类型问题则需要根据「用户查询重写规则」进行优化：
+
+**查询重写规则提示词**
+<details>
+  <summary>点击查看提示词</summary>
+
+```python
+QUESTION_REWRITE_PROMPT = """
+你是一个智能查询分析助手。请分析用户的查询，判断是否需要重写以提高食谱搜索效果。
+
+原始查询: {query}
+
+分析规则：
+1. **具体明确的查询**（直接返回原查询）：
+   - 包含具体菜品名称：如"宫保鸡丁怎么做"、"红烧肉的制作方法"
+   - 明确的制作询问：如"蛋炒饭需要什么食材"、"糖醋排骨的步骤"
+   - 具体的烹饪技巧：如"如何炒菜不粘锅"、"怎样调制糖醋汁"
+
+2. **模糊不清的查询**（需要重写）：
+   - 过于宽泛：如"做菜"、"有什么好吃的"、"推荐个菜"
+   - 缺乏具体信息：如"川菜"、"素菜"、"简单的"
+   - 口语化表达：如"想吃点什么"、"有饮品推荐吗"
+
+重写原则：
+- 保持原意不变
+- 增加相关烹饪术语
+- 优先推荐简单易做的
+- 保持简洁性
+
+示例：
+- "做菜" → "简单易做的家常菜谱"
+- "有饮品推荐吗" → "简单饮品制作方法"
+- "推荐个菜" → "简单家常菜推荐"
+- "川菜" → "经典川菜菜谱"
+- "宫保鸡丁怎么做" → "宫保鸡丁怎么做"（保持原查询）
+- "红烧肉需要什么食材" → "红烧肉需要什么食材"（保持原查询）
+
+请输出最终查询（如果不需要重写就返回原查询）:"""
+```
+</details>
+
+根据重写后的用户问题检索到父文档之后，对不同用户查询类型使用不同的生成规则，其中「生成菜品列表」直接从混合检索的父文档中提取菜品名字，不需要经过LLM生成，「生成菜品做法」和「生成一般答复」需要依赖检索到的父文档进行LLM生成：
+
+**生成菜品做法提示词**
+<details>
+  <summary>点击查看提示词</summary>
+
+```python
+GENERATE_DETAIL_PROMPT = """
+你是一位专业的烹饪导师。请根据食谱信息，为用户提供详细的分步骤指导。
+
+用户问题: {question}
+
+相关食谱信息:
+{context}
+
+请灵活组织回答，建议包含以下部分（可根据实际内容调整）：
+
+## 🥘 菜品介绍
+[简要介绍菜品特点和难度]
+
+## 🛒 所需食材
+[列出主要食材和用量]
+
+## 👨‍🍳 制作步骤
+[详细的分步骤说明，每步包含具体操作和大概所需时间]
+
+## 💡 制作技巧
+[仅在有实用技巧时包含。优先使用原文中的实用技巧，如果原文的"附加内容"与烹饪无关或为空，可以基于制作步骤总结关键要点，或者完全省略此部分]
+
+注意：
+- 根据实际内容灵活调整结构
+- 不要强行填充无关内容或重复制作步骤中的信息
+- 重点突出实用性和可操作性
+- 如果没有额外的技巧要分享，可以省略制作技巧部分
+
+回答:"""
+```
+</details>
+
+**生成一般答复提示词**
+
+<details>
+  <summary>点击查看提示词</summary>
+
+```python
+GENERATE_NORMAL_ANSWER = """
+你是一位专业的烹饪助手。请根据以下食谱信息回答用户的问题。
+
+用户问题: {question}
+
+相关食谱信息:
+{context}
+
+请提供详细、实用的回答。如果信息不足，请诚实说明。
+
+回答:
+"""
+```
+</details>
+
+#### 模型效果
+针对以下两类问题的回复效果有明显改进:
+1. **给我推荐几道早餐**：直接生成菜品清单，不会展示过多冗余信息。
+
+<details>
+  <summary>点击查看示例</summary>
+
+```markdown
+
+为您推荐以下菜品：
+1. 燕麦鸡蛋饼
+2. 温泉蛋
+3. 牛奶燕麦
+```
+</details>
+
+2. **我想吃下午茶了，有什么推荐的？**
+
+<details>
+  <summary>点击查看示例</summary>
+
+```markdown
+> 我想吃下午茶了，有什么推荐的？
+为您推荐以下菜品：
+1. 奶茶
+2. 温泉蛋
+3. 英式司康
+
+> 英式司康好吃吗？
+根据食谱信息，英式司康的风味特点是：**以蛋奶香气为主轴，糖量适中且不会过于甜腻**。
+
+从食谱描述来看，这是一款比较受欢迎的下午茶甜品，具有以下特点：
+
+**风味口感**
+- 蛋奶香气浓郁（使用了黄油、鸡蛋、淡奶油和可选的奶油奶酪）
+- 甜度适中，不会甜腻（每份仅使用30g糖）
+- 口感应该是酥松的（通过黄油搓入面粉和泡打粉的作用）
+
+**适合场景**
+- 作为下午茶点心非常合适
+- 推荐搭配果酱、茶或咖啡食用
+
+**制作角度**
+- 属于"简单快手"的甜品，难度中等（★★★）
+- 从准备到烤制完成约需1小时左右
+
+**主观评价**
+是否"好吃"因人而异。如果您喜欢：
+- 奶香浓郁的烘焙点心
+- 不太甜的甜品
+- 酥松的口感（类似饼干和蛋糕之间的质地）
+- 搭配果酱或茶饮食用
+
+那么这款司康很可能会符合您的口味。它经典的英式下午茶定位也说明了其风味接受度较广。
+
+如果您偏好重口味、特别甜或咸的点心，可能需要调整配方（如增加糖分或添加果干、芝士等配料）。
+
+```
+</details>
+
+#### 存在问题
+- **Top K检索造成Token浪费和查询受限**：目前检索流程都是按照Top K的规则检索的，如果用户查询"英式司康怎么做"这类问题，只会用到英式司康这一份父文档，检索到的Top K中的其他文档也会发送给LLM，造成比较严重的Token浪费；另外如果用户查询“给我推荐5-10道早餐”，Top K中的K=3，最多只会返回3道菜品，也会让用户感觉到不满；
+- **原文档缺少分类标签限制用户发散查询**：目前支持的用户查询类型有限，如果用户查询"给我推荐几道川菜"，由于目前的菜品分类中没有菜系分类，所以混合检索无法准确地检索到川菜，返回的结果就比较随机；同理如果用户查询“我想吃西餐了”，西餐又包括很多类型比如牛排、甜点、料理等，需要在知道西餐分类的基础上和用户进一步交互，才能了解到用户具体的查询意图。
