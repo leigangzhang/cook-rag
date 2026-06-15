@@ -4,12 +4,16 @@ import logging
 import hashlib
 from typing import Optional, List, Dict
 
-from build_index import BuildIndex
+from modules.build_index import BuildIndex
 from config import DEFAULT_CONFIG, RAGConf
 from langchain.vectorstores import FAISS
 from langchain_core.documents import Document
 from langchain_community.retrievers import BM25Retriever
 
+logging.basicConfig(
+    level=logging.INFO, 
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
 logger = logging.getLogger(__name__)
 
 class QueryRetrail:

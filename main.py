@@ -5,18 +5,14 @@ from pathlib import Path
 from typing import Optional
 from dotenv import load_dotenv
 from config import DEFAULT_CONFIG, RAGConf
-from build_index import BuildIndex
-from query_retrial import QueryRetrail
+from modules.build_index import BuildIndex
+from modules.llm_generator import LLMGenerator
+from modules.query_retrial import QueryRetrail
+from modules.question_refactor import QuestionRefactor
+from langchain_community.chat_models.moonshot import MoonshotChat
 
 # 添加模块路径
 sys.path.append(str(Path(__file__).parent))
-
-from build_index import BuildIndex
-from query_retrial import QueryRetrail
-from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.runnables import RunnablePassthrough
-from langchain_community.chat_models.moonshot import MoonshotChat
-from langchain_core.output_parsers import StrOutputParser
 
 # 加载环境变量
 load_dotenv()
@@ -70,6 +66,25 @@ class RAGSystem:
                 if user_query.lower() == "exit":
                     print("感谢使用，再见！")
                     break
+
+                llm = MoonshotChat(
+                    client=None,  
+                    model=self.config.llm_model,
+                    temperature=self.config.temperature,
+                    max_tokens=self.config.max_tokens,
+                    api_key=os.getenv(self.config.api_key)
+                )
+
+                # 用户查询优化
+                self.question_refactor = QuestionRefactor()
+                question_type = self.question_refactor.question_router(llm, user_query)
+                logger.info(f"用户问题类型分类为：{question_type}")
+
+                rewrite_query = 'general'
+                if question_type == 'list':
+                    rewrite_query = user_query
+                else:
+                    rewrite_query = self.question_refactor.question_rewrite(llm, user_query, question_type)
                 
                 # 查询检索
                 self.query_retriver = QueryRetrail(vectorstore)
@@ -79,36 +94,17 @@ class RAGSystem:
                 logger.info(f"检索到 {len(parent_docs)} 个相关文档块")
 
                 # 生成答案
-                prompt = ChatPromptTemplate.from_template("""
-你是一位专业的烹饪助手。请根据以下食谱信息回答用户的问题。
-
-用户问题: {question}
-
-相关食谱信息:
-{context}
-
-请提供详细、实用的回答。如果信息不足，请诚实说明。
-""")
-                
-                llm = MoonshotChat(
-                    client=None,  
-                    model=self.config.llm_model,
-                    temperature=self.config.temperature,
-                    max_tokens=self.config.max_tokens,
-                    api_key=os.getenv(self.config.api_key)
-                )
-                
-                chain = (
-                    {"question": RunnablePassthrough(), "context": lambda _: parent_docs} 
-                    | prompt
-                    | llm
-                    | StrOutputParser()
-                )
+                self.llm_generator = LLMGenerator()
+                response = ""
+                if question_type == "list":
+                    response = self.llm_generator.generate_list_answer(parent_docs, user_query)
+                elif question_type == "detail":
+                    response = self.llm_generator.generate_detail_answer(llm, parent_docs, user_query)
+                else:
+                    response = self.llm_generator.generate_normal_answer(llm, parent_docs, user_query)
 
                 # 返回结果
-                for response in chain.stream(user_query):
-                    print(response, end="", flush=True)
-                print()
+                print(response)
                 
             except KeyboardInterrupt:
                 print("\n感谢使用，再见！")
