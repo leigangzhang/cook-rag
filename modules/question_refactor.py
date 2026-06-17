@@ -59,4 +59,6 @@ class QuestionRefactor:
         else:
             logger.info(f"用户查询无须改写：{user_query}")
 
+        return result
+
 
