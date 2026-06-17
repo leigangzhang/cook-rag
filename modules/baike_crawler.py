@@ -5,13 +5,15 @@ import random
 import requests
 from pathlib import Path
 
+from config import DEFAULT_CONFIG
+
 # ===== 初始化配置 =====
 BASE_DIR = Path(__file__).resolve().parent.parent
 DISHES_DIR = BASE_DIR / "data" / "cook" / "dishes"
 API_URL = "https://appbuilder.baidu.com/v2/baike/lemma/get_content"
 API_HEADERS = {
     "Content-Type": "application/json",
-    "Authorization": "Bearer bce-v3/ALTAK-wdlePO0kBV3InmOLDQo26/44c2c34b9458861d9048577867e3424e08aeb90f",
+    "Authorization": DEFAULT_CONFIG.baidu_api_key,
 }
 DELAY_MIN = 1.5    # 正常请求间隔最小值（秒）
 DELAY_MAX = 3.0    # 正常请求间隔最大值（秒）

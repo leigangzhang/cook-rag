@@ -22,5 +22,8 @@ class RAGConf:
     # 是否需要更新百科菜品词条摘到原始菜品文档
     is_essential_update_cook_summary = False
 
+    # 百度API KEY，替换自己的API_KEY
+    baidu_api_key = "Bearer <BAIDU_API_KEY>" 
+
 DEFAULT_CONFIG = RAGConf()
 
