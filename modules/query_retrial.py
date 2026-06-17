@@ -2,7 +2,7 @@ import os
 import sys
 import logging
 import hashlib
-from typing import Optional, List, Dict
+from typing import Optional, List
 
 from modules.build_index import BuildIndex
 from config import DEFAULT_CONFIG, RAGConf
@@ -25,26 +25,34 @@ class QueryRetrail:
 
 
     # 混合检索
-    def hybrid_retrial(self, user_query: str, chunks: List[Document]) -> List[Document]:
+    def hybrid_retrial(self, user_query: str, question_type: str, chunks: List[Document]) -> List[Document]:
         # 设置更大的Top K，用来做初筛；初筛后再做元数据过滤
         top_k = self.config.top_k * 2
 
         # 分别使用向量检索和BM25检索获取Top K
-        vector_docs = self.verctor_retrial(user_query, top_k)
+        vector_docs = self.verctor_retrial(user_query, question_type, top_k)
         bm25_docs = self.bm25_retrial(chunks, user_query, top_k)
 
         # 使用RRF重排取最终Top K
-        reranked_docs = self.rrf_rerank(vector_docs, bm25_docs)
+        reranked_docs = self.rrf_rerank(vector_docs, bm25_docs, top_k)
         return reranked_docs[:top_k]
 
 
     # 向量检索
-    def verctor_retrial(self, user_query: str, top_k: int) -> List[Document]:
-        
-        vector_retriver = self.vectorstore.as_retriever(
-            search_type="similarity", 
-            search_kwargs={"k": top_k}
-        )
+    def verctor_retrial(self, user_query: str, question_type: str, top_k: int, threshold: Optional[float] = None) -> List[Document]:
+        threshold = threshold or self.config.threshold
+
+        if question_type == "list":
+            vector_retriver = self.vectorstore.as_retriever(
+                search_type="similarity", 
+                search_kwargs={"k": top_k}
+            )
+        else:
+            vector_retriver = self.vectorstore.as_retriever(
+                search_type="similarity_score_threshold", 
+                search_kwargs={"k": top_k, 
+                               "score_threshold": threshold}
+            )
         vector_chunks = vector_retriver.invoke(user_query)
         logger.info(f"使用向量检索器检索到 {len(vector_chunks)} 个相关文档块")
         
@@ -139,13 +147,13 @@ class QueryRetrail:
                 if len(filtered_docs) >= top_k:
                     break
 
-        logger.info(f"元数据过滤取Top {top_k}个文档：从 {len(docs)} 个文档中过滤菜品品类和难度后只保留 {len(filtered_docs)} 个文档")
+        logger.info(f"元数据过滤文档：从 {len(docs)} 个文档中过滤菜品品类和难度后只保留 {len(filtered_docs)} 个文档")
         
         return filtered_docs
 
 
     # 获取父文档
-    def get_parent_documents(self, child_chunks: List[Document], documents: List[Document]) -> List[Document]:
+    def get_parent_documents(self, child_chunks: List[Document], documents: List[Document], top_k: int) -> List[Document]:
         
         parent_counter = {}
         parent_docs = {}
@@ -180,4 +188,4 @@ class QueryRetrail:
 
         logger.info(f"从 {len(child_chunks)} 个子文档中找到 {len(merged_parent_docs)} 个去重父文档: {', '.join(parent_info)}")
 
-        return merged_parent_docs
+        return merged_parent_docs[:top_k]

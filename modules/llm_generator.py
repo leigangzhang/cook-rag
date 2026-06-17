@@ -22,8 +22,28 @@ class LLMGenerator:
     def __init__(self):
         pass
 
+    def generate_list_topk(self, llm: MoonshotChat, user_query: str, top_k: int) -> int:
+        """生成用户想要的菜品数量"""
+        prompt = PromptTemplate.from_template(LLMPrompts.GENERATE_LIST_TOPK)
 
-    def generate_list_answer(self, docs: List[Document], user_query: str) -> str:
+        chain = (
+            {"question": RunnablePassthrough()}
+            |prompt
+            |llm
+            |StrOutputParser()
+        )
+
+        result = chain.invoke(user_query)
+
+        if result.isdigit():
+            logger.info(f"根据用户查询 {user_query} 推测出用户想要的最大菜品数量：{result}")
+            return int(result)
+        else:
+            logger.info(f"根据用户查询 {user_query} 无法推测出用户想要的最大菜品数量，使用默认菜品数量：{top_k}")
+            return top_k
+
+
+    def generate_list_answer(self, docs: List[Document], top_k: int) -> str:
         """生成菜品清单"""
     
         if not docs:
@@ -40,10 +60,8 @@ class LLMGenerator:
         # 构建简洁的列表回答
         if len(dish_names) == 1:
             return f"为您推荐：{dish_names[0]}"
-        elif len(dish_names) <= 3:
-            return f"为您推荐以下菜品：\n" + "\n".join([f"{i+1}. {name}" for i, name in enumerate(dish_names)])
         else:
-            return f"为您推荐以下菜品：\n" + "\n".join([f"{i+1}. {name}" for i, name in enumerate(dish_names[:3])]) + f"\n\n还有其他 {len(dish_names)-3} 道菜品可供选择。"
+            return f"为您推荐以下菜品：\n" + "\n".join([f"{i+1}. {name}" for i, name in enumerate(dish_names)][:top_k])
 
 
     def generate_detail_answer(self, llm: MoonshotChat, docs: List[Document], user_query: str) -> str:

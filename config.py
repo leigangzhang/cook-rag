@@ -1,4 +1,7 @@
 
+from sympy import false
+
+
 class RAGConf:
     
     # 路径配置
@@ -13,7 +16,11 @@ class RAGConf:
     api_key: str = "MOONSHOT_API_KEY"
 
     # 检索配置
-    top_k: int = 3
+    top_k: int = 5
+    threshold: float = 0.6
+
+    # 是否需要更新百科菜品词条摘到原始菜品文档
+    is_essential_update_cook_summary = False
 
 DEFAULT_CONFIG = RAGConf()
 

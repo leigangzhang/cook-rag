@@ -586,6 +586,7 @@ class USER_QUERSTION,QUESTION_ROUTER,LIST_QUESTION,DETAIL_QUESTION,DENERAL_QUEST
 
 #### 提示词
 LLM识别用户问题后对其进行路由分类和查询重写，分为「查询菜品列表」、「查询菜品做法」和「查询一般问题」三种类型：
+
 **查询路由规则提示词**
 <details>
   <summary>点击查看提示词</summary>
@@ -775,3 +776,261 @@ GENERATE_NORMAL_ANSWER = """
 #### 存在问题
 - **Top K检索造成Token浪费和查询受限**：目前检索流程都是按照Top K的规则检索的，如果用户查询"英式司康怎么做"这类问题，只会用到英式司康这一份父文档，检索到的Top K中的其他文档也会发送给LLM，造成比较严重的Token浪费；另外如果用户查询“给我推荐5-10道早餐”，Top K中的K=3，最多只会返回3道菜品，也会让用户感觉到不满；
 - **原文档缺少分类标签限制用户发散查询**：目前支持的用户查询类型有限，如果用户查询"给我推荐几道川菜"，由于目前的菜品分类中没有菜系分类，所以混合检索无法准确地检索到川菜，返回的结果就比较随机；同理如果用户查询“我想吃西餐了”，西餐又包括很多类型比如牛排、甜点、料理等，需要在知道西餐分类的基础上和用户进一步交互，才能了解到用户具体的查询意图。
+
+### V1.8（tag-v1.8.0）
+#### 版本介绍
+该版本针对V1.5版本存在的问题进行以下的调整：
+- **优化检索方式**：针对不同类型查询，使用不同向量检索方式（list-基于TopK检索，detail和general-基于相似度检索），优化V1.5版本中Top K检索造成的Token浪费和查询受限问题；由于基于本地内存的BM25检索不支持相似度检索，且重排后会影响检索质量，该版本中取消混合检索和RRF重排。
+- **完善原始文档**：在每个菜品的markdown文件头部添加了菜品的介绍信息，来源于百度百科词条的摘要（相关API爬虫文档见<docs/百度百科菜品摘要API爬虫.md>）。这部分信息包含了菜品的基础信息、菜系、口味等通用信息，可以大幅提高用户查询检索的命中率。
+#### 项目流程
+```mermaid
+flowchart LR
+
+%% 多流程分支
+START[开始] --> |完善原始文档| CookSummary
+CookSummary --> |Embedding流程| BuildIndex
+BuildIndex --> FAISS_STORE[本地向量数据库]
+START[开始] --> |用户交互流程| SYSTEM_INIT[初始化]
+
+%% 知识库构建
+SYSTEM_INIT --> INDEX_CHECK[检查是否存在索引]
+INDEX_CHECK --> FAISS_STORE
+FAISS_STORE --> LOAD_INDEX[加载索引]
+
+%% 用户检索
+LOAD_INDEX --> UserQuestionRefactor
+UserQuestionRefactor --> HybridRetrial
+
+%% LLM生成
+HybridRetrial --> LLMGenerate
+LLMGenerate --> RESPONSE_USER[返回结果]
+
+%% 追加菜品词条摘要
+subgraph CookSummary ["更新菜品词条摘要(Summary)"]
+   ORIGINAL_DATA[原始<菜品名>.md文档] --> EXTRACT_COOK_NAME[提取菜品名]
+   EXTRACT_COOK_NAME --> CITIAO_API_FETCH[访问百度百科API]
+   CITIAO_API_FETCH --> EXTRACT_COOK_SUMMARY[提取词条摘要]
+   EXTRACT_COOK_SUMMARY --> APPEND_COOK_DOCUMENT[更新<菜品名>.md文档]
+end
+
+%% 构建索引子流程
+subgraph BuildIndex ["构建索引流程(Embedding)"]
+    LOAD_DATA[加载数据] --> ADD_METADATA[元数据增强]
+    ADD_METADATA --> DATA_CHUNCK[文本分块] 
+    DATA_CHUNCK --> RELATION_MAPPING[父子关系映射]
+    RELATION_MAPPING --> BUILD_INDEX[构建索引]
+    BUILD_INDEX --> STORE_INDEX[存储到本地]
+end
+
+%% 用户问题子流程
+subgraph UserQuestionRefactor ["用户查询优化流程(QuestionRefactor)"]
+    USER_QUERSTION[用户问题] --> QUESTION_ROUTER[查询路由]
+    QUESTION_ROUTER --> |list|LIST_QUESTION[查询菜品列表]
+    QUESTION_ROUTER --> |detail|DETAIL_QUESTION[查询菜品做法]
+    QUESTION_ROUTER --> |general|DENERAL_QUESTION[查询一般问题]
+    LIST_QUESTION --> KEEP_QUESTION[保持原查询]
+    DETAIL_QUESTION --> QUESTION_REWRITE[查询重写]
+    DENERAL_QUESTION --> QUESTION_REWRITE
+end
+
+%% 混合检索子六层
+subgraph HybridRetrial ["向量检索流程(Retrial)"]
+    QUESTION_TYPE[用户问题类型] --> |list|LIST_QUESTION_TOPK[查询用户想要的最大菜品数量TopK]
+    LIST_QUESTION_TOPK --> EXACT_VECTOR_RETRILA[基于精确TopK的向量检索]
+    QUESTION_TYPE --> |"detail | general"|THRESHOLD_VECTOR_RETRILA[基于相似度的向量检索]
+    EXACT_VECTOR_RETRILA --> METADATA_FILTER[元数据过滤检索] 
+    THRESHOLD_VECTOR_RETRILA --> METADATA_FILTER
+    METADATA_FILTER --> FETCH_SUB_CHUNCKS[检索到子块]
+    FETCH_SUB_CHUNCKS --> DISTINCT_RANK[智能去重]
+    DISTINCT_RANK --> FETCH_PARENT_CHUNCKS[获取父文档]
+end
+
+%% LLM生成子流程
+subgraph LLMGenerate ["LLM生成结果(Generate)"]
+    GENERATE_ROUTER[生成路由] --> |list|GENERATE_FOOD_LIST[生成菜品列表]
+    GENERATE_ROUTER --> |detail|GENERATE_FOOD_DETAIL[生成菜品做法]
+    GENERATE_ROUTER --> |general|GENERATE_NORMAL_INFO[生成一般答复]
+end
+
+%% 样式定义
+classDef module fill:#f1f8e9,stroke:#33691e,stroke-width:2px
+classDef retrieval fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px
+
+%% 样式应用
+class CookSummary,BuildIndex,HybridRetrial,UserQuestionRefactor,LLMGenerate module
+class ORIGINAL_DATA,EXTRACT_COOK_NAME,CITIAO_API_FETCH,EXTRACT_COOK_SUMMARY,APPEND_COOK_DOCUMENT retrieval
+class LOAD_DATA,ADD_METADATA,DATA_CHUNCK,RELATION_MAPPING,BUILD_INDEX,STORE_INDEX retrieval
+class METADATA_FILTER,HYBRID_RETRIAL,VECTOR_RETRILA,RFF_RERANK,BM25_QUERY,FETCH_SUB_CHUNCKS,DISTINCT_RANK,FETCH_PARENT_CHUNCKS retrieval
+class GENERATE_ROUTER,GENERATE_FOOD_LIST,GENERATE_FOOD_DETAIL,GENERATE_NORMAL_INFO retrieval
+class USER_QUERSTION,QUESTION_ROUTER,LIST_QUESTION,DETAIL_QUESTION,DENERAL_QUESTION,KEEP_QUESTION,QUESTION_REWRITE,LIST_QUESTION_TOPK,QUESTION_TYPE,EXACT_VECTOR_RETRILA,THRESHOLD_VECTOR_RETRILA retrieval
+```
+
+#### 提示词
+该版本中的提示词和V1.5版本中基本保持不变，仅新增了「推测用户想要的菜品的最大数量」提示词：
+
+<details>
+  <summary>点击查看提示词</summary>
+
+   ```python
+GENERATE_LIST_TOPK = """
+假设用户提问「给我推荐5-10道川菜」类似问题，提取出用户最多想要多少道菜，返回数字即可，如果无法推测出用户最多想要多少道菜，返回-1。
+
+用户问题: {question}
+
+回复原则：
+- 准确理解用户问题
+- 准确提取最大数字
+- 最大数字必须为正整数
+- 不确定返回-1
+
+示例：
+- "给我推荐几道湘菜" -> -1
+- "给我推荐3-5道粤菜" -> 5
+
+请准确输出用户最多想要多少道菜:"""
+   ```
+</details>
+
+#### 模型效果
+针对以下几类问题的检索过程和回复结果都有明显改进：
+1. **英式司康怎么做**：对于「xx菜品怎么做」这类d问题，改为使用相似度检索(相似度>0.6)，从运行日志来看就只检索到「英式司康」一份父文档，没有多余的文档输入给LLM了，也显著降低了的Token浪费。
+<details>
+  <summary>点击查看示例</summary>
+
+```markdown
+> 英式司康怎么做
+2026-06-17 10:24:53,872 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 10:24:53,883 - INFO - 用户问题类型分类为：detail
+2026-06-17 10:25:01,487 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 10:25:01,490 - INFO - 用户查询无须改写：英式司康怎么做
+2026-06-17 10:25:01,531 - INFO - 使用向量检索器检索到 1 个相关文档块
+2026-06-17 10:25:01,531 - INFO - 元数据过滤文档：从 1 个文档中过滤菜品品类和难度后只保留 1 个文档
+2026-06-17 10:25:01,532 - INFO - 从 1 个子文档中找到 1 个去重父文档: 英式司康(1块)
+2026-06-17 10:25:01,532 - INFO - 检索到 1 个相关文档块
+2026-06-17 10:25:01,532 - INFO - 使用「菜品步骤LLM生成器」生成结果中...
+2026-06-17 10:25:47,710 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+## 🥘 菜品介绍
+
+英式司康（Scone）是英式下午茶的核心点心，这款配方在传统基础上加入奶油奶酪，赋予更浓郁的奶香和细腻质地。成品外酥内软，带有温和蛋香，甜度适中，非常适合搭配草莓果酱、凝脂奶油（Clotted Cream）或红茶食用。
+
+**难度等级**：★★★（中等）
+**制作时长**：约50分钟（含烘烤）
+**适合人数**：4-6人
+
+---
+
+## 🛒 所需食材
+
+| 食材 | 用量 | 备注 |
+|------|------|------|
+| **无盐黄油** | 40g | 必须冷藏状态，推荐总统牌 |
+| **低筋面粉** | 180g | 过筛备用 |
+| **细砂糖** | 30g | 可根据口味增减5g |
+| **盐** | 1g | 提升风味层次 |
+| **泡打粉** | 5g | 蓬松关键，确保未过期 |
+| **鸡蛋** | 1个（约50g） | 分两次使用：30g入面团，20g刷表面 |
+| **淡奶油** | 45g | 可用全脂牛奶替代，但口感稍逊 |
+| **奶油奶酪** | 50g | 可选但推荐，增加湿润度 |
+
+---
+
+## 👨‍🍳 制作步骤
+
+### 第一阶段：预混合（5分钟）
+
+**步骤1：调配湿性材料**
+- 鸡蛋打散，精确称取 **30g蛋液** 放入搅拌碗
+- 加入45g淡奶油和50g奶油奶酪
+- 搅拌至顺滑无颗粒状态（如奶酪过硬，隔40℃温水软化后再混合）
+- *剩余20g蛋液留作表面装饰用*
+
+**步骤2：混合干性材料**
+- 大碗中倒入180g低筋面粉、30g糖、1g盐、5g泡打粉
+- 用打蛋器搅拌20秒，确保泡打粉均匀分布
+
+### 第二阶段：面团制作（10分钟）
+
+**步骤3：搓入黄油（关键步骤）**
+- 将40g冷藏黄油切成1cm见方的小丁
+- 倒入干粉中，用手指快速搓捻
+- **目标质地**：粗玉米粉状（类似新鲜面包屑），无明显大颗粒黄油即可
+- *操作提示*：动作要迅速，若感觉黄油开始融化，可将碗放入冰箱冷藏5分钟再继续
+
+**步骤4：轻压成团**
+- 将步骤1的蛋奶液倒入粉油混合物中
+- 用刮刀切拌至无干粉状态（约10下，切勿过度搅拌）
+- 倒至案板，用手 **"叠压"** 成型：将面团对折按压，重复2-3次至均匀即可
+- **禁忌**：不要像揉面包一样揉搓，避免面筋形成导致口感变硬
+
+### 第三阶段：成型与烘烤（35分钟）
+
+**步骤5：整形切割**
+- 擀面杖轻擀成 **1.5cm厚** 的圆片（厚度必须均匀，这是蓬松的关键）
+- 用刮刀切成6个扇形，或使用5cm圆形模具压出形状
+- 切割时动作利落，不要来回锯，以免影响膨胀
+
+**步骤6：表面处理**
+- 用刷子将剩余20g蛋液薄涂在司康表面和侧面
+- 蛋液可让成品呈现诱人的金红色光泽
+
+**步骤7：烘烤**
+- 烤箱提前预热至 **180℃**（预热需10-15分钟，请提前开启）
+- 中层烘烤 **27分钟**
+- **完成标准**：表面深金黄，底部轻敲有空洞声，内部无湿面糊粘连
+
+---
+
+## 💡 专业贴士
+
+**1. 温度控制法则**
+黄油必须保持固态冷藏状态，操作环境温度建议低于20℃。如夏季制作，可将面粉和工具提前冷藏30分钟，防止黄油在搓揉过程中融化导致成品扁平。
+
+**2. "叠压"手法详解**
+将粗糙面团聚拢后，用手掌根部轻压展开，对折，转90度再压开，重复2-3次。面团表面应保持略显粗糙、有裂缝的状态，光滑的面团意味着过度揉捏。
+
+**3. 厚度与膨胀关系**
+1.5cm是最佳厚度，低于1cm会烤成饼干口感，超过2cm则中心难熟。切割后直接入炉，不要移动或重新整形，保持切口锋利有助于垂直膨胀。
+
+**4. 赏味与保存**
+出炉后冷却5分钟为最佳食用期，外壳酥脆、内部松软。常温密封保存2天，或冷冻保存1个月。复热时表面喷水，180℃烤3-5分钟即可恢复口感。
+```
+</details>
+
+2. **给我推荐5-10道川菜**：对于「给我推荐多少道xx菜」这类问题，可以精确识别用户想要的最大菜品数量，同时由于原文档中添加了百度百科菜品的词条摘要，补充了菜品的菜系、口味等描述，输出的结果更加地符合用户的意图。
+<details>
+  <summary>点击查看示例</summary>
+
+```markdown
+> 给我推荐5-10道川菜
+为您推荐以下菜品：
+1. 小炒肉
+2. 干锅花菜
+3. 蚝油生菜
+4. 宫保鸡丁
+5. 红烧鱼头
+6. 榄菜肉末四季豆
+7. 辣椒炒肉
+8. 农家一碗香
+9. 尖叫牛蛙
+10. 杀猪菜
+```
+</details>
+
+3.**减肥期间适合吃哪些菜？**：这类涉及到复杂关系推理和多跳查询的问题，基于向量检索的结果比较偏离用户的意图，还需要在深入理解菜品、食材和烹饪方式等的关联关系基础上再做推理和生成。
+
+<details>
+  <summary>点击查看示例</summary>
+
+```markdown
+> 减肥期间适合吃什么菜？
+为您推荐以下菜品：
+1. 瘦肉土豆片
+2. 麻辣香锅
+3. 农家一碗香
+4. 炒青菜
+5. 麻婆豆腐
+```
+</details>
+
+#### 存在问题
+1. **复杂推理能力和多跳查询能力较弱**：目前基于向量检索的知识库只能理解用户单一维度上的查询意图，对于复杂关系和多跳查询的处理能力比较差，用户问到「减肥期间适合吃什么菜」这类复杂的问题时，就无法准确获取用户意图给出答复，下一个版本会借助图数据库的关系图谱来实现。

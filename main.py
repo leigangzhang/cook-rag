@@ -1,5 +1,6 @@
 import os
 import sys
+import math
 import logging
 from pathlib import Path
 from typing import Optional
@@ -9,7 +10,9 @@ from modules.build_index import BuildIndex
 from modules.llm_generator import LLMGenerator
 from modules.query_retrial import QueryRetrail
 from modules.question_refactor import QuestionRefactor
+from modules.baike_crawler import BaikeCrawler
 from langchain_community.chat_models.moonshot import MoonshotChat
+
 
 # 添加模块路径
 sys.path.append(str(Path(__file__).parent))
@@ -40,6 +43,15 @@ class RAGSystem:
         if not os.getenv(self.config.api_key):
             raise ValueError(f"请设置环境变量 {self.config.api_key}")
         
+        # 更新菜品词条摘要
+        if self.config.is_essential_update_cook_summary:
+            logger.info("开始获取百度百科词条菜品摘要并更新到原始菜品markdown文档，这可能需要一点时间，请耐心等待...")
+            self.baike_crawler = BaikeCrawler()
+            try:
+                self.baike_crawler.run()
+            except Exception as e:
+                logger.error(f"更新词条摘要信息异常: {e}")
+            
 
     def run(self):
         logger.info("开始运行RAG系统")
@@ -76,32 +88,39 @@ class RAGSystem:
                 )
 
                 # 用户查询优化
+                self.llm_generator = LLMGenerator()
                 self.question_refactor = QuestionRefactor()
                 question_type = self.question_refactor.question_router(llm, user_query)
                 logger.info(f"用户问题类型分类为：{question_type}")
 
                 rewrite_query = 'general'
+                top_k = self.config.top_k
                 if question_type == 'list':
                     rewrite_query = user_query
+                    top_k = self.llm_generator.generate_list_topk(llm, rewrite_query, top_k)
                 else:
                     rewrite_query = self.question_refactor.question_rewrite(llm, user_query, question_type)
                 
                 # 查询检索
                 self.query_retriver = QueryRetrail(vectorstore)
-                docs = self.query_retriver.hybrid_retrial(user_query, chunks)
-                filter_docs = self.query_retriver.metadata_filter_query(user_query, docs, self.config.top_k)
-                parent_docs = self.query_retriver.get_parent_documents(filter_docs, documents)
+                # 向量检索的文本块合并成父文档后可能会减少，因此先按1.25倍的Top K检索文本块和实现元数据过滤
+                docs = self.query_retriver.verctor_retrial(user_query, question_type, top_k=math.ceil(top_k * 1.25)) 
+                filter_docs = self.query_retriver.metadata_filter_query(user_query, docs, top_k=math.ceil(top_k * 1.25))
+                parent_docs = self.query_retriver.get_parent_documents(filter_docs, documents, top_k)
                 logger.info(f"检索到 {len(parent_docs)} 个相关文档块")
 
+                if len(parent_docs) == 0:
+                    print("未检索到相关文档，无法基于LLM生成有效回复，请重新调整后再输入。")
+                    continue
+
                 # 生成答案
-                self.llm_generator = LLMGenerator()
                 response = ""
                 if question_type == "list":
-                    response = self.llm_generator.generate_list_answer(parent_docs, user_query)
+                    response = self.llm_generator.generate_list_answer(parent_docs, top_k)
                 elif question_type == "detail":
-                    response = self.llm_generator.generate_detail_answer(llm, parent_docs, user_query)
+                    response = self.llm_generator.generate_detail_answer(llm, parent_docs, rewrite_query)
                 else:
-                    response = self.llm_generator.generate_normal_answer(llm, parent_docs, user_query)
+                    response = self.llm_generator.generate_normal_answer(llm, parent_docs, rewrite_query)
 
                 # 返回结果
                 print(response)
