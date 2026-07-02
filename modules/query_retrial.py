@@ -2,11 +2,12 @@ import os
 import sys
 import logging
 import hashlib
+import re
 from typing import Optional, List
 
 from modules.build_index import BuildIndex
 from config import DEFAULT_CONFIG, RAGConf
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 from langchain_core.documents import Document
 from langchain_community.retrievers import BM25Retriever
 
@@ -22,7 +23,7 @@ class QueryRetrail:
     def __init__(self, vectorstore: FAISS, config: Optional[RAGConf] = None) -> None:
         self.config = config or DEFAULT_CONFIG
         self.vectorstore = vectorstore
-
+    
 
     # 混合检索
     def hybrid_retrial(self, user_query: str, question_type: str, chunks: List[Document]) -> List[Document]:
@@ -54,8 +55,19 @@ class QueryRetrail:
                                "score_threshold": threshold}
             )
         vector_chunks = vector_retriver.invoke(user_query)
-        logger.info(f"使用向量检索器检索到 {len(vector_chunks)} 个相关文档块")
         
+                
+        # 收集父文档名称和相关性信息用于日志
+        parent_info = []
+        parent_counter = {}
+        for chunk in vector_chunks:
+            dish_name = chunk.metadata.get('dish_name', '未知菜品')
+            parent_counter[dish_name] = parent_counter.get(dish_name, 0) + 1
+
+        for dish_name, relevance_count in parent_counter.items():
+            parent_info.append(f"{dish_name}({relevance_count}块)")
+
+        logger.info(f"使用向量检索器检索到 {len(vector_chunks)} 个相关文档块: {', '.join(parent_info)}")
         return vector_chunks
 
 
@@ -109,48 +121,127 @@ class QueryRetrail:
 
     # 元数据过滤检索
     def metadata_filter_query(self, user_query: str, docs: List[Document], top_k: int = 5) -> List[Document]:
-        """在向量检索和BM25检索的基础上做元数据过滤"""
-        # 从用户问题中提取元数据过滤条件
+        """在向量检索和BM25检索的基础上做多维度元数据过滤。
+
+        支持的维度: category(品类), difficulty(难度), cuisines(菜系),
+                    methods(技法), max_carb_g(碳水上限), max_time_min(最长烹饪时间)
+        对于 list 类型的 metadata 字段(如 cuisines/methods/ingredients)，使用子集匹配。
+        """
         filters = {}
-        category_keywords = BuildIndex.get_supported_categories()
-        for cat in category_keywords:
+
+        # -- 品类过滤 --
+        for cat in BuildIndex.get_supported_categories():
             if cat in user_query:
                 filters['category'] = cat
                 break
 
-        difficulty_keywords = BuildIndex.get_supported_difficulties()
-        for diff in difficulty_keywords:
+        # -- 难度过滤 --
+        for diff in BuildIndex.get_supported_difficulties():
             if diff in user_query:
                 filters['difficulty'] = diff
                 break
 
-        # 带元数据过滤的查询检索
+        # -- 菜系过滤（归一化菜系名）--
+        for cuisine in BuildIndex.get_supported_cuisine():
+            if cuisine in user_query:
+                filters['cuisines'] = cuisine
+                break
+
+        # -- 技法过滤 --
+        for method in BuildIndex.get_supported_cooking_methods():
+            if method in user_query:
+                filters['methods'] = method
+                break
+
+        # -- 无糖/低糖（基于 carb_amount_g 和食材列表）--
+        if any(kw in user_query for kw in ['无糖', '不加糖']):
+            filters['max_carb_g'] = 5
+        elif any(kw in user_query for kw in ['低糖', '糖尿病']):
+            filters['max_carb_g'] = 20
+
+        # -- 时间过滤 --
+        time_match = re.search(
+            r'(\d+)\s*(分钟|分)(?:\s*以[内下]|\s*之[内下]|\s*不[超到]|\s*以内|\s*以下)?',
+            user_query,
+        )
+        if time_match:
+            filters['max_time_min'] = int(time_match.group(1))
+        elif '半小时' in user_query or '30分钟' in user_query:
+            filters['max_time_min'] = 30
+        elif '一小时' in user_query or '1小时' in user_query or '60分钟' in user_query:
+            filters['max_time_min'] = 60
+        elif '快速' in user_query or '快手' in user_query:
+            filters['max_time_min'] = 15
+
+        # -- 无 filter 时直接返回 --
+        if not filters:
+            return docs[:top_k]
+
+        # -- 执行过滤 --
+        logger.info(f"元数据过滤条件: {filters}")
         filtered_docs = []
         for doc in docs:
-            match = True
-            for key, value in filters.items():
-                if key in doc.metadata:
-                    if isinstance(value, list):
-                        if doc.metadata[key] not in value:
-                            match = False
-                            break
-                    else:
-                        if doc.metadata[key] != value:
-                            match = False
-                            break
-                else:
-                    match = False
-                    break
-            
-            if match:
+            if self._match_filters(doc, filters):
                 filtered_docs.append(doc)
                 if len(filtered_docs) >= top_k:
                     break
 
-        logger.info(f"元数据过滤文档：从 {len(docs)} 个文档中过滤菜品品类和难度后只保留 {len(filtered_docs)} 个文档")
-        
+        logger.info(f"元数据过滤：{len(docs)} → {len(filtered_docs)} 个文档")
         return filtered_docs
 
+    SUGAR_INGREDIENTS = {
+        "糖", "白糖", "白砂糖", "冰糖", "红糖", "黄糖", "黑糖",
+        "蔗糖", "蜂蜜", "糖浆", "麦芽糖", "果糖",
+    }
+
+    def _match_filters(self, doc: Document, filters: dict) -> bool:
+        """检查单个文档是否满足所有过滤条件。
+
+        支持四种匹配模式：
+        - 单值匹配: difficulty, category
+        - 列表子集匹配: cuisines / methods / ingredients
+        - 数值比较: max_carb_g, max_time_min
+        """
+        metadata = doc.metadata
+
+        for key, value in filters.items():
+            meta_val = metadata.get(key)
+
+            # -- 列表匹配（cuisines / methods / ingredients） --
+            if key in ('cuisines', 'methods', 'ingredients'):
+                if meta_val is None:
+                    return False
+                if isinstance(meta_val, list):
+                    if value not in meta_val:
+                        return False
+                else:
+                    if value != meta_val:
+                        return False
+
+            # -- 碳水过滤（无糖/低糖） --
+            elif key == 'max_carb_g':
+                carb_amount_g = metadata.get('carb_amount_g')
+                # 若明确标注了碳水，优先按数值判断
+                if carb_amount_g is not None:
+                    if carb_amount_g > value:
+                        return False
+                # 未标注时，检查食材里是否含糖类原料
+                ingredients = metadata.get('ingredients') or []
+                if any(ing in self.SUGAR_INGREDIENTS for ing in ingredients):
+                    return False
+
+            # -- 时间数值 --
+            elif key == 'max_time_min':
+                cooking_time_min = metadata.get('cooking_time_min')
+                if cooking_time_min is not None and cooking_time_min > value:
+                    return False
+
+            # -- 单值精确匹配 --
+            else:
+                if meta_val != value:
+                    return False
+
+        return True
 
     # 获取父文档
     def get_parent_documents(self, child_chunks: List[Document], documents: List[Document], top_k: int) -> List[Document]:

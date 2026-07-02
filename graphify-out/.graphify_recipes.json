@@ -1,0 +1,9018 @@
+[
+  {
+    "dish_name": "葱煎豆腐",
+    "category": "素菜",
+    "difficulty": 3,
+    "ingredients": [
+      "鸡精",
+      "白豆腐",
+      "盐",
+      "平底锅",
+      "葱",
+      "青辣椒"
+    ],
+    "methods": [
+      "煮",
+      "炒",
+      "煎"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 1.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/葱煎豆腐.md",
+    "recipe_id": "3509c6bce14fb27d9831f20224201778"
+  },
+  {
+    "dish_name": "松仁玉米",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "白砂糖",
+      "食用油",
+      "胡萝卜（可选",
+      "盐",
+      "水",
+      "增加色彩）",
+      "玉米粒",
+      "淀粉",
+      "熟松子仁"
+    ],
+    "methods": [
+      "煮",
+      "炒"
+    ],
+    "cuisines": [
+      "东北菜"
+    ],
+    "cooking_time_min": 1.0,
+    "carb_amount_g": 14.2,
+    "source_file": "dishes/vegetable_dish/松仁玉米.md",
+    "recipe_id": "09ec6f022f3e3412d903de45ca713b82"
+  },
+  {
+    "dish_name": "水油焖蔬菜",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "叶菜类蔬菜",
+      "蚝油",
+      "食用油",
+      "盐"
+    ],
+    "methods": [
+      "拌",
+      "油焖",
+      "焖",
+      "烧"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 1.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/水油焖蔬菜.md",
+    "recipe_id": "637693aa470bd0485ab20a55554fa6ec"
+  },
+  {
+    "dish_name": "金针菇日本豆腐煲",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "糖",
+      "食用油",
+      "盐",
+      "生抽",
+      "蚝油",
+      "金针菇",
+      "日本豆腐",
+      "小米椒"
+    ],
+    "methods": [
+      "炒",
+      "焖",
+      "煲",
+      "煎",
+      "爆"
+    ],
+    "cuisines": [
+      "日本菜"
+    ],
+    "cooking_time_min": 5.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/金针菇日本豆腐煲.md",
+    "recipe_id": "f1734033e60403e2c46baa33916f83af"
+  },
+  {
+    "dish_name": "清蒸南瓜",
+    "category": "素菜",
+    "difficulty": 1,
+    "ingredients": [
+      "蒸锅",
+      "南瓜"
+    ],
+    "methods": [
+      "蒸",
+      "清蒸",
+      "烧"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 21.0,
+    "source_file": "dishes/vegetable_dish/清蒸南瓜.md",
+    "recipe_id": "51ef2ee9342c4f8ae33b9721d8d61caa"
+  },
+  {
+    "dish_name": "凉拌豆腐",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "小葱",
+      "醋",
+      "生抽",
+      "香油",
+      "大蒜",
+      "豆腐",
+      "辣椒油",
+      "白糖"
+    ],
+    "methods": [
+      "酱",
+      "煮",
+      "拌",
+      "烧",
+      "凉拌"
+    ],
+    "cuisines": [
+      "苏菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 2.0,
+    "source_file": "dishes/vegetable_dish/凉拌豆腐.md",
+    "recipe_id": "4df38173fc762c0bbd300413487984c5"
+  },
+  {
+    "dish_name": "鸡蛋火腿炒黄瓜",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "盐",
+      "生抽",
+      "鸡蛋",
+      "黄瓜",
+      "红尖椒",
+      "火腿肠"
+    ],
+    "methods": [
+      "炒",
+      "爆"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 1.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/鸡蛋火腿炒黄瓜.md",
+    "recipe_id": "d039c7c0386f0836a9351e98a47cb9f4"
+  },
+  {
+    "dish_name": "清炒花菜",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "花菜",
+      "大蒜",
+      "盐"
+    ],
+    "methods": [
+      "炒",
+      "煮",
+      "焖",
+      "烧",
+      "爆"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 20.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/清炒花菜.md",
+    "recipe_id": "abaf42fc3f7da3e1fb03972c4988f518"
+  },
+  {
+    "dish_name": "蒜蓉西兰花",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "大蒜 3-4 瓣",
+      "生抽",
+      "西兰花 1 个",
+      "蚝油",
+      "白糖"
+    ],
+    "methods": [
+      "泡",
+      "炒",
+      "蒜蓉",
+      "煮",
+      "烧"
+    ],
+    "cuisines": [
+      "日本菜"
+    ],
+    "cooking_time_min": 2.5,
+    "carb_amount_g": 2.0,
+    "source_file": "dishes/vegetable_dish/蒜蓉西兰花.md",
+    "recipe_id": "cd040dac715c329a035a67412b208513"
+  },
+  {
+    "dish_name": "红烧茄子",
+    "category": "素菜",
+    "difficulty": 4,
+    "ingredients": [
+      "面粉",
+      "酱油",
+      "盐",
+      "西红柿",
+      "大蒜",
+      "鸡蛋",
+      "青茄子",
+      "大葱",
+      "淀粉",
+      "青辣椒",
+      "洋葱"
+    ],
+    "methods": [
+      "酱",
+      "拌",
+      "烧",
+      "红烧"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 117.0,
+    "source_file": "dishes/vegetable_dish/红烧茄子.md",
+    "recipe_id": "94c6a9412013434bcb18c68cc5a8bf37"
+  },
+  {
+    "dish_name": "炒青菜",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "青菜"
+    ],
+    "methods": [
+      "蒜蓉",
+      "炝",
+      "炒",
+      "酱"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 3.0,
+    "carb_amount_g": 5.0,
+    "source_file": "dishes/vegetable_dish/炒青菜.md",
+    "recipe_id": "a8839ab0972d9bd89caf3c4d1d7f23d8"
+  },
+  {
+    "dish_name": "凉拌油麦菜",
+    "category": "素菜",
+    "difficulty": 1,
+    "ingredients": [
+      "酱油",
+      "醋",
+      "盐",
+      "香油",
+      "蚝油",
+      "蒜",
+      "芝麻酱",
+      "白糖",
+      "油麦菜"
+    ],
+    "methods": [
+      "酱",
+      "拌",
+      "凉拌"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/凉拌油麦菜.md",
+    "recipe_id": "57823a0c8fab22418c10b0fe9bbe10e4"
+  },
+  {
+    "dish_name": "雷椒皮蛋",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "食用油",
+      "陈醋",
+      "长条青椒（有些叫线椒",
+      "生抽",
+      "香油",
+      "葱",
+      "小米辣",
+      "深一点的小铁盆",
+      "蒜",
+      "皮蛋",
+      "白糖"
+    ],
+    "methods": [
+      "拌",
+      "炸",
+      "煎"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 8.0,
+    "source_file": "dishes/vegetable_dish/雷椒皮蛋.md",
+    "recipe_id": "7ea2d1b7faf6872c03fc32fb63ec12bd"
+  },
+  {
+    "dish_name": "酸辣土豆丝",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "干辣椒",
+      "陈醋",
+      "盐",
+      "生抽",
+      "大蒜",
+      "葱",
+      "红椒",
+      "土豆",
+      "青椒"
+    ],
+    "methods": [
+      "酸辣",
+      "泡",
+      "炒",
+      "炝",
+      "爆"
+    ],
+    "cuisines": [
+      "川菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 40.8,
+    "source_file": "dishes/vegetable_dish/酸辣土豆丝.md",
+    "recipe_id": "43b64b50b44353254298ecde733cb465"
+  },
+  {
+    "dish_name": "蒲烧茄子",
+    "category": "素菜",
+    "difficulty": 3,
+    "ingredients": [
+      "水",
+      "生抽",
+      "蒲烧汁",
+      "蜂蜜",
+      "老抽",
+      "料酒",
+      "茄子",
+      "白糖"
+    ],
+    "methods": [
+      "炒",
+      "酱",
+      "蒸",
+      "烧",
+      "烤",
+      "煎",
+      "爆",
+      "炖"
+    ],
+    "cuisines": [
+      "日本菜"
+    ],
+    "cooking_time_min": 5.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/蒲烧茄子.md",
+    "recipe_id": "2c8e04d62e9035a517d6848f23044da7"
+  },
+  {
+    "dish_name": "炒茄子",
+    "category": "素菜",
+    "difficulty": 3,
+    "ingredients": [
+      "酱油",
+      "八角",
+      "虾皮",
+      "菜籽油或花生油",
+      "茄子",
+      "香葱"
+    ],
+    "methods": [
+      "腌",
+      "蒸",
+      "炒",
+      "酱"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/炒茄子.md",
+    "recipe_id": "99e82a12dfcc4fd168067ec5883d99a9"
+  },
+  {
+    "dish_name": "凉拌黄瓜",
+    "category": "素菜",
+    "difficulty": 1,
+    "ingredients": [
+      "蒜",
+      "酱油",
+      "醋",
+      "黄瓜"
+    ],
+    "methods": [
+      "腌",
+      "葱油",
+      "麻辣",
+      "酱",
+      "拌",
+      "凉拌"
+    ],
+    "cuisines": [
+      "湘菜"
+    ],
+    "cooking_time_min": 17.5,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/凉拌黄瓜.md",
+    "recipe_id": "52da40a5385097c0e805340066cd1188"
+  },
+  {
+    "dish_name": "凉拌金针菇",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "小葱",
+      "醋",
+      "生抽",
+      "大蒜",
+      "香油",
+      "辣椒油",
+      "金针菇",
+      "白糖"
+    ],
+    "methods": [
+      "腌",
+      "泡",
+      "熏",
+      "酱",
+      "蒸",
+      "煮",
+      "拌",
+      "烧",
+      "凉拌"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 3.0,
+    "source_file": "dishes/vegetable_dish/凉拌金针菇.md",
+    "recipe_id": "a42fff8c33b4a54078e83617d0a0ddb6"
+  },
+  {
+    "dish_name": "西红柿炒鸡蛋",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "糖",
+      "食用油",
+      "盐",
+      "西红柿",
+      "鸡蛋",
+      "葱花"
+    ],
+    "methods": [
+      "酱",
+      "炒"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/西红柿炒鸡蛋.md",
+    "recipe_id": "c289d37051726beb3eecc5eb60c1c579"
+  },
+  {
+    "dish_name": "脆皮豆腐",
+    "category": "素菜",
+    "difficulty": 3,
+    "ingredients": [
+      "平底锅",
+      "生抽",
+      "鸡蛋",
+      "老抽",
+      "蚝油",
+      "玉米淀粉",
+      "老豆腐",
+      "白糖"
+    ],
+    "methods": [
+      "糖醋",
+      "炸",
+      "酱",
+      "拌",
+      "烤",
+      "椒盐",
+      "煎"
+    ],
+    "cuisines": [
+      "鄂菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 55.0,
+    "source_file": "dishes/vegetable_dish/脆皮豆腐.md",
+    "recipe_id": "07e4c7e80c869c85c1aaec2e007538a9"
+  },
+  {
+    "dish_name": "蚝油生菜",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "食用油",
+      "盐",
+      "生抽",
+      "大蒜",
+      "蚝油",
+      "生菜",
+      "白糖"
+    ],
+    "methods": [
+      "酱",
+      "煮",
+      "炒",
+      "拌"
+    ],
+    "cuisines": [
+      "地中海菜",
+      "川菜",
+      "粤菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 1.0,
+    "source_file": "dishes/vegetable_dish/蚝油生菜.md",
+    "recipe_id": "9def51a1ddc1e8b16a5139beaa2fee1f"
+  },
+  {
+    "dish_name": "素炒豆角",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "盐",
+      "生抽",
+      "葱",
+      "老抽",
+      "豆角",
+      "蒜",
+      "小米椒",
+      "耗油"
+    ],
+    "methods": [
+      "炒",
+      "炸",
+      "烧",
+      "焖"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/素炒豆角.md",
+    "recipe_id": "ffb50b7ce11b6916ec76bc2e788b3f7c"
+  },
+  {
+    "dish_name": "茄子炖土豆",
+    "category": "素菜",
+    "difficulty": 3,
+    "ingredients": [
+      "酱油",
+      "盐",
+      "肉",
+      "土豆",
+      "蒜",
+      "辣椒（是青辣椒",
+      "茄子"
+    ],
+    "methods": [
+      "酱",
+      "拌",
+      "炒",
+      "炖"
+    ],
+    "cuisines": [
+      "东北菜"
+    ],
+    "cooking_time_min": 5.0,
+    "carb_amount_g": 25.5,
+    "source_file": "dishes/vegetable_dish/茄子炖土豆.md",
+    "recipe_id": "cf7fff2a985edf0410dde16be30aba1c"
+  },
+  {
+    "dish_name": "油醋爆蛋",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "小葱",
+      "盐",
+      "油",
+      "生抽",
+      "鸡蛋",
+      "小米辣",
+      "蚝油",
+      "蒜",
+      "香醋",
+      "白糖"
+    ],
+    "methods": [
+      "拌",
+      "糖醋",
+      "爆"
+    ],
+    "cuisines": [
+      "印度菜",
+      "湘菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 20.4,
+    "source_file": "dishes/vegetable_dish/油醋爆蛋.md",
+    "recipe_id": "ef86349a57b9db3ab761e94b493941fd"
+  },
+  {
+    "dish_name": "地三鲜",
+    "category": "素菜",
+    "difficulty": 3,
+    "ingredients": [
+      "糖",
+      "豆瓣酱",
+      "盐",
+      "生抽",
+      "葱",
+      "姜",
+      "土豆",
+      "尖椒",
+      "蒜",
+      "淀粉",
+      "茄子"
+    ],
+    "methods": [
+      "酱",
+      "炸",
+      "煎"
+    ],
+    "cuisines": [
+      "东北菜"
+    ],
+    "cooking_time_min": 4.0,
+    "carb_amount_g": 42.5,
+    "source_file": "dishes/vegetable_dish/地三鲜.md",
+    "recipe_id": "74ab8a9b152c99b360957417f569a1c1"
+  },
+  {
+    "dish_name": "陕北熬豆角",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "盐",
+      "西红柿",
+      "生抽",
+      "葱",
+      "螺丝椒",
+      "五香粉",
+      "蚝油",
+      "豆角",
+      "姜",
+      "土豆",
+      "蒜"
+    ],
+    "methods": [
+      "拌",
+      "炒",
+      "烧",
+      "熬"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/陕北熬豆角.md",
+    "recipe_id": "a558d15f3407868cb31997867026007d"
+  },
+  {
+    "dish_name": "炒方便面",
+    "category": "主食",
+    "difficulty": 2,
+    "ingredients": [
+      "鸡蛋",
+      "方便面",
+      "火腿肠",
+      "盐"
+    ],
+    "methods": [
+      "酱",
+      "煮",
+      "炒"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/staple/炒方便面.md",
+    "recipe_id": "f4cace6c17e84a3d421b8b9ad6f271b1"
+  },
+  {
+    "dish_name": "麻辣减脂荞麦面",
+    "category": "主食",
+    "difficulty": 2,
+    "ingredients": [
+      "醋",
+      "生抽",
+      "原料：半干荞麦面",
+      "辣椒油",
+      "娃娃菜",
+      "调味料：火锅底料",
+      "生菜",
+      "全脂牛奶",
+      "洗菜盆",
+      "花椒油",
+      "花生酱"
+    ],
+    "methods": [
+      "酱",
+      "煮",
+      "麻辣"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 7.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/staple/麻辣减脂荞麦面.md",
+    "recipe_id": "afe1862e5f1f8955a42584e913030dec"
+  },
+  {
+    "dish_name": "蛋包饭",
+    "category": "主食",
+    "difficulty": 3,
+    "ingredients": [
+      "番茄酱",
+      "口感更香）",
+      "火腿肠或鸡胸肉",
+      "食用油",
+      "牛奶（可选",
+      "青豆",
+      "米饭",
+      "鸡蛋（建议使用土鸡蛋",
+      "让蛋皮更嫩）",
+      "玉米粒",
+      "胡萝卜",
+      "洋葱"
+    ],
+    "methods": [
+      "酱",
+      "拌",
+      "炒",
+      "煎"
+    ],
+    "cuisines": [
+      "印度菜",
+      "日本菜",
+      "西餐",
+      "韩国菜"
+    ],
+    "cooking_time_min": 3.0,
+    "carb_amount_g": 56.0,
+    "source_file": "dishes/staple/蛋包饭.md",
+    "recipe_id": "cabd75d639a11f9aa2e28ef9a39f93e0"
+  },
+  {
+    "dish_name": "酸辣蕨根粉",
+    "category": "主食",
+    "difficulty": 2,
+    "ingredients": [
+      "酱油",
+      "糖",
+      "盐",
+      "一口有点深度的锅",
+      "油泼辣子",
+      "葱",
+      "小米辣",
+      "蒜",
+      "蕨根粉",
+      "香醋"
+    ],
+    "methods": [
+      "酸辣",
+      "烘",
+      "酱",
+      "煮",
+      "拌",
+      "烧",
+      "油泼"
+    ],
+    "cuisines": [
+      "川菜"
+    ],
+    "cooking_time_min": 8.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/staple/酸辣蕨根粉.md",
+    "recipe_id": "d823a86c6c0c5a6b6bdea33a242d6208"
+  },
+  {
+    "dish_name": "炒河粉",
+    "category": "主食",
+    "difficulty": 4,
+    "ingredients": [
+      "其他调味料：胡椒粉",
+      "蒜瓣",
+      "面筋块",
+      "小葱",
+      "猪肉/牛肉",
+      "味精",
+      "生抽",
+      "鸡蛋",
+      "绿豆芽",
+      "老抽",
+      "盆",
+      "黄瓜",
+      "盘子",
+      "炒河粉",
+      "孜然粉",
+      "淀粉",
+      "炒料：盐"
+    ],
+    "methods": [
+      "蒸",
+      "炒",
+      "煮"
+    ],
+    "cuisines": [
+      "粤菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 85.0,
+    "source_file": "dishes/staple/炒河粉.md",
+    "recipe_id": "0d35cc1d10d495fd42a900f2c442bc4a"
+  },
+  {
+    "dish_name": "炸酱面",
+    "category": "主食",
+    "difficulty": 3,
+    "ingredients": [
+      "肉丁/肉末",
+      "豆瓣酱",
+      "面条",
+      "萝卜等）",
+      "甜面酱",
+      "蒜",
+      "白菜",
+      "通常 4-10 种",
+      "可选择黄瓜"
+    ],
+    "methods": [
+      "葱油",
+      "酸辣",
+      "炒",
+      "炸",
+      "卤",
+      "酱",
+      "煮",
+      "拌",
+      "烧",
+      "炖"
+    ],
+    "cuisines": [
+      "东北菜",
+      "京菜",
+      "沪菜",
+      "粤菜",
+      "西北"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 37.5,
+    "source_file": "dishes/staple/炸酱面.md",
+    "recipe_id": "573995fb4c674696a169c20e1627a72f"
+  },
+  {
+    "dish_name": "汤面",
+    "category": "主食",
+    "difficulty": 2,
+    "ingredients": [
+      "面鱼",
+      "龙须面",
+      "生菜菠菜油麦菜",
+      "各类规格粉丝",
+      "也可以是泡面面饼",
+      "牛羊鱼虾等肉类"
+    ],
+    "methods": [
+      "煮",
+      "泡",
+      "拌"
+    ],
+    "cuisines": [
+      "京菜"
+    ],
+    "cooking_time_min": 8.5,
+    "carb_amount_g": null,
+    "source_file": "dishes/staple/汤面.md",
+    "recipe_id": "62db4d8274b5ed4c469990758630c6d4"
+  },
+  {
+    "dish_name": "韭菜盒子",
+    "category": "主食",
+    "difficulty": 3,
+    "ingredients": [
+      "虾仁",
+      "面粉",
+      "盐",
+      "香油",
+      "鸡蛋",
+      "韭菜"
+    ],
+    "methods": [
+      "拌",
+      "煎"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 30.0,
+    "carb_amount_g": 190.0,
+    "source_file": "dishes/staple/韭菜盒子.md",
+    "recipe_id": "d852e16590ddb79a2811a2e6b743aa02"
+  },
+  {
+    "dish_name": "煮泡面加蛋",
+    "category": "主食",
+    "difficulty": 1,
+    "ingredients": [
+      "泡面",
+      "鸡蛋",
+      "水"
+    ],
+    "methods": [
+      "煮",
+      "泡",
+      "卤"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 1.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/staple/煮泡面加蛋.md",
+    "recipe_id": "34fdece2de8df1006777dc108e8cdda3"
+  },
+  {
+    "dish_name": "肉蛋盖饭",
+    "category": "主食",
+    "difficulty": 3,
+    "ingredients": [
+      "糖",
+      "醋",
+      "生抽",
+      "油",
+      "鸡蛋",
+      "米饭",
+      "老抽",
+      "红葱油",
+      "葱",
+      "肉馅"
+    ],
+    "methods": [
+      "葱油",
+      "煮",
+      "煎",
+      "拌"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 67.2,
+    "source_file": "dishes/staple/肉蛋盖饭.md",
+    "recipe_id": "8b083c554f153dce90bc927325c157b4"
+  },
+  {
+    "dish_name": "热干面",
+    "category": "主食",
+    "difficulty": 3,
+    "ingredients": [
+      "小葱",
+      "胡椒粉",
+      "鸡精",
+      "蒜水",
+      "酱油",
+      "萝卜干",
+      "肉末",
+      "辣椒油",
+      "食盐",
+      "热干面特有的碱水面",
+      "酸豆角",
+      "肉汤汁",
+      "芝麻酱"
+    ],
+    "methods": [
+      "酱",
+      "煮",
+      "卤",
+      "拌"
+    ],
+    "cuisines": [
+      "川菜",
+      "西北"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/staple/热干面.md",
+    "recipe_id": "3739b17d176e1f9cf28c2d5c7ce3094e"
+  },
+  {
+    "dish_name": "老干妈拌面",
+    "category": "主食",
+    "difficulty": 1,
+    "ingredients": [
+      "老干妈",
+      "酱油",
+      "面"
+    ],
+    "methods": [
+      "酱",
+      "煮",
+      "煎",
+      "拌"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/staple/老干妈拌面.md",
+    "recipe_id": "924727058a60fb71aea6330d71b65d8b"
+  },
+  {
+    "dish_name": "麻油拌面",
+    "category": "主食",
+    "difficulty": 1,
+    "ingredients": [
+      "胡椒粉",
+      "麻油",
+      "老抽",
+      "盐"
+    ],
+    "methods": [
+      "煮",
+      "拌"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 5.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/staple/麻油拌面.md",
+    "recipe_id": "0575bafe5aef672aca8c89cc6902d57c"
+  },
+  {
+    "dish_name": "葱油拌面",
+    "category": "主食",
+    "difficulty": 2,
+    "ingredients": [
+      "小葱",
+      "生抽",
+      "老抽",
+      "白糖",
+      "干面条"
+    ],
+    "methods": [
+      "葱油",
+      "熬",
+      "炸",
+      "酱",
+      "煮",
+      "拌",
+      "烧"
+    ],
+    "cuisines": [
+      "沪菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 35.0,
+    "source_file": "dishes/staple/葱油拌面.md",
+    "recipe_id": "a54dbb35ad3092a36551486cf5db2cda"
+  },
+  {
+    "dish_name": "蛋炒饭",
+    "category": "主食",
+    "difficulty": 3,
+    "ingredients": [
+      "胡椒粉",
+      "盐",
+      "油",
+      "生抽",
+      "鸡蛋",
+      "火腿",
+      "黄瓜",
+      "冷饭",
+      "胡萝卜",
+      "香葱"
+    ],
+    "methods": [
+      "蒸",
+      "炒",
+      "卤",
+      "煲"
+    ],
+    "cuisines": [
+      "京菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/staple/蛋炒饭.md",
+    "recipe_id": "0ff60c96aa1e58e9b55aaf76749b3321"
+  },
+  {
+    "dish_name": "螺蛳粉",
+    "category": "主食",
+    "difficulty": 1,
+    "ingredients": [],
+    "methods": [
+      "酸辣",
+      "熬",
+      "炸",
+      "煮",
+      "拌",
+      "烧"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 4.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/staple/螺蛳粉.md",
+    "recipe_id": "7ae4cc929d85f8a83ecb1f591926dc90"
+  },
+  {
+    "dish_name": "炒年糕",
+    "category": "主食",
+    "difficulty": 3,
+    "ingredients": [
+      "：鸡蛋",
+      "盐",
+      "年糕/白粿",
+      "葱",
+      "调味料: 酱油",
+      "青菜"
+    ],
+    "methods": [
+      "葱油",
+      "炒",
+      "酱",
+      "煮",
+      "烧"
+    ],
+    "cuisines": [
+      "韩国菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 125.0,
+    "source_file": "dishes/staple/炒年糕.md",
+    "recipe_id": "0e46abec5df2602eb1dfd9f940c4a700"
+  },
+  {
+    "dish_name": "蒸卤面",
+    "category": "主食",
+    "difficulty": 4,
+    "ingredients": [
+      "盐",
+      "姜",
+      "老抽",
+      "如果附近菜市场没有",
+      "蒜",
+      "青椒",
+      "生抽",
+      "请参考制作[焖面]）",
+      "需带笼屉",
+      "猪五花肉",
+      "炒锅",
+      "五香粉",
+      "料酒",
+      "芹菜",
+      "食用油",
+      "花椒",
+      "干红椒",
+      "葱",
+      "蒸锅"
+    ],
+    "methods": [
+      "炒",
+      "卤",
+      "酱",
+      "蒸",
+      "拌",
+      "焖"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 125.0,
+    "source_file": "dishes/staple/蒸卤面.md",
+    "recipe_id": "0786869d9a2240a0d3b4161fe95a2d0f"
+  },
+  {
+    "dish_name": "手工水饺",
+    "category": "主食",
+    "difficulty": 5,
+    "ingredients": [
+      "擀面杖",
+      "冷水",
+      "面粉",
+      "芝麻香油"
+    ],
+    "methods": [
+      "煮",
+      "拌"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 152.0,
+    "source_file": "dishes/staple/手工水饺.md",
+    "recipe_id": "847a2cfe493964554979fde7a02533d8"
+  },
+  {
+    "dish_name": "炒馍",
+    "category": "主食",
+    "difficulty": 3,
+    "ingredients": [
+      "小葱",
+      "盐",
+      "油",
+      "鸡蛋",
+      "五香粉",
+      "馒头",
+      "孜然粉"
+    ],
+    "methods": [
+      "拌",
+      "炒",
+      "烧"
+    ],
+    "cuisines": [
+      "西北"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/staple/炒馍.md",
+    "recipe_id": "1ea59cce445a932b0bcc0066f0fa9353"
+  },
+  {
+    "dish_name": "醪糟小汤圆",
+    "category": "主食",
+    "difficulty": 2,
+    "ingredients": [
+      "枸杞",
+      "小汤圆",
+      "白糖",
+      "醪糟"
+    ],
+    "methods": [
+      "煮",
+      "糟",
+      "拌"
+    ],
+    "cuisines": [
+      "川菜"
+    ],
+    "cooking_time_min": 10.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/staple/醪糟小汤圆.md",
+    "recipe_id": "5e57967cb9e335da32d1990fa11cba47"
+  },
+  {
+    "dish_name": "速冻馄饨",
+    "category": "半成品",
+    "difficulty": 2,
+    "ingredients": [
+      "胡椒粉",
+      "鸡精",
+      "盐",
+      "香油",
+      "未过期的一袋速冻馄饨",
+      "电饭煲",
+      "香菜 1 根"
+    ],
+    "methods": [
+      "煲",
+      "煮",
+      "烧",
+      "炖"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/semi-finished/速冻馄饨.md",
+    "recipe_id": "ff91d675ec5c66cd6827b4d8020d832a"
+  },
+  {
+    "dish_name": "凉皮",
+    "category": "半成品",
+    "difficulty": 3,
+    "ingredients": [
+      "鸡精",
+      "盐",
+      "生抽",
+      "碗",
+      "香油",
+      "面筋",
+      "大蒜",
+      "老抽",
+      "蚝油",
+      "黄瓜",
+      "绿豆芽",
+      "盆",
+      "蒜臼",
+      "凉皮",
+      "香醋",
+      "芝麻酱",
+      "盘子"
+    ],
+    "methods": [
+      "麻辣",
+      "酱",
+      "蒸",
+      "煮",
+      "拌"
+    ],
+    "cuisines": [
+      "西北"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/semi-finished/凉皮.md",
+    "recipe_id": "61e8a3c38feea07db754c9c7740bab1b"
+  },
+  {
+    "dish_name": "半成品意面",
+    "category": "半成品",
+    "difficulty": 1,
+    "ingredients": [
+      "平底锅"
+    ],
+    "methods": [
+      "酱",
+      "拌",
+      "炒",
+      "烧"
+    ],
+    "cuisines": [
+      "意大利菜"
+    ],
+    "cooking_time_min": 2.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/semi-finished/半成品意面.md",
+    "recipe_id": "9cb2d5a01c28c38251cb9bdd21c1c439"
+  },
+  {
+    "dish_name": "牛油火锅底料",
+    "category": "半成品",
+    "difficulty": 5,
+    "ingredients": [
+      "洋葱 100 g",
+      "白酒 150 ml",
+      "红花椒 150 g",
+      "豆瓣 1000 g",
+      "牛油 4500 g",
+      "麦芽粉 12.5 g",
+      "纯猪油 500 g",
+      "豆鼓 10 g",
+      "豆母子 140 g",
+      "大葱 100 g",
+      "老姜 250 g",
+      "（色拉油",
+      "大蒜 200 g"
+    ],
+    "methods": [
+      "麻辣",
+      "炸",
+      "烧"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 6.5,
+    "carb_amount_g": null,
+    "source_file": "dishes/semi-finished/牛油火锅底料.md",
+    "recipe_id": "d2f3711879dafca7f93b735d2c00b1c3"
+  },
+  {
+    "dish_name": "速冻水饺",
+    "category": "半成品",
+    "difficulty": 1,
+    "ingredients": [
+      "未过期的一袋速冻水饺"
+    ],
+    "methods": [
+      "煮",
+      "炒",
+      "拌"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/semi-finished/速冻水饺.md",
+    "recipe_id": "7b831befb28eb49bbee2c9b32cbe5a9e"
+  },
+  {
+    "dish_name": "虎皮肘子",
+    "category": "荤菜",
+    "difficulty": 5,
+    "ingredients": [
+      "豆蔻",
+      "水",
+      "盐",
+      "食用植物油",
+      "冰糖",
+      "生抽",
+      "花椒",
+      "葱",
+      "老抽",
+      "姜",
+      "香叶",
+      "猪前肘",
+      "白醋",
+      "肉桂皮",
+      "蒜",
+      "大料",
+      "淀粉",
+      "料酒"
+    ],
+    "methods": [
+      "泡",
+      "炸",
+      "灼",
+      "烤",
+      "烧",
+      "炖"
+    ],
+    "cuisines": [
+      "西北"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/虎皮肘子.md",
+    "recipe_id": "e691ec9bf08902ba56fd14b078380c43"
+  },
+  {
+    "dish_name": "可乐鸡翅",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "小葱",
+      "盐",
+      "生抽",
+      "鸡翅中",
+      "料酒或啤酒",
+      "可乐",
+      "生姜",
+      "白糖"
+    ],
+    "methods": [
+      "腌",
+      "红烧",
+      "炸",
+      "酱",
+      "煮",
+      "烧",
+      "煎",
+      "爆",
+      "炖"
+    ],
+    "cuisines": [
+      "粤菜",
+      "鲁菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 10.0,
+    "source_file": "dishes/meat_dish/可乐鸡翅.md",
+    "recipe_id": "22a130e80e22c99f0a864de5e0dbe879"
+  },
+  {
+    "dish_name": "洋葱炒猪肉",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "蕃茄酱",
+      "猪肉片",
+      "麻油",
+      "洋葱"
+    ],
+    "methods": [
+      "腌",
+      "炒",
+      "酱"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 3.5,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/洋葱炒猪肉.md",
+    "recipe_id": "14f46a19585e2ef679cbda1ef4a6b1b1"
+  },
+  {
+    "dish_name": "粉蒸肉",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "清水2000ml",
+      "老抽 10ml",
+      "蒜末 10g",
+      "料酒 15ml",
+      "蒸肉米粉 100g",
+      "生抽 15ml",
+      "五花肉 500g",
+      "作为垫底食材）",
+      "姜末 10g",
+      "白砂糖 5g",
+      "郫县豆瓣酱 10g"
+    ],
+    "methods": [
+      "酱",
+      "蒸",
+      "炒"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 102.5,
+    "carb_amount_g": 40.5,
+    "source_file": "dishes/meat_dish/粉蒸肉.md",
+    "recipe_id": "7b706d95f37e82a06970c05104495d44"
+  },
+  {
+    "dish_name": "小炒肉",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "豆豉",
+      "朝天椒",
+      "豆瓣酱",
+      "盐",
+      "葱",
+      "老抽",
+      "蒜",
+      "五花肉",
+      "淀粉",
+      "小米椒"
+    ],
+    "methods": [
+      "腌",
+      "麻辣",
+      "炒",
+      "炸",
+      "酱",
+      "拌",
+      "爆"
+    ],
+    "cuisines": [
+      "湘菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 8.5,
+    "source_file": "dishes/meat_dish/小炒肉.md",
+    "recipe_id": "d220c9a8ff1cbe8f23d7a8dad7ff5576"
+  },
+  {
+    "dish_name": "糖醋里脊",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "番茄酱",
+      "醋",
+      "盐",
+      "生抽",
+      "鸡蛋",
+      "蚝油",
+      "白胡椒粉",
+      "料酒",
+      "淀粉",
+      "里脊肉",
+      "白糖"
+    ],
+    "methods": [
+      "腌",
+      "糖醋",
+      "炒",
+      "炸",
+      "酱",
+      "拌"
+    ],
+    "cuisines": [
+      "川菜",
+      "浙菜",
+      "湘菜",
+      "粤菜",
+      "苏菜",
+      "闽菜",
+      "鲁菜"
+    ],
+    "cooking_time_min": 20.0,
+    "carb_amount_g": 72.5,
+    "source_file": "dishes/meat_dish/糖醋里脊.md",
+    "recipe_id": "dd36c17d00cf5694e1ab8bbbbfce4b7c"
+  },
+  {
+    "dish_name": "甜辣烤全翅",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "胡椒粉",
+      "辣椒粉",
+      "糖",
+      "甜椒粉",
+      "水",
+      "生抽",
+      "油",
+      "老抽",
+      "蚝油",
+      "锡纸盘",
+      "保鲜膜",
+      "空气炸锅",
+      "蒜粉",
+      "鸡全翅"
+    ],
+    "methods": [
+      "腌",
+      "炸",
+      "酱",
+      "烤",
+      "烧"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 170.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/甜辣烤全翅.md",
+    "recipe_id": "10c0bf51cf4fc317928320790eab0423"
+  },
+  {
+    "dish_name": "蒜苔炒肉末",
+    "category": "荤菜",
+    "difficulty": 2,
+    "ingredients": [
+      "食用盐",
+      "五花肉薄片",
+      "蒜瓣",
+      "食用油",
+      "生抽",
+      "蒜苔"
+    ],
+    "methods": [
+      "腌",
+      "炒"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/蒜苔炒肉末.md",
+    "recipe_id": "e744a6dd3f64957eea7164445f0b1299"
+  },
+  {
+    "dish_name": "孜然牛肉",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "捣药罐",
+      "盐",
+      "油",
+      "孜然",
+      "葱",
+      "生抽酱油",
+      "牛柳或牛肩肉",
+      "淀粉",
+      "小米椒",
+      "青椒"
+    ],
+    "methods": [
+      "腌",
+      "麻辣",
+      "炒",
+      "炸",
+      "酱",
+      "拌",
+      "烧",
+      "爆"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 1.0,
+    "carb_amount_g": 8.5,
+    "source_file": "dishes/meat_dish/孜然牛肉.md",
+    "recipe_id": "9024f2634fe639df823bb3733f76ce3d"
+  },
+  {
+    "dish_name": "麻辣香锅",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "干辣椒",
+      "青菜（油菜",
+      "北京麻辣方便面",
+      "火腿肠）",
+      "鸡肉",
+      "干豆腐",
+      "菠菜）",
+      "鱼丸",
+      "无骨肉（猪肉",
+      "牛肉",
+      "油麦菜"
+    ],
+    "methods": [
+      "麻辣",
+      "炒",
+      "炸",
+      "酱",
+      "煮",
+      "烧"
+    ],
+    "cuisines": [
+      "京菜",
+      "川菜"
+    ],
+    "cooking_time_min": 8.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/麻辣香锅.md",
+    "recipe_id": "eddfdfa1636ecca71396fac70e9e2b87"
+  },
+  {
+    "dish_name": "水煮肉片",
+    "category": "荤菜",
+    "difficulty": 5,
+    "ingredients": [
+      "白砂糖",
+      "蒜苗",
+      "青花椒",
+      "生抽酱油",
+      "大蒜",
+      "菜籽油",
+      "生姜",
+      "猪里脊肉",
+      "红油豆瓣",
+      "食用盐",
+      "小葱",
+      "凤尾",
+      "鸡蛋清",
+      "料酒",
+      "芹菜",
+      "胡椒粉",
+      "鸡精",
+      "干辣椒",
+      "豆芽",
+      "红泡椒",
+      "土豆淀粉",
+      "植物油"
+    ],
+    "methods": [
+      "泡",
+      "炒",
+      "炸",
+      "麻辣",
+      "酱",
+      "煮",
+      "油泼"
+    ],
+    "cuisines": [
+      "川菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 7.0,
+    "source_file": "dishes/meat_dish/水煮肉片.md",
+    "recipe_id": "845d59c7c6d8284f96b1229f81e480c8"
+  },
+  {
+    "dish_name": "尖椒炒牛肉",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "酱油",
+      "糖",
+      "盐",
+      "葱",
+      "姜",
+      "尖椒",
+      "蒜",
+      "牛肉"
+    ],
+    "methods": [
+      "腌",
+      "泡",
+      "炒",
+      "酱"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/尖椒炒牛肉.md",
+    "recipe_id": "8176415d9f133cc5c71bce470a12455b"
+  },
+  {
+    "dish_name": "商芝肉",
+    "category": "荤菜",
+    "difficulty": 5,
+    "ingredients": [
+      "味精",
+      "酱油",
+      "属蕨类",
+      "醋",
+      "芝麻油",
+      "熟猪油",
+      "鸡汤",
+      "商芝（又名紫萁",
+      "葱",
+      "姜",
+      "八角",
+      "蜂蜜",
+      "带皮猪五花肉",
+      "摊鸡蛋皮",
+      "精盐",
+      "料酒",
+      "嫩叶可食）"
+    ],
+    "methods": [
+      "泡",
+      "炒",
+      "炸",
+      "酱",
+      "蒸",
+      "煮",
+      "烧"
+    ],
+    "cuisines": [
+      "西北"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 12.3,
+    "source_file": "dishes/meat_dish/商芝肉.md",
+    "recipe_id": "2e894c040778c735574a2e7e04080f8e"
+  },
+  {
+    "dish_name": "杀猪菜",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "排骨",
+      "香油",
+      "八角",
+      "香叶",
+      "菜籽油",
+      "蒜",
+      "辣椒",
+      "料酒",
+      "葱结",
+      "血肠",
+      "酸菜"
+    ],
+    "methods": [
+      "炒",
+      "蒜蓉",
+      "煮",
+      "焖",
+      "烧",
+      "爆",
+      "炖"
+    ],
+    "cuisines": [
+      "东北菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/杀猪菜.md",
+    "recipe_id": "54cbb20f41af7e927dccec9b76c3b61f"
+  },
+  {
+    "dish_name": "小米辣炒肉",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "鸡精",
+      "五花肉/瘦肉",
+      "豆瓣酱",
+      "盐",
+      "生抽",
+      "大蒜",
+      "姜",
+      "小米辣",
+      "蚝油",
+      "花生油",
+      "白糖"
+    ],
+    "methods": [
+      "腌",
+      "炒",
+      "酱",
+      "爆"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 5.0,
+    "carb_amount_g": 5.0,
+    "source_file": "dishes/meat_dish/小米辣炒肉.md",
+    "recipe_id": "9cdffc61bcce2c8330f02f61637001b6"
+  },
+  {
+    "dish_name": "乡村啤酒鸭",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "干辣椒",
+      "蒜苗",
+      "鸭肉",
+      "大蒜",
+      "草果",
+      "八角",
+      "红椒",
+      "香叶",
+      "啤酒",
+      "大葱",
+      "桂皮",
+      "生姜",
+      "小米椒",
+      "青椒"
+    ],
+    "methods": [
+      "炒",
+      "酱",
+      "煮",
+      "烧",
+      "炖"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/乡村啤酒鸭.md",
+    "recipe_id": "59a05b0b24775237ac071575c9aa7863"
+  },
+  {
+    "dish_name": "猪肉烩酸菜",
+    "category": "荤菜",
+    "difficulty": 5,
+    "ingredients": [
+      "盐",
+      "姜",
+      "东北酸菜",
+      "生抽酱油",
+      "五香粉",
+      "蒜",
+      "大料",
+      "大葱",
+      "料酒",
+      "猪五花肉或猪肉排骨"
+    ],
+    "methods": [
+      "腌",
+      "炒",
+      "酱",
+      "煮",
+      "焖",
+      "爆",
+      "炖"
+    ],
+    "cuisines": [
+      "东北菜"
+    ],
+    "cooking_time_min": 113.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/猪肉烩酸菜.md",
+    "recipe_id": "3a12b6ca46439ceb6702295fa3d6efec"
+  },
+  {
+    "dish_name": "肉饼炖蛋",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "芝麻香油",
+      "生抽",
+      "鸡蛋",
+      "白胡椒粉",
+      "猪肉末",
+      "料酒"
+    ],
+    "methods": [
+      "蒸",
+      "拌",
+      "烧",
+      "炖"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 15.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/肉饼炖蛋.md",
+    "recipe_id": "7ebec7581c5a59f3fff597303f875387"
+  },
+  {
+    "dish_name": "萝卜炖羊排",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "食用盐",
+      "水",
+      "花椒",
+      "羊排",
+      "白萝卜",
+      "冰糖",
+      "姜",
+      "白芷",
+      "大葱",
+      "料酒或者黄酒"
+    ],
+    "methods": [
+      "煮",
+      "炖"
+    ],
+    "cuisines": [
+      "川菜"
+    ],
+    "cooking_time_min": 100.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/萝卜炖羊排.md",
+    "recipe_id": "7bd00ef157f82393e032a8d68d21b2c6"
+  },
+  {
+    "dish_name": "带把肘子",
+    "category": "荤菜",
+    "difficulty": 5,
+    "ingredients": [
+      "蒜片",
+      "爪猪前肘",
+      "红豆腐乳",
+      "带脚",
+      "八角",
+      "葱",
+      "红酱油",
+      "桂皮",
+      "甜面酱",
+      "精盐",
+      "白酱油",
+      "姜末",
+      "料酒"
+    ],
+    "methods": [
+      "酱",
+      "蒸",
+      "泡",
+      "烧"
+    ],
+    "cuisines": [
+      "西北"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/带把肘子.md",
+    "recipe_id": "9f5434c18af5744128051a56cc69b14b"
+  },
+  {
+    "dish_name": "黄焖鸡",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "鸡腿",
+      "干辣椒",
+      "酱油",
+      "味精",
+      "盐",
+      "白胡椒粉",
+      "香菇",
+      "土豆",
+      "料酒",
+      "生姜片",
+      "青椒",
+      "白糖"
+    ],
+    "methods": [
+      "泡",
+      "炒",
+      "酱",
+      "焖",
+      "煲"
+    ],
+    "cuisines": [
+      "鲁菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 5.0,
+    "source_file": "dishes/meat_dish/黄焖鸡.md",
+    "recipe_id": "4d49b0de7bfcc29964c95847595709dd"
+  },
+  {
+    "dish_name": "冷吃兔",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "味精",
+      "干辣椒",
+      "青花椒",
+      "盐",
+      "山奈",
+      "白蔻",
+      "姜",
+      "八角",
+      "蚝油",
+      "小葱/大葱/洋葱",
+      "香叶",
+      "蒜",
+      "白芝麻",
+      "料酒",
+      "桂皮",
+      "兔肉",
+      "小茴香"
+    ],
+    "methods": [
+      "麻辣",
+      "炒",
+      "炸"
+    ],
+    "cuisines": [
+      "川菜"
+    ],
+    "cooking_time_min": 15.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/冷吃兔.md",
+    "recipe_id": "12d358e4cd77df128aabbce233839521"
+  },
+  {
+    "dish_name": "烤鸡翅",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "酱油",
+      "盐",
+      "黑胡椒粉",
+      "鸡翅中",
+      "烤箱",
+      "料酒"
+    ],
+    "methods": [
+      "腌",
+      "酱",
+      "烘",
+      "烤"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 35.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/烤鸡翅.md",
+    "recipe_id": "7e4f24f9c3a70674cf06ac706eb15bcf"
+  },
+  {
+    "dish_name": "椒盐排条",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "椒盐粉",
+      "面粉",
+      "吉士粉（增色增香",
+      "没有可以不放）",
+      "盐",
+      "水",
+      "油",
+      "鸡蛋",
+      "大排",
+      "淀粉",
+      "葱姜水"
+    ],
+    "methods": [
+      "腌",
+      "泡",
+      "炒",
+      "炸",
+      "拌",
+      "椒盐"
+    ],
+    "cuisines": [
+      "沪菜"
+    ],
+    "cooking_time_min": 20.0,
+    "carb_amount_g": 128.8,
+    "source_file": "dishes/meat_dish/椒盐排条.md",
+    "recipe_id": "64b7b0f32e23f7b6d311b7769754faa5"
+  },
+  {
+    "dish_name": "咕噜肉",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "梅头猪肉",
+      "白砂糖",
+      "盐",
+      "生抽",
+      "生粉",
+      "蒜蓉",
+      "罐头菠萝片",
+      "白醋",
+      "茄汁",
+      "青椒"
+    ],
+    "methods": [
+      "腌",
+      "糖醋",
+      "炒",
+      "炸",
+      "蒜蓉",
+      "酱",
+      "咕噜"
+    ],
+    "cuisines": [
+      "粤菜"
+    ],
+    "cooking_time_min": 11.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/咕噜肉.md",
+    "recipe_id": "90797a8368040ef053ced05f268dbfa4"
+  },
+  {
+    "dish_name": "白菜猪肉炖粉条",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "鸡精",
+      "食用盐",
+      "生抽",
+      "土豆干粉条",
+      "老抽",
+      "十三香",
+      "白菜",
+      "五花肉"
+    ],
+    "methods": [
+      "泡",
+      "炒",
+      "煮",
+      "焖",
+      "烧",
+      "炖"
+    ],
+    "cuisines": [
+      "东北菜"
+    ],
+    "cooking_time_min": 25.0,
+    "carb_amount_g": 10.0,
+    "source_file": "dishes/meat_dish/白菜猪肉炖粉条.md",
+    "recipe_id": "03556354495aad7636d85026b34b7bac"
+  },
+  {
+    "dish_name": "鱼香肉丝",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "淀粉 10g",
+      "白糖 10g",
+      "木耳 5g",
+      "醋 15ml",
+      "青椒 100g",
+      "料酒 5ml",
+      "姜 20g",
+      "蒜 2 瓣",
+      "蛋清 1 个",
+      "豆瓣酱 15g",
+      "里脊肉 200g",
+      "生抽 10ml",
+      "葱 20g",
+      "盐 5g",
+      "胡萝卜 100g"
+    ],
+    "methods": [
+      "腌",
+      "泡",
+      "炒",
+      "酱"
+    ],
+    "cuisines": [
+      "川菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/鱼香肉丝.md",
+    "recipe_id": "ced3f64ef8fba43a5cb30683e057a306"
+  },
+  {
+    "dish_name": "黄瓜炒肉",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "食用油",
+      "盐",
+      "生抽",
+      "小米辣",
+      "黄瓜",
+      "蒜",
+      "猪瘦肉"
+    ],
+    "methods": [
+      "腌",
+      "炒",
+      "蒜蓉",
+      "煮",
+      "拌",
+      "酱",
+      "爆"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 15.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/黄瓜炒肉.md",
+    "recipe_id": "1043b1468828a1edc72058272809d624"
+  },
+  {
+    "dish_name": "香干肉丝",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "鸡精",
+      "盐",
+      "生抽",
+      "大蒜",
+      "香干",
+      "猪里脊",
+      "淀粉",
+      "青椒"
+    ],
+    "methods": [
+      "腌",
+      "炒",
+      "酱",
+      "拌",
+      "烧",
+      "爆"
+    ],
+    "cuisines": [
+      "浙菜",
+      "湘菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 4.2,
+    "source_file": "dishes/meat_dish/香干肉丝.md",
+    "recipe_id": "0ba7945df5024263f757b42095871f3b"
+  },
+  {
+    "dish_name": "意式烤鸡",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "黑胡椒",
+      "盐",
+      "鸡腿肉",
+      "橄榄油",
+      "蒜",
+      "柠檬汁",
+      "欧芹"
+    ],
+    "methods": [
+      "酱",
+      "烤",
+      "炸",
+      "煎"
+    ],
+    "cuisines": [
+      "地中海菜",
+      "意大利菜"
+    ],
+    "cooking_time_min": 35.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/意式烤鸡.md",
+    "recipe_id": "1a3866cba6451711114b7b84488edb55"
+  },
+  {
+    "dish_name": "辣椒炒肉",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "豆豉",
+      "酱油",
+      "盐",
+      "不吃辣的用尖椒",
+      "生抽",
+      "大蒜",
+      "螺丝椒",
+      "姜",
+      "蚝油",
+      "猪瘦肉",
+      "甜椒）"
+    ],
+    "methods": [
+      "腌",
+      "蒸",
+      "炒",
+      "酱"
+    ],
+    "cuisines": [
+      "湘菜"
+    ],
+    "cooking_time_min": 14.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/辣椒炒肉.md",
+    "recipe_id": "e484945890d3b390b72c5bf45e0f8f9d"
+  },
+  {
+    "dish_name": "番茄红酱",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "胡椒粉",
+      "蒜瓣",
+      "番茄酱",
+      "糖",
+      "食盐",
+      "橄榄油",
+      "牛奶",
+      "碎牛肉",
+      "干罗勒或百里香",
+      "胡萝卜",
+      "芹菜",
+      "洋葱"
+    ],
+    "methods": [
+      "炒",
+      "酱",
+      "煮",
+      "拌",
+      "炖"
+    ],
+    "cuisines": [
+      "意大利菜",
+      "西餐"
+    ],
+    "cooking_time_min": 30.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/番茄红酱.md",
+    "recipe_id": "26fe4424595f4f6cdb0ed33521fdec5f"
+  },
+  {
+    "dish_name": "蚂蚁上树",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "小葱",
+      "郫县豆瓣酱",
+      "红薯粉丝",
+      "食用油",
+      "生抽",
+      "老抽",
+      "猪肉末",
+      "姜末",
+      "蒜末"
+    ],
+    "methods": [
+      "泡",
+      "炒",
+      "酱",
+      "煮",
+      "烧"
+    ],
+    "cuisines": [
+      "川菜"
+    ],
+    "cooking_time_min": 5.0,
+    "carb_amount_g": 16.0,
+    "source_file": "dishes/meat_dish/蚂蚁上树.md",
+    "recipe_id": "852b7bb2cf59c7902aa68ccf32d424c6"
+  },
+  {
+    "dish_name": "小酥肉",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "小葱",
+      "胡椒粉",
+      "去皮猪肉",
+      "鸡精",
+      "味精",
+      "花椒碎",
+      "面粉",
+      "盐",
+      "生抽",
+      "鸡蛋",
+      "十三香",
+      "花椒粒",
+      "红薯淀粉",
+      "老姜",
+      "料酒",
+      "植物油"
+    ],
+    "methods": [
+      "腌",
+      "炸",
+      "蒸",
+      "煮",
+      "炖"
+    ],
+    "cuisines": [
+      "川菜",
+      "西北",
+      "鲁菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/小酥肉.md",
+    "recipe_id": "a8d62aca1273a4da20cab6ab4cf25c1d"
+  },
+  {
+    "dish_name": "山西过油肉",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "鸡精",
+      "料酒",
+      "酱油",
+      "食用油",
+      "盐",
+      "陈醋",
+      "鸡蛋",
+      "蒜苔",
+      "花椒粉",
+      "猪里脊",
+      "葱姜蒜",
+      "淀粉",
+      "葱头",
+      "木耳"
+    ],
+    "methods": [
+      "腌",
+      "泡",
+      "炒",
+      "酱",
+      "拌",
+      "烧"
+    ],
+    "cuisines": [
+      "西北"
+    ],
+    "cooking_time_min": 15.0,
+    "carb_amount_g": 8.5,
+    "source_file": "dishes/meat_dish/山西过油肉.md",
+    "recipe_id": "f3587feede1edf884c23c46c05e0f63b"
+  },
+  {
+    "dish_name": "简易版炒糖色",
+    "category": "调料",
+    "difficulty": 4,
+    "ingredients": [
+      "必须水油炒",
+      "火候过了发苦",
+      "绵白糖：可以不加水",
+      "不加水融化会很慢",
+      "红亮",
+      "不够发甜",
+      "糖：",
+      "白砂糖：必须水油炒"
+    ],
+    "methods": [
+      "酱",
+      "拌",
+      "炒",
+      "泡"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/condiment/简易版炒糖色.md",
+    "recipe_id": "706d329449d5acbffc831a3a115edb49"
+  },
+  {
+    "dish_name": "油酥",
+    "category": "调料",
+    "difficulty": 2,
+    "ingredients": [
+      "油",
+      "面粉",
+      "盐"
+    ],
+    "methods": [
+      "酱",
+      "拌",
+      "烙"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/condiment/油酥.md",
+    "recipe_id": "55a421a4111ef9857646acaa348edc25"
+  },
+  {
+    "dish_name": "蒜香酱油",
+    "category": "调料",
+    "difficulty": 2,
+    "ingredients": [
+      "酱油",
+      "花生油",
+      "白芝麻",
+      "蘸料碟",
+      "蒜头"
+    ],
+    "methods": [
+      "酱",
+      "拌",
+      "炸"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/condiment/蒜香酱油.md",
+    "recipe_id": "d7e6f2a92ad938f9ce0ff53aa97373cb"
+  },
+  {
+    "dish_name": "炸串酱料",
+    "category": "调料",
+    "difficulty": 2,
+    "ingredients": [
+      "胡椒粉",
+      "五香粉",
+      "十三香",
+      "麻辣鲜",
+      "干辣椒面",
+      "花椒粉",
+      "白芝麻",
+      "孜然粉"
+    ],
+    "methods": [
+      "麻辣",
+      "炸",
+      "酱",
+      "拌",
+      "烧"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 10.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/condiment/炸串酱料.md",
+    "recipe_id": "c69c45ef92094573da4eb8590ceef727"
+  },
+  {
+    "dish_name": "葱油",
+    "category": "调料",
+    "difficulty": 3,
+    "ingredients": [
+      "油",
+      "开洋",
+      "葱",
+      "姜",
+      "香菜",
+      "料酒",
+      "洋葱"
+    ],
+    "methods": [
+      "葱油",
+      "泡",
+      "炒",
+      "炸",
+      "熬",
+      "煮",
+      "拌",
+      "凉拌",
+      "煎"
+    ],
+    "cuisines": [
+      "沪菜",
+      "鲁菜"
+    ],
+    "cooking_time_min": 25.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/condiment/葱油.md",
+    "recipe_id": "410d6e82ca1a2a4131b68dbfe5d34dc1"
+  },
+  {
+    "dish_name": "糖醋汁",
+    "category": "调料",
+    "difficulty": 2,
+    "ingredients": [
+      "清水",
+      "生抽",
+      "白醋/米醋",
+      "料酒",
+      "白糖"
+    ],
+    "methods": [
+      "糖醋",
+      "炒",
+      "炸",
+      "熬",
+      "酱",
+      "煮",
+      "拌",
+      "烧"
+    ],
+    "cuisines": [
+      "粤菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 30.0,
+    "source_file": "dishes/condiment/糖醋汁.md",
+    "recipe_id": "9219ff348f175e9544d8bb632b81699a"
+  },
+  {
+    "dish_name": "陈皮排骨汤",
+    "category": "汤品",
+    "difficulty": 4,
+    "ingredients": [
+      "排骨",
+      "陈皮",
+      "盐",
+      "西洋参",
+      "玉竹",
+      "煲汤盅",
+      "麦冬",
+      "石斛"
+    ],
+    "methods": [
+      "熬",
+      "煮",
+      "烧",
+      "煲",
+      "炖"
+    ],
+    "cuisines": [
+      "粤菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/soup/陈皮排骨汤.md",
+    "recipe_id": "859f0cf519d7fedb7553ad1b971ee9c1"
+  },
+  {
+    "dish_name": "小米粥",
+    "category": "汤品",
+    "difficulty": 2,
+    "ingredients": [
+      "小米",
+      "水"
+    ],
+    "methods": [
+      "煮",
+      "熬",
+      "烧",
+      "拌"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 25.5,
+    "carb_amount_g": null,
+    "source_file": "dishes/soup/小米粥.md",
+    "recipe_id": "4643a6e982495c496c10ef40b33576cb"
+  },
+  {
+    "dish_name": "西红柿鸡蛋汤",
+    "category": "汤品",
+    "difficulty": 2,
+    "ingredients": [
+      "盐",
+      "西红柿",
+      "香油",
+      "鸡蛋",
+      "葱",
+      "姜",
+      "味素",
+      "蒜"
+    ],
+    "methods": [
+      "煮",
+      "炒",
+      "拌"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 1.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/soup/西红柿鸡蛋汤.md",
+    "recipe_id": "3d72d66f274ac57b2d6809dd7c26bdf6"
+  },
+  {
+    "dish_name": "番茄牛肉蛋花汤",
+    "category": "汤品",
+    "difficulty": 3,
+    "ingredients": [
+      "胡椒粉",
+      "盐",
+      "鸡蛋",
+      "姜",
+      "葱",
+      "蒜",
+      "番茄",
+      "牛肉"
+    ],
+    "methods": [
+      "腌",
+      "煮",
+      "酱",
+      "拌"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/soup/番茄牛肉蛋花汤.md",
+    "recipe_id": "e95d8a2bd2945940727fd0a30563be45"
+  },
+  {
+    "dish_name": "奶油蘑菇汤",
+    "category": "汤品",
+    "difficulty": 1,
+    "ingredients": [
+      "白蘑菇",
+      "黑胡椒碎",
+      "面粉",
+      "盐",
+      "清水",
+      "黄油",
+      "牛奶",
+      "淡奶油",
+      "洋葱"
+    ],
+    "methods": [
+      "炒",
+      "熬",
+      "煮",
+      "拌",
+      "烤",
+      "煎"
+    ],
+    "cuisines": [
+      "法国菜",
+      "西餐"
+    ],
+    "cooking_time_min": 11.0,
+    "carb_amount_g": 7.6,
+    "source_file": "dishes/soup/奶油蘑菇汤.md",
+    "recipe_id": "19e3eab3d1056491d7f3b563e258f71e"
+  },
+  {
+    "dish_name": "腊八粥",
+    "category": "汤品",
+    "difficulty": 4,
+    "ingredients": [
+      "饮用水",
+      "红豆",
+      "花生",
+      "糯米",
+      "有条件可选择高压锅）",
+      "粥锅（普通锅容易糊底",
+      "小碗若干",
+      "大米",
+      "中号玻璃碗",
+      "红枣"
+    ],
+    "methods": [
+      "煮",
+      "熬"
+    ],
+    "cuisines": [
+      "京菜",
+      "川菜"
+    ],
+    "cooking_time_min": 330.0,
+    "carb_amount_g": 56.0,
+    "source_file": "dishes/soup/腊八粥.md",
+    "recipe_id": "cd1a65b4540b18c5fb2c4b10344406d6"
+  },
+  {
+    "dish_name": "罗宋汤",
+    "category": "汤品",
+    "difficulty": 4,
+    "ingredients": [
+      "洋葱三件套）",
+      "番茄罐头）",
+      "牛肉高汤",
+      "番茄（番茄膏",
+      "蔬菜高汤（欧芹",
+      "胡萝卜",
+      "牛肉"
+    ],
+    "methods": [
+      "酱",
+      "熬",
+      "酸辣"
+    ],
+    "cuisines": [
+      "俄罗斯菜",
+      "沪菜"
+    ],
+    "cooking_time_min": 5.0,
+    "carb_amount_g": 68.0,
+    "source_file": "dishes/soup/罗宋汤.md",
+    "recipe_id": "2aa98819b58d7d7d536d592a61bf7d58"
+  },
+  {
+    "dish_name": "生汆丸子汤",
+    "category": "汤品",
+    "difficulty": 4,
+    "ingredients": [
+      "胡椒粉",
+      "盐",
+      "熟豆油",
+      "土豆淀粉",
+      "一个鸡蛋的鸡蛋清",
+      "葱姜花椒水",
+      "前腿肉"
+    ],
+    "methods": [
+      "煮",
+      "泡",
+      "烧"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 34.0,
+    "source_file": "dishes/soup/生汆丸子汤.md",
+    "recipe_id": "27e195792884c48b87055f32e066df70"
+  },
+  {
+    "dish_name": "紫菜蛋花汤",
+    "category": "汤品",
+    "difficulty": 2,
+    "ingredients": [
+      "可加可不加）",
+      "水",
+      "盐",
+      "油",
+      "鸡蛋",
+      "葱花",
+      "虾仁（个人口味",
+      "紫菜"
+    ],
+    "methods": [
+      "煮",
+      "泡",
+      "烧",
+      "拌"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/soup/紫菜蛋花汤.md",
+    "recipe_id": "1ed6f7988f05b5402557d9ce791dc9bf"
+  },
+  {
+    "dish_name": "金针菇汤",
+    "category": "汤品",
+    "difficulty": 2,
+    "ingredients": [
+      "金针菇",
+      "鸡蛋"
+    ],
+    "methods": [
+      "拌"
+    ],
+    "cuisines": [
+      "日本菜"
+    ],
+    "cooking_time_min": 3.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/soup/金针菇汤.md",
+    "recipe_id": "a227629ca9eed1803b9013396afa4da6"
+  },
+  {
+    "dish_name": "皮蛋瘦肉粥",
+    "category": "汤品",
+    "difficulty": 3,
+    "ingredients": [
+      "小葱",
+      "胡椒粉",
+      "饮用水",
+      "酱油",
+      "食用油",
+      "盐",
+      "电饭锅",
+      "瘦肉",
+      "蚝油",
+      "香菜",
+      "生菜",
+      "小碗若干",
+      "大米",
+      "皮蛋",
+      "生姜"
+    ],
+    "methods": [
+      "腌",
+      "熬",
+      "酱",
+      "煮",
+      "炖"
+    ],
+    "cuisines": [
+      "粤菜",
+      "美国菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/soup/皮蛋瘦肉粥.md",
+    "recipe_id": "07cb05f9d2edcca72821b3e12768a287"
+  },
+  {
+    "dish_name": "米粥",
+    "category": "汤品",
+    "difficulty": 2,
+    "ingredients": [
+      "植物油",
+      "米",
+      "水"
+    ],
+    "methods": [
+      "煮",
+      "熬"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/soup/米粥.md",
+    "recipe_id": "42b68a9604f957e650ea8cfaa531348d"
+  },
+  {
+    "dish_name": "红烧鲤鱼",
+    "category": "水产",
+    "difficulty": 4,
+    "ingredients": [
+      "鲤鱼",
+      "干辣椒",
+      "陈醋",
+      "盐",
+      "油",
+      "生抽",
+      "大蒜",
+      "姜",
+      "老抽",
+      "蚝油",
+      "大葱",
+      "料酒",
+      "五花肉",
+      "白糖"
+    ],
+    "methods": [
+      "腌",
+      "炒",
+      "炸",
+      "酱",
+      "煮",
+      "焖",
+      "烧",
+      "煎",
+      "红烧"
+    ],
+    "cuisines": [
+      "鲁菜"
+    ],
+    "cooking_time_min": 2.0,
+    "carb_amount_g": 50.0,
+    "source_file": "dishes/aquatic/红烧鲤鱼.md",
+    "recipe_id": "537a3610c19d1743ea41d710a900b180"
+  },
+  {
+    "dish_name": "红烧鱼头",
+    "category": "水产",
+    "difficulty": 4,
+    "ingredients": [
+      "盐",
+      "姜",
+      "老抽",
+      "但口感也更佳！",
+      "陈醋",
+      "尽量另准备一把菜刀",
+      "生抽",
+      "大蒜",
+      "黑胡椒粉",
+      "八角",
+      "花鲢。前者价格便宜",
+      "鱼头一个",
+      "美人椒",
+      "料酒",
+      "注：如果有可能",
+      "鸡精",
+      "干辣椒",
+      "油",
+      "香菜",
+      "后者价格略贵",
+      "大葱"
+    ],
+    "methods": [
+      "红烧",
+      "泡",
+      "酱",
+      "煮",
+      "焖",
+      "烧",
+      "炖"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/aquatic/红烧鱼头.md",
+    "recipe_id": "336089f7f31f1ae8f106bb8ad219bb30"
+  },
+  {
+    "dish_name": "清蒸生蚝",
+    "category": "水产",
+    "difficulty": 3,
+    "ingredients": [
+      "酱油",
+      "刷子",
+      "生蚝",
+      "姜",
+      "葱",
+      "蒜"
+    ],
+    "methods": [
+      "清蒸",
+      "泡",
+      "蒜蓉",
+      "蒸",
+      "酱"
+    ],
+    "cuisines": [
+      "法国菜"
+    ],
+    "cooking_time_min": 6.5,
+    "carb_amount_g": null,
+    "source_file": "dishes/aquatic/清蒸生蚝.md",
+    "recipe_id": "0a9c3ee7b037e6e4c304dfbe616c4554"
+  },
+  {
+    "dish_name": "咖喱炒蟹",
+    "category": "水产",
+    "difficulty": 4,
+    "ingredients": [
+      "椰浆",
+      "大蒜",
+      "鸡蛋",
+      "青蟹",
+      "生粉",
+      "咖喱块",
+      "洋葱"
+    ],
+    "methods": [
+      "炒",
+      "炸",
+      "酱",
+      "煮",
+      "焖",
+      "烧",
+      "油泼",
+      "煎",
+      "爆"
+    ],
+    "cuisines": [
+      "印度菜",
+      "泰国菜"
+    ],
+    "cooking_time_min": 3.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/aquatic/咖喱炒蟹.md",
+    "recipe_id": "74ce7655f477d8c91f22a170e30acd3a"
+  },
+  {
+    "dish_name": "红烧鱼",
+    "category": "水产",
+    "difficulty": 4,
+    "ingredients": [
+      "蒜瓣",
+      "白砂糖",
+      "干辣椒",
+      "酱油",
+      "醋",
+      "盐",
+      "油",
+      "鱼",
+      "姜",
+      "料酒"
+    ],
+    "methods": [
+      "红烧",
+      "炒",
+      "炸",
+      "酱",
+      "煮",
+      "烧",
+      "炖"
+    ],
+    "cuisines": [
+      "闽菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 10.0,
+    "source_file": "dishes/aquatic/红烧鱼.md",
+    "recipe_id": "7830a7c1c1b3c31fb1d86709a00244ab"
+  },
+  {
+    "dish_name": "水煮鱼",
+    "category": "水产",
+    "difficulty": 4,
+    "ingredients": [
+      "量杯",
+      "蒜瓣",
+      "糖",
+      "盐",
+      "厨房秤",
+      "红油豆瓣酱",
+      "白胡椒粉",
+      "菜籽油",
+      "蔬菜",
+      "巴沙鱼",
+      "大不锈钢碗",
+      "藤椒油"
+    ],
+    "methods": [
+      "腌",
+      "煮",
+      "炒",
+      "酱"
+    ],
+    "cuisines": [
+      "川菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/aquatic/水煮鱼.md",
+    "recipe_id": "ee8daa675045e06c89b9de679a9153c5"
+  },
+  {
+    "dish_name": "微波葱姜黑鳕鱼",
+    "category": "水产",
+    "difficulty": 3,
+    "ingredients": [
+      "酱油",
+      "青葱",
+      "黑鳕鱼",
+      "姜",
+      "密封袋",
+      "花生油",
+      "带皮",
+      "料酒",
+      "芝麻油"
+    ],
+    "methods": [
+      "酱"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/aquatic/微波葱姜黑鳕鱼.md",
+    "recipe_id": "0be38ce5979162867b20b0fb21495442"
+  },
+  {
+    "dish_name": "奶茶",
+    "category": "饮品",
+    "difficulty": 2,
+    "ingredients": [
+      "袋泡红茶",
+      "陶瓷杯或保温杯",
+      "全脂奶粉或淡奶",
+      "杯子",
+      "例如带刻度的杯子"
+    ],
+    "methods": [
+      "拌",
+      "泡"
+    ],
+    "cuisines": [
+      "印度菜",
+      "英国菜"
+    ],
+    "cooking_time_min": 25.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/drink/奶茶.md",
+    "recipe_id": "cde9c1774fc1ea25147d92f0639b63c3"
+  },
+  {
+    "dish_name": "杨枝甘露",
+    "category": "饮品",
+    "difficulty": 2,
+    "ingredients": [
+      "水果刀",
+      "调理机/果汁机",
+      "冰块",
+      "牛奶",
+      "杯子"
+    ],
+    "methods": [
+      "煮",
+      "泡"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/drink/杨枝甘露.md",
+    "recipe_id": "1b9db6b7f2cb0ec6f62de63564b27b3c"
+  },
+  {
+    "dish_name": "酸梅汤（半成品加工）",
+    "category": "饮品",
+    "difficulty": 1,
+    "ingredients": [
+      "酸梅晶固体饮料",
+      "北京二锅头酒",
+      "方糖"
+    ],
+    "methods": [
+      "拌"
+    ],
+    "cuisines": [
+      "京菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/drink/酸梅汤（半成品加工）.md",
+    "recipe_id": "2dc49f0275b5243cfbb8cac167d81d96"
+  },
+  {
+    "dish_name": "冬瓜茶",
+    "category": "饮品",
+    "difficulty": 2,
+    "ingredients": [
+      "冬瓜",
+      "冰糖",
+      "保鲜膜",
+      "大锅",
+      "过滤网"
+    ],
+    "methods": [
+      "蒸",
+      "熬",
+      "煮",
+      "拌"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 300.0,
+    "source_file": "dishes/drink/冬瓜茶.md",
+    "recipe_id": "57518ea885e06ec89e94df1f95dfc99e"
+  },
+  {
+    "dish_name": "可乐桶",
+    "category": "饮品",
+    "difficulty": 2,
+    "ingredients": [
+      "手动压汁器",
+      "冰块",
+      "波旁威士忌",
+      "柠檬（可选",
+      "提升口感用）",
+      "可口可乐"
+    ],
+    "methods": [],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/drink/可乐桶.md",
+    "recipe_id": "09d12bc8b7b93e40a98b3db89b2ebeb7"
+  },
+  {
+    "dish_name": "B52轰炸机",
+    "category": "饮品",
+    "difficulty": 3,
+    "ingredients": [
+      "甘露咖啡酒",
+      "蓝天原味伏特加",
+      "打火机",
+      "爱尔兰百利甜酒",
+      "利口酒杯",
+      "吧勺"
+    ],
+    "methods": [
+      "炸"
+    ],
+    "cuisines": [
+      "美国菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/drink/B52轰炸机.md",
+    "recipe_id": "da4f1cfe47aea6693ebc8ccb042f300f"
+  },
+  {
+    "dish_name": "长岛冰茶",
+    "category": "饮品",
+    "difficulty": 2,
+    "ingredients": [
+      "柠檬",
+      "白朗姆酒",
+      "高球杯",
+      "伏特加",
+      "金酒",
+      "橙味甜酒",
+      "冰块",
+      "枫糖浆",
+      "可乐",
+      "龙舌兰酒"
+    ],
+    "methods": [
+      "拌"
+    ],
+    "cuisines": [
+      "美国菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/drink/长岛冰茶.md",
+    "recipe_id": "a8be421728cf3cd323655bfa21da6f1b"
+  },
+  {
+    "dish_name": "Mojito莫吉托",
+    "category": "饮品",
+    "difficulty": 3,
+    "ingredients": [
+      "打碎的冰块",
+      "研杵",
+      "冰镇苏打水",
+      "压汁器",
+      "海波杯"
+    ],
+    "methods": [
+      "拌"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/drink/Mojito莫吉托.md",
+    "recipe_id": "1c73f6be9f7ac36c12ab0bc78203370c"
+  },
+  {
+    "dish_name": "牛奶燕麦",
+    "category": "早餐",
+    "difficulty": 1,
+    "ingredients": [
+      "燕麦",
+      "鸡蛋",
+      "牛奶"
+    ],
+    "methods": [
+      "熬",
+      "烘",
+      "煮",
+      "拌",
+      "烧",
+      "椒盐",
+      "煎"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 26.4,
+    "source_file": "dishes/breakfast/牛奶燕麦.md",
+    "recipe_id": "bca7bc938db63766eda7efc1c48a9703"
+  },
+  {
+    "dish_name": "茶叶蛋",
+    "category": "早餐",
+    "difficulty": 3,
+    "ingredients": [
+      "红茶",
+      "茴香",
+      "生抽",
+      "冰糖",
+      "鸡蛋",
+      "八角",
+      "老抽",
+      "食盐",
+      "香叶",
+      "桂皮"
+    ],
+    "methods": [
+      "腌",
+      "泡",
+      "卤",
+      "酱",
+      "煮",
+      "烧"
+    ],
+    "cuisines": [
+      "京菜"
+    ],
+    "cooking_time_min": 30.0,
+    "carb_amount_g": 15.0,
+    "source_file": "dishes/breakfast/茶叶蛋.md",
+    "recipe_id": "4ff931bfc8ab4e68a87be951ee151666"
+  },
+  {
+    "dish_name": "桂圆红枣粥",
+    "category": "早餐",
+    "difficulty": 2,
+    "ingredients": [
+      "桂圆",
+      "糯米",
+      "红枣"
+    ],
+    "methods": [
+      "煮",
+      "熬",
+      "泡"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 20.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/breakfast/桂圆红枣粥.md",
+    "recipe_id": "9f9f754b12fe546d05a49c0331a8ef06"
+  },
+  {
+    "dish_name": "微波炉荷包蛋",
+    "category": "早餐",
+    "difficulty": 1,
+    "ingredients": [
+      "鸡蛋",
+      "芝麻油",
+      "盐"
+    ],
+    "methods": [],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/breakfast/微波炉荷包蛋.md",
+    "recipe_id": "a74dd12229c8081d9009c7f9b31f77e7"
+  },
+  {
+    "dish_name": "水煮玉米",
+    "category": "早餐",
+    "difficulty": 2,
+    "ingredients": [
+      "糖",
+      "水",
+      "盐",
+      "新鲜玉米",
+      "放得下玉米的锅"
+    ],
+    "methods": [
+      "煮"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 17.5,
+    "carb_amount_g": null,
+    "source_file": "dishes/breakfast/水煮玉米.md",
+    "recipe_id": "3d2eb79c834f0cbf90d09b895b70e947"
+  },
+  {
+    "dish_name": "手抓饼",
+    "category": "早餐",
+    "difficulty": 2,
+    "ingredients": [
+      "冷水",
+      "芝士片",
+      "食用油",
+      "盐",
+      "普通面粉",
+      "鸡蛋",
+      "火腿",
+      "生菜",
+      "开水"
+    ],
+    "methods": [
+      "葱油",
+      "烙",
+      "泡",
+      "酱",
+      "拌",
+      "煎"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 20.0,
+    "carb_amount_g": 152.0,
+    "source_file": "dishes/breakfast/手抓饼.md",
+    "recipe_id": "887b1d9d9068ea16039985ec1cea3899"
+  },
+  {
+    "dish_name": "溏心蛋",
+    "category": "早餐",
+    "difficulty": 3,
+    "ingredients": [
+      "电锅",
+      "鸡蛋",
+      "水",
+      "秒表"
+    ],
+    "methods": [
+      "煮"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 16.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/breakfast/溏心蛋.md",
+    "recipe_id": "97820b87a179c5da9d0c09d348006544"
+  },
+  {
+    "dish_name": "完美水煮蛋",
+    "category": "早餐",
+    "difficulty": 5,
+    "ingredients": [
+      "漏勺",
+      "新鲜鸡蛋",
+      "定时器"
+    ],
+    "methods": [
+      "煮"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 32.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/breakfast/完美水煮蛋.md",
+    "recipe_id": "ada9a8acbc5d71e8008aedc923b9b76b"
+  },
+  {
+    "dish_name": "燕麦鸡蛋饼",
+    "category": "早餐",
+    "difficulty": 2,
+    "ingredients": [
+      "牛奶 50-100g",
+      "燕麦",
+      "鸡蛋",
+      "如菠菜。"
+    ],
+    "methods": [
+      "拌",
+      "煎"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 39.0,
+    "source_file": "dishes/breakfast/燕麦鸡蛋饼.md",
+    "recipe_id": "fb863a62c59069c3e058d6256fcd5f15"
+  },
+  {
+    "dish_name": "蒸花卷",
+    "category": "早餐",
+    "difficulty": 2,
+    "ingredients": [
+      "圆碟子",
+      "蒸架",
+      "冷冻花卷",
+      "水 400ml"
+    ],
+    "methods": [
+      "蒸"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 15.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/breakfast/蒸花卷.md",
+    "recipe_id": "072d76a49674e8ca5999ecc26af75266"
+  },
+  {
+    "dish_name": "吐司果酱",
+    "category": "早餐",
+    "difficulty": 1,
+    "ingredients": [
+      "果酱",
+      "面包机",
+      "新鲜吐司"
+    ],
+    "methods": [
+      "酱"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/breakfast/吐司果酱.md",
+    "recipe_id": "2a038426c894c382c1d66f4850933143"
+  },
+  {
+    "dish_name": "微波炉蛋糕",
+    "category": "早餐",
+    "difficulty": 1,
+    "ingredients": [
+      "面粉",
+      "微波炉",
+      "鸡蛋",
+      "能放进微波炉的容器",
+      "黄油",
+      "泡打粉"
+    ],
+    "methods": [
+      "泡"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 21.4,
+    "source_file": "dishes/breakfast/微波炉蛋糕.md",
+    "recipe_id": "a496f87f45b8968843c44e5e1a3a6604"
+  },
+  {
+    "dish_name": "煎饺",
+    "category": "早餐",
+    "difficulty": 2,
+    "ingredients": [
+      "饺子"
+    ],
+    "methods": [
+      "蒸",
+      "焖",
+      "煎"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 9.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/breakfast/煎饺.md",
+    "recipe_id": "d8b8353d0fc743a722368b29713903ce"
+  },
+  {
+    "dish_name": "金枪鱼酱三明治",
+    "category": "早餐",
+    "difficulty": 1,
+    "ingredients": [
+      "芝士片",
+      "方形吐司片",
+      "火腿片",
+      "轻食机",
+      "蛋黄酱",
+      "俄式酸黄瓜汁",
+      "会很腻）"
+    ],
+    "methods": [
+      "酱",
+      "拌"
+    ],
+    "cuisines": [
+      "俄罗斯菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/breakfast/金枪鱼酱三明治.md",
+    "recipe_id": "f39d422d3d6bc1e8883e61127fbbdbb0"
+  },
+  {
+    "dish_name": "太阳蛋",
+    "category": "早餐",
+    "difficulty": 2,
+    "ingredients": [
+      "油",
+      "筷子或牙签",
+      "鸡蛋",
+      "盐"
+    ],
+    "methods": [
+      "拌"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/breakfast/太阳蛋.md",
+    "recipe_id": "15af6c96f9bf59881528ba71cc693854"
+  },
+  {
+    "dish_name": "鸡蛋三明治",
+    "category": "早餐",
+    "difficulty": 2,
+    "ingredients": [
+      "吐司",
+      "黑胡椒",
+      "盐",
+      "鸡蛋",
+      "黄油",
+      "培根",
+      "蛋黄酱"
+    ],
+    "methods": [
+      "酱",
+      "煮",
+      "煎"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/breakfast/鸡蛋三明治.md",
+    "recipe_id": "d324bd120a25482dbe86a0f2c042fcd4"
+  },
+  {
+    "dish_name": "美式炒蛋",
+    "category": "早餐",
+    "difficulty": 2,
+    "ingredients": [
+      "鸡蛋",
+      "盐",
+      "黄油",
+      "全脂牛奶/奶油"
+    ],
+    "methods": [
+      "拌",
+      "炒",
+      "泡"
+    ],
+    "cuisines": [
+      "美国菜"
+    ],
+    "cooking_time_min": 15.0,
+    "carb_amount_g": 0.5,
+    "source_file": "dishes/breakfast/美式炒蛋.md",
+    "recipe_id": "882626aab2cf0535b523ef3f5f5f6f06"
+  },
+  {
+    "dish_name": "蛋煎糍粑",
+    "category": "早餐",
+    "difficulty": 2,
+    "ingredients": [
+      "鸡蛋",
+      "糍粑",
+      "白糖或红糖"
+    ],
+    "methods": [
+      "煎"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 9.5,
+    "source_file": "dishes/breakfast/蛋煎糍粑.md",
+    "recipe_id": "296011469f9654e2e877020677218c22"
+  },
+  {
+    "dish_name": "蒸水蛋",
+    "category": "早餐",
+    "difficulty": 2,
+    "ingredients": [
+      "热水",
+      "新鲜鸡蛋",
+      "锡纸或保鲜膜"
+    ],
+    "methods": [
+      "蒸",
+      "泡",
+      "烧",
+      "拌"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 4.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/breakfast/蒸水蛋.md",
+    "recipe_id": "392d4308ecd46817075bf2802b28d842"
+  },
+  {
+    "dish_name": "空气炸锅面包片",
+    "category": "早餐",
+    "difficulty": 1,
+    "ingredients": [
+      "空气炸锅",
+      "面包片"
+    ],
+    "methods": [
+      "烘",
+      "炸",
+      "烤"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 5.0,
+    "carb_amount_g": 43.1,
+    "source_file": "dishes/breakfast/空气炸锅面包片.md",
+    "recipe_id": "c1f30203089b43988b455fc95cf27704"
+  },
+  {
+    "dish_name": "西红柿豆腐汤羹",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "鸡精",
+      "食用油",
+      "盐",
+      "西红柿",
+      "鸡蛋",
+      "豆腐",
+      "姜",
+      "开水",
+      "淀粉",
+      "香葱"
+    ],
+    "methods": [
+      "拌",
+      "炒",
+      "烧"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 4.2,
+    "source_file": "dishes/vegetable_dish/西红柿豆腐汤羹/西红柿豆腐汤羹.md",
+    "recipe_id": "c94664d9ec597173f5134b142d3ec749"
+  },
+  {
+    "dish_name": "西葫芦炒鸡蛋",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "食用盐",
+      "食用油",
+      "西红柿",
+      "鸡蛋",
+      "西葫芦"
+    ],
+    "methods": [
+      "炒"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 4.5,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/西葫芦炒鸡蛋/西葫芦炒鸡蛋.md",
+    "recipe_id": "58e0bdc58d342b079c8e7718758bda64"
+  },
+  {
+    "dish_name": "拔丝土豆",
+    "category": "素菜",
+    "difficulty": 3,
+    "ingredients": [
+      "白砂糖",
+      "水",
+      "食用油",
+      "土豆",
+      "淀粉",
+      "芝麻"
+    ],
+    "methods": [
+      "炒",
+      "炸",
+      "熬",
+      "拌",
+      "烧",
+      "拔丝",
+      "煎"
+    ],
+    "cuisines": [
+      "西餐",
+      "鲁菜"
+    ],
+    "cooking_time_min": 6.0,
+    "carb_amount_g": 145.5,
+    "source_file": "dishes/vegetable_dish/拔丝土豆/拔丝土豆.md",
+    "recipe_id": "3bd9609c0bb70f8961e2a8301446aea0"
+  },
+  {
+    "dish_name": "凉拌木耳",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "蒜瓣",
+      "但不能太久之前泡发的",
+      "必须是新鲜的湿木耳）",
+      "醋",
+      "盐",
+      "生抽",
+      "芥末",
+      "香油",
+      "小米辣",
+      "干木耳 （湿木耳也可",
+      "白糖"
+    ],
+    "methods": [
+      "泡",
+      "煮",
+      "拌",
+      "烧",
+      "凉拌"
+    ],
+    "cuisines": [
+      "川菜"
+    ],
+    "cooking_time_min": 3.6,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/凉拌木耳/凉拌木耳.md",
+    "recipe_id": "bfb874aa7ef589bf3b162605c2c076e4"
+  },
+  {
+    "dish_name": "干锅花菜",
+    "category": "素菜",
+    "difficulty": 3,
+    "ingredients": [
+      "花菜",
+      "盐",
+      "生抽",
+      "油",
+      "蒜",
+      "五花肉",
+      "辣椒",
+      "白糖"
+    ],
+    "methods": [
+      "泡",
+      "炒",
+      "酱",
+      "焖",
+      "烧",
+      "爆"
+    ],
+    "cuisines": [
+      "湘菜"
+    ],
+    "cooking_time_min": 23.0,
+    "carb_amount_g": 5.0,
+    "source_file": "dishes/vegetable_dish/干锅花菜/干锅花菜.md",
+    "recipe_id": "c6ba9f878b22ab99434beb1029405ae8"
+  },
+  {
+    "dish_name": "红烧冬瓜",
+    "category": "素菜",
+    "difficulty": 3,
+    "ingredients": [
+      "鸡精",
+      "食用油",
+      "冬瓜",
+      "生抽",
+      "老抽",
+      "蚝油",
+      "料酒",
+      "姜末",
+      "淀粉",
+      "香葱"
+    ],
+    "methods": [
+      "红烧",
+      "炒",
+      "炸",
+      "酱",
+      "煮",
+      "焖",
+      "烧",
+      "煎",
+      "炖"
+    ],
+    "cuisines": [
+      "浙菜"
+    ],
+    "cooking_time_min": 12.0,
+    "carb_amount_g": 8.5,
+    "source_file": "dishes/vegetable_dish/红烧冬瓜/红烧冬瓜.md",
+    "recipe_id": "30e4f1521573ba74047df8ae7d7786fb"
+  },
+  {
+    "dish_name": "芹菜拌茶树菇",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "食用盐",
+      "闽星茶树菇",
+      "香油",
+      "蚝油",
+      "味极鲜",
+      "芹菜"
+    ],
+    "methods": [
+      "拌",
+      "泡",
+      "凉拌",
+      "烧"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/芹菜拌茶树菇/芹菜拌茶树菇.md",
+    "recipe_id": "9d7e9b9d338200a7026ed1ae3ddb50ff"
+  },
+  {
+    "dish_name": "椒盐玉米",
+    "category": "素菜",
+    "difficulty": 3,
+    "ingredients": [
+      "两个塑料簸箕",
+      "油",
+      "芝麻粒",
+      "玉米粒",
+      "淀粉",
+      "椒盐",
+      "若干吸油纸"
+    ],
+    "methods": [
+      "泡",
+      "炒",
+      "炸",
+      "煮",
+      "烤",
+      "椒盐",
+      "煎"
+    ],
+    "cuisines": [
+      "川菜",
+      "粤菜"
+    ],
+    "cooking_time_min": 8.0,
+    "carb_amount_g": 46.8,
+    "source_file": "dishes/vegetable_dish/椒盐玉米/椒盐玉米.md",
+    "recipe_id": "a7c4576374f8bf4ffeb3ee7a0bfb2a88"
+  },
+  {
+    "dish_name": "话梅煮毛豆",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "食用盐",
+      "话梅",
+      "毛豆"
+    ],
+    "methods": [
+      "煮",
+      "泡"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 40.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/话梅煮毛豆/话梅煮毛豆.md",
+    "recipe_id": "d6f1583e5f903352dcba64d2720394b3"
+  },
+  {
+    "dish_name": "莴笋叶煎饼",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "鸡精",
+      "食用油",
+      "生抽",
+      "莴笋叶",
+      "鸡蛋",
+      "淀粉"
+    ],
+    "methods": [
+      "炸",
+      "拌",
+      "烧",
+      "凉拌",
+      "煎"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 12.8,
+    "source_file": "dishes/vegetable_dish/莴笋叶煎饼/莴笋叶煎饼.md",
+    "recipe_id": "920d0ed1d7e686447f0aec1894ef9224"
+  },
+  {
+    "dish_name": "蒜蓉空心菜",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "铲子",
+      "盐",
+      "生抽",
+      "空心菜",
+      "筷子",
+      "蒜末"
+    ],
+    "methods": [
+      "蒜蓉",
+      "炒",
+      "烧",
+      "爆"
+    ],
+    "cuisines": [
+      "川菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 3.0,
+    "source_file": "dishes/vegetable_dish/蒜蓉空心菜/蒜蓉空心菜.md",
+    "recipe_id": "db3260b7dda61a4341aebacf2efc62d3"
+  },
+  {
+    "dish_name": "上汤娃娃菜",
+    "category": "素菜",
+    "difficulty": 3,
+    "ingredients": [
+      "午餐肉",
+      "糖",
+      "盐",
+      "葱",
+      "姜",
+      "蒜",
+      "皮蛋",
+      "淀粉",
+      "娃娃菜"
+    ],
+    "methods": [
+      "炒",
+      "熬",
+      "煮",
+      "烧",
+      "煎",
+      "爆"
+    ],
+    "cuisines": [
+      "粤菜"
+    ],
+    "cooking_time_min": 3.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/上汤娃娃菜/上汤娃娃菜.md",
+    "recipe_id": "457293a2f2fb16162876dd5ca7b92dfa"
+  },
+  {
+    "dish_name": "炒滑蛋",
+    "category": "素菜",
+    "difficulty": 1,
+    "ingredients": [
+      "鸡蛋",
+      "牛奶"
+    ],
+    "methods": [
+      "拌",
+      "炒",
+      "烧"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/炒滑蛋/炒滑蛋.md",
+    "recipe_id": "308095fe80bd227a249afa65798c7f5a"
+  },
+  {
+    "dish_name": "蚝油三鲜菇",
+    "category": "素菜",
+    "difficulty": 3,
+    "ingredients": [
+      "鸡精",
+      "食用油",
+      "蟹味菇",
+      "盐",
+      "生抽",
+      "西蓝花",
+      "小米辣",
+      "蚝油",
+      "香菇",
+      "白玉菇",
+      "料酒",
+      "姜末",
+      "菜椒",
+      "淀粉",
+      "香葱"
+    ],
+    "methods": [
+      "泡",
+      "炒",
+      "煮",
+      "拌",
+      "烧"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 4.0,
+    "carb_amount_g": 8.5,
+    "source_file": "dishes/vegetable_dish/蚝油三鲜菇/蚝油三鲜菇.md",
+    "recipe_id": "9ca3842f4d8d21c1e4c256f671a27a39"
+  },
+  {
+    "dish_name": "凉拌莴笋",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "萝卜",
+      "食用油",
+      "盐",
+      "姜",
+      "小米辣",
+      "莴笋",
+      "蒜头"
+    ],
+    "methods": [
+      "腌",
+      "炒",
+      "炸",
+      "酱",
+      "煮",
+      "拌",
+      "烧",
+      "凉拌"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 1.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/凉拌莴笋/凉拌莴笋.md",
+    "recipe_id": "c0ef382b4b824b52836092d75db83ccf"
+  },
+  {
+    "dish_name": "手撕包菜",
+    "category": "素菜",
+    "difficulty": 3,
+    "ingredients": [
+      "鸡精",
+      "蒜苗",
+      "食用油",
+      "盐",
+      "包菜",
+      "生抽",
+      "姜",
+      "小米辣",
+      "料酒",
+      "五花肉",
+      "香醋",
+      "蒜头"
+    ],
+    "methods": [
+      "麻辣",
+      "炒"
+    ],
+    "cuisines": [
+      "湘菜"
+    ],
+    "cooking_time_min": 5.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/手撕包菜/手撕包菜.md",
+    "recipe_id": "e5952851df7c11ca941a6df950cb470f"
+  },
+  {
+    "dish_name": "蒸箱鸡蛋羹",
+    "category": "素菜",
+    "difficulty": 3,
+    "ingredients": [
+      "食用盐",
+      "食用油",
+      "生抽",
+      "鸡蛋",
+      "蒸箱"
+    ],
+    "methods": [
+      "蒸",
+      "泡",
+      "拌"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/鸡蛋羹/蒸箱鸡蛋羹.md",
+    "recipe_id": "c1bef8884289406ff74107a48d3df0be"
+  },
+  {
+    "dish_name": "微波炉鸡蛋羹",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "鸡蛋",
+      "水"
+    ],
+    "methods": [
+      "酱",
+      "蒸",
+      "泡",
+      "拌"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 4.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/鸡蛋羹/微波炉鸡蛋羹.md",
+    "recipe_id": "626e0d91914c8f2607577095e2eb2d0a"
+  },
+  {
+    "dish_name": "鸡蛋羹",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "食用盐",
+      "香油",
+      "鸡蛋",
+      "生抽 / 味极鲜",
+      "白醋",
+      "藤椒油"
+    ],
+    "methods": [
+      "蒸",
+      "泡",
+      "煮",
+      "烧"
+    ],
+    "cuisines": [
+      "日本菜",
+      "湘菜",
+      "粤菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/鸡蛋羹/鸡蛋羹.md",
+    "recipe_id": "a597f53ccbbce1e2f013e44f8b8bdc89"
+  },
+  {
+    "dish_name": "包菜炒鸡蛋粉丝",
+    "category": "素菜",
+    "difficulty": 3,
+    "ingredients": [
+      "粉丝",
+      "干辣椒",
+      "盐",
+      "包菜",
+      "生抽",
+      "鸡蛋",
+      "葱",
+      "老抽",
+      "蚝油",
+      "菜籽油",
+      "蒜",
+      "胡萝卜"
+    ],
+    "methods": [
+      "拌",
+      "炒",
+      "泡",
+      "烧"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 60.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/包菜炒鸡蛋粉丝/包菜炒鸡蛋粉丝.md",
+    "recipe_id": "eb5e63e8978e7d8c1be22598ea6552db"
+  },
+  {
+    "dish_name": "烤茄子",
+    "category": "素菜",
+    "difficulty": 3,
+    "ingredients": [
+      "食用盐",
+      "酱油",
+      "食用油",
+      "孜然",
+      "茄子",
+      "蒜蓉",
+      "辣椒"
+    ],
+    "methods": [
+      "炸",
+      "烘",
+      "蒜蓉",
+      "蒸",
+      "拌",
+      "酱",
+      "烤",
+      "烧"
+    ],
+    "cuisines": [
+      "日本菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/烤茄子/烤茄子.md",
+    "recipe_id": "73be4fe4209cbe81fe555d0b563fa1bd"
+  },
+  {
+    "dish_name": "小炒藕丁",
+    "category": "素菜",
+    "difficulty": 3,
+    "ingredients": [
+      "莲藕",
+      "生抽",
+      "油",
+      "小米辣",
+      "老抽",
+      "大葱",
+      "耗油"
+    ],
+    "methods": [
+      "煮",
+      "炒",
+      "爆"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 4.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/小炒藕丁/小炒藕丁.md",
+    "recipe_id": "21a717dbdc253cc13514b3029bf24348"
+  },
+  {
+    "dish_name": "虎皮青椒",
+    "category": "素菜",
+    "difficulty": 3,
+    "ingredients": [
+      "醋",
+      "盐",
+      "生抽",
+      "大蒜",
+      "砵或者有一定深度的碗",
+      "青椒",
+      "白糖"
+    ],
+    "methods": [
+      "糖醋",
+      "炒",
+      "拌",
+      "烤",
+      "煎"
+    ],
+    "cuisines": [
+      "川菜"
+    ],
+    "cooking_time_min": 2.0,
+    "carb_amount_g": 15.0,
+    "source_file": "dishes/vegetable_dish/虎皮青椒/虎皮青椒.md",
+    "recipe_id": "8c7a572581498c56104eb79be12c2a70"
+  },
+  {
+    "dish_name": "菠菜炒鸡蛋",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "菠菜",
+      "鸡蛋",
+      "食用油",
+      "食用盐"
+    ],
+    "methods": [
+      "炒",
+      "煎"
+    ],
+    "cuisines": [
+      "浙菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/菠菜炒鸡蛋/菠菜炒鸡蛋.md",
+    "recipe_id": "46f3594542a2765f2aa62071d8a518af"
+  },
+  {
+    "dish_name": "榄菜肉末四季豆",
+    "category": "素菜",
+    "difficulty": 3,
+    "ingredients": [
+      "四季豆",
+      "橄榄菜",
+      "大蒜",
+      "小米辣",
+      "五花肉"
+    ],
+    "methods": [
+      "酱",
+      "炒",
+      "烧"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 5.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/榄菜肉末四季豆/榄菜肉末四季豆.md",
+    "recipe_id": "f656ac32af8b60723635cc329f4a3ff0"
+  },
+  {
+    "dish_name": "白灼菜心",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "食用油",
+      "盐",
+      "生抽",
+      "大蒜",
+      "小米辣",
+      "蚝油",
+      "新鲜菜心"
+    ],
+    "methods": [
+      "泡",
+      "灼",
+      "酱",
+      "煮",
+      "白灼"
+    ],
+    "cuisines": [
+      "粤菜"
+    ],
+    "cooking_time_min": 1.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/白灼菜心/白灼菜心.md",
+    "recipe_id": "62fa9b6fc8e57a3b2df577ea86ce8ca6"
+  },
+  {
+    "dish_name": "糖拌西红柿",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "西红柿",
+      "白砂糖",
+      "冰箱"
+    ],
+    "methods": [
+      "腌",
+      "拌",
+      "烤"
+    ],
+    "cuisines": [
+      "新疆菜",
+      "鲁菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 20.0,
+    "source_file": "dishes/vegetable_dish/糖拌西红柿/糖拌西红柿.md",
+    "recipe_id": "a1504f38bf58ec635bd5819441299032"
+  },
+  {
+    "dish_name": "洋葱炒鸡蛋",
+    "category": "素菜",
+    "difficulty": 2,
+    "ingredients": [
+      "食用油",
+      "盐",
+      "鸡蛋",
+      "葱",
+      "料酒",
+      "洋葱"
+    ],
+    "methods": [
+      "炒",
+      "炸",
+      "拌",
+      "烧",
+      "煎"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/vegetable_dish/洋葱炒鸡蛋/洋葱炒鸡蛋.md",
+    "recipe_id": "c4dfdc80a6a004d4171c8700e2e52c70"
+  },
+  {
+    "dish_name": "炒凉粉",
+    "category": "主食",
+    "difficulty": 3,
+    "ingredients": [
+      "豆瓣酱",
+      "玉米油",
+      "生抽",
+      "大蒜",
+      "食盐",
+      "老抽",
+      "十三香",
+      "凉粉",
+      "中粗辣椒面",
+      "矿泉水",
+      "香葱"
+    ],
+    "methods": [
+      "炒",
+      "熬",
+      "酱",
+      "烧",
+      "爆"
+    ],
+    "cuisines": [
+      "京菜",
+      "西北"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/staple/炒凉粉/炒凉粉.md",
+    "recipe_id": "93be55dc5bf43882567121e8bd5b059f"
+  },
+  {
+    "dish_name": "烙饼",
+    "category": "主食",
+    "difficulty": 4,
+    "ingredients": [
+      "油",
+      "电饼铛",
+      "面粉"
+    ],
+    "methods": [
+      "拌",
+      "烙"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 304.0,
+    "source_file": "dishes/staple/烙饼/烙饼.md",
+    "recipe_id": "3d630ba1556506609beb036089ca074d"
+  },
+  {
+    "dish_name": "披萨饼皮",
+    "category": "主食",
+    "difficulty": 4,
+    "ingredients": [
+      "食用盐",
+      "白砂糖",
+      "安琪干酵母粉",
+      "水",
+      "披萨石（有更好",
+      "没有普通烤盘也可以）",
+      "烤箱",
+      "橄榄油",
+      "中筋面粉",
+      "原料**",
+      "工具**",
+      "擀面杖",
+      "烘焙油纸"
+    ],
+    "methods": [
+      "拌",
+      "烘",
+      "烤"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 95.0,
+    "source_file": "dishes/staple/披萨饼皮/披萨饼皮.md",
+    "recipe_id": "7ca87c2ac39afad5945d9f020bb6937b"
+  },
+  {
+    "dish_name": "日式咖喱饭",
+    "category": "主食",
+    "difficulty": 4,
+    "ingredients": [
+      "肉（猪肉",
+      "咖喱块",
+      "土豆",
+      "鸡肉",
+      "蒜头",
+      "牛肉均可）",
+      "胡萝卜",
+      "洋葱"
+    ],
+    "methods": [
+      "炒",
+      "酱",
+      "煮",
+      "拌",
+      "烧",
+      "煎",
+      "爆",
+      "炖"
+    ],
+    "cuisines": [
+      "印度菜",
+      "日本菜",
+      "法国菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/staple/日式咖喱饭/日式咖喱饭.md",
+    "recipe_id": "1850482d94414f6d569c66da053e2406"
+  },
+  {
+    "dish_name": "基础牛奶面包",
+    "category": "主食",
+    "difficulty": 5,
+    "ingredients": [
+      "如成人奶粉或婴儿奶粉",
+      "奶香味十足",
+      "盐",
+      "鸡蛋 **",
+      "谷朊粉",
+      "干酵母",
+      "糖 **",
+      "尽量不要使用。）*",
+      "香草精"
+    ],
+    "methods": [
+      "拌",
+      "烘",
+      "烤"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 5.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/staple/基础牛奶面包/基础牛奶面包.md",
+    "recipe_id": "4d35ab8b491fda05e135b2e92b3b67c1"
+  },
+  {
+    "dish_name": "意式肉酱面",
+    "category": "主食",
+    "difficulty": 1,
+    "ingredients": [
+      "肉沫",
+      "白洋葱",
+      "意大利面酱",
+      "意大利面"
+    ],
+    "methods": [
+      "熬",
+      "酱",
+      "煮",
+      "拌",
+      "烧"
+    ],
+    "cuisines": [
+      "意大利菜"
+    ],
+    "cooking_time_min": 9.0,
+    "carb_amount_g": 120.0,
+    "source_file": "dishes/staple/意式肉酱面/意式肉酱面.md",
+    "recipe_id": "7c5b0af0fdbc2ad440de223f39fd65e3"
+  },
+  {
+    "dish_name": "河南蒸面条",
+    "category": "主食",
+    "difficulty": 4,
+    "ingredients": [
+      "蒸篦子",
+      "蒜薹",
+      "麻油",
+      "挂面",
+      "额外的盆",
+      "五花肉"
+    ],
+    "methods": [
+      "蒸",
+      "炒",
+      "烧"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 15.0,
+    "carb_amount_g": 225.0,
+    "source_file": "dishes/staple/河南蒸面条/河南蒸面条.md",
+    "recipe_id": "4a4cc5d49edeaf9958e5b5a738d6c98e"
+  },
+  {
+    "dish_name": "火腿饭团",
+    "category": "主食",
+    "difficulty": 4,
+    "ingredients": [
+      "喜欢的沙拉酱",
+      "海苔碎",
+      "水",
+      "米饭",
+      "火腿",
+      "冷冻玉米粒",
+      "冷冻青豆"
+    ],
+    "methods": [
+      "酱",
+      "炒",
+      "煎"
+    ],
+    "cuisines": [
+      "日本菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 35.0,
+    "source_file": "dishes/staple/火腿饭团/火腿饭团.md",
+    "recipe_id": "a9740b89c38014f93f7db804de74d4f3"
+  },
+  {
+    "dish_name": "凉粉",
+    "category": "主食",
+    "difficulty": 3,
+    "ingredients": [
+      "鸡精",
+      "辣椒粉",
+      "酱油",
+      "醋",
+      "盐",
+      "大蒜",
+      "白糖",
+      "花生碎",
+      "小米辣",
+      "香菜",
+      "豌豆淀粉"
+    ],
+    "methods": [
+      "酱",
+      "煮",
+      "拌",
+      "凉拌",
+      "煎"
+    ],
+    "cuisines": [
+      "京菜",
+      "川菜",
+      "鄂菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 85.0,
+    "source_file": "dishes/staple/凉粉/凉粉.md",
+    "recipe_id": "bad262e5050f14bb0f66114d0d6970dc"
+  },
+  {
+    "dish_name": "日式肥牛丼饭",
+    "category": "主食",
+    "difficulty": 4,
+    "ingredients": [
+      "不要用紫色的洋葱）",
+      "也可选用原切肥牛片）",
+      "葱",
+      "可在各大电商平台购买",
+      "肥牛（火锅肥牛即可",
+      "白芝麻",
+      "也可用料酒代替）"
+    ],
+    "methods": [
+      "炒",
+      "熬",
+      "酱",
+      "蒸",
+      "煮",
+      "拌",
+      "烧",
+      "煲"
+    ],
+    "cuisines": [
+      "日本菜"
+    ],
+    "cooking_time_min": 1.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/staple/日式肥牛丼饭/日式肥牛丼饭.md",
+    "recipe_id": "451a83e2551fca9118476a1b0e6fc87f"
+  },
+  {
+    "dish_name": "空气炸锅照烧鸡饭",
+    "category": "主食",
+    "difficulty": 4,
+    "ingredients": [
+      "糖",
+      "丽滋饼干",
+      "酱油"
+    ],
+    "methods": [
+      "酱",
+      "拌",
+      "炸",
+      "烧"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/staple/空气炸锅照烧鸡饭/空气炸锅照烧鸡饭.md",
+    "recipe_id": "bcbf30ee7d4ffb565e0724d1595a6593"
+  },
+  {
+    "dish_name": "老友猪肉粉",
+    "category": "主食",
+    "difficulty": 3,
+    "ingredients": [
+      "猪肉",
+      "豆豉",
+      "胡椒粉",
+      "米粉",
+      "盐",
+      "生抽",
+      "酸笋",
+      "大蒜",
+      "米醋",
+      "剁椒",
+      "油",
+      "生粉",
+      "料酒",
+      "白糖"
+    ],
+    "methods": [
+      "煮",
+      "炒",
+      "泡"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 3.0,
+    "carb_amount_g": 67.5,
+    "source_file": "dishes/staple/老友猪肉粉/老友猪肉粉.md",
+    "recipe_id": "ec6978fe864307c2a00929e8a051415c"
+  },
+  {
+    "dish_name": "炒意大利面",
+    "category": "主食",
+    "difficulty": 3,
+    "ingredients": [
+      "菜籽油",
+      "肥牛片",
+      "番茄酱 / 黑胡椒酱",
+      "意大利面"
+    ],
+    "methods": [
+      "炒",
+      "酱",
+      "煮",
+      "拌",
+      "烧"
+    ],
+    "cuisines": [
+      "意大利菜",
+      "西餐"
+    ],
+    "cooking_time_min": 30.0,
+    "carb_amount_g": 25.0,
+    "source_file": "dishes/staple/炒意大利面/炒意大利面.md",
+    "recipe_id": "0e75bc86224f7ff422a05d0066869577"
+  },
+  {
+    "dish_name": "中式馅饼",
+    "category": "主食",
+    "difficulty": 4,
+    "ingredients": [
+      "面粉",
+      "糖",
+      "酱油",
+      "盐",
+      "油",
+      "孜然",
+      "平底锅",
+      "鸡蛋",
+      "生粉",
+      "椒盐",
+      "可选）",
+      "大葱",
+      "风味调料（如鸡粉",
+      "肉沫",
+      "胡萝卜",
+      "蒜头",
+      "炒锅"
+    ],
+    "methods": [
+      "腌",
+      "炒",
+      "酱",
+      "拌",
+      "烤",
+      "烧",
+      "椒盐",
+      "煎",
+      "爆"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 30.0,
+    "carb_amount_g": 152.0,
+    "source_file": "dishes/staple/中式馅饼/中式馅饼.md",
+    "recipe_id": "bd60bc964770f910368a4c8faca97784"
+  },
+  {
+    "dish_name": "煮锅蒸米饭",
+    "category": "主食",
+    "difficulty": 2,
+    "ingredients": [
+      "北方大米",
+      "水"
+    ],
+    "methods": [
+      "煲",
+      "蒸",
+      "煮",
+      "拌"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 17.5,
+    "carb_amount_g": null,
+    "source_file": "dishes/staple/米饭/煮锅蒸米饭.md",
+    "recipe_id": "b06aae78ed168a3dfd9ee89daf00b900"
+  },
+  {
+    "dish_name": "电饭煲蒸米饭",
+    "category": "主食",
+    "difficulty": 1,
+    "ingredients": [
+      "江南米或北方大米",
+      "水",
+      "电饭煲"
+    ],
+    "methods": [
+      "蒸",
+      "煮",
+      "煲"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 30.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/staple/米饭/电饭煲蒸米饭.md",
+    "recipe_id": "ba4883a593a193f4894dab2417553434"
+  },
+  {
+    "dish_name": "芝麻烧饼",
+    "category": "主食",
+    "difficulty": 3,
+    "ingredients": [
+      "面粉",
+      "食用油",
+      "十三香",
+      "温水",
+      "酵母粉",
+      "白糖"
+    ],
+    "methods": [
+      "烙",
+      "拌",
+      "烤",
+      "烧"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/staple/烧饼/芝麻烧饼.md",
+    "recipe_id": "a67efba05ef0d58e8ab7a3a70c84f64e"
+  },
+  {
+    "dish_name": "韩式拌饭",
+    "category": "主食",
+    "difficulty": 3,
+    "ingredients": [
+      "蘑菇",
+      "豆芽",
+      "芝麻油",
+      "鸡蛋",
+      "米饭",
+      "韩式辣酱",
+      "西葫芦",
+      "火锅牛肉卷",
+      "芝麻",
+      "胡萝卜",
+      "雪碧"
+    ],
+    "methods": [
+      "炒",
+      "酱",
+      "蒸",
+      "煮",
+      "拌",
+      "烤",
+      "煲",
+      "煎"
+    ],
+    "cuisines": [
+      "东北菜",
+      "韩国菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 112.0,
+    "source_file": "dishes/staple/韩式拌饭/韩式拌饭.md",
+    "recipe_id": "1af0bdd584fe447f26fd4891fb25d7da"
+  },
+  {
+    "dish_name": "微波炉腊肠煲仔饭",
+    "category": "主食",
+    "difficulty": 2,
+    "ingredients": [
+      "红萝卜 1 个",
+      "油 15 ml",
+      "米 200 ml",
+      "工具",
+      "微波炉",
+      "盐",
+      "生抽 10 ml",
+      "鸡蛋 1 个",
+      "腊肠 1 根",
+      "原料",
+      "香葱 1 颗"
+    ],
+    "methods": [
+      "酱",
+      "煮",
+      "泡",
+      "煲"
+    ],
+    "cuisines": [
+      "粤菜"
+    ],
+    "cooking_time_min": 17.5,
+    "carb_amount_g": null,
+    "source_file": "dishes/staple/微波炉腊肠煲仔饭/微波炉腊肠煲仔饭.md",
+    "recipe_id": "1074aac40b394f8d59e94838d0c66baa"
+  },
+  {
+    "dish_name": "电饭煲三文鱼炊饭",
+    "category": "主食",
+    "difficulty": 2,
+    "ingredients": [
+      "粟米",
+      "米",
+      "三文鱼",
+      "有盐牛油",
+      "金菇",
+      "冬菇"
+    ],
+    "methods": [
+      "煲"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/staple/电饭煲三文鱼炊饭/电饭煲三文鱼炊饭.md",
+    "recipe_id": "be9e8bace203ed456eb352033837c0ec"
+  },
+  {
+    "dish_name": "酱拌荞麦面",
+    "category": "主食",
+    "difficulty": 2,
+    "ingredients": [
+      "红萝卜",
+      "老干妈",
+      "荞麦面",
+      "黄瓜"
+    ],
+    "methods": [
+      "酱",
+      "煮",
+      "拌"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/staple/酱拌荞麦面/酱拌荞麦面.md",
+    "recipe_id": "cb56f3bb2ba00948d169be87c2f01060"
+  },
+  {
+    "dish_name": "豆角焖面",
+    "category": "主食",
+    "difficulty": 3,
+    "ingredients": [
+      "鸡精",
+      "味精",
+      "盐",
+      "生抽",
+      "葱",
+      "姜",
+      "肉",
+      "十三香",
+      "豆角",
+      "鲜面条（韭叶",
+      "老抽",
+      "热水",
+      "菜刀",
+      "蒜头",
+      "耗油"
+    ],
+    "methods": [
+      "炒",
+      "蒸",
+      "焖",
+      "烤",
+      "烧",
+      "爆"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 10.0,
+    "carb_amount_g": 75.0,
+    "source_file": "dishes/staple/豆角焖面/豆角焖面.md",
+    "recipe_id": "89dbb6bd2fd012a2dd2e7c9fc491089d"
+  },
+  {
+    "dish_name": "茄子肉煎饼",
+    "category": "主食",
+    "difficulty": 3,
+    "ingredients": [
+      "煮熟的腊肉",
+      "米粉",
+      "食用油",
+      "鸡蛋",
+      "食盐",
+      "小麦粉",
+      "越圆越好）",
+      "茄子（买长条状的"
+    ],
+    "methods": [
+      "炒",
+      "煮",
+      "拌",
+      "烧",
+      "煎"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 100.5,
+    "source_file": "dishes/staple/茄子肉煎饼/茄子肉煎饼.md",
+    "recipe_id": "58b8b78c236e47af8700f556a96ac261"
+  },
+  {
+    "dish_name": "扬州炒饭",
+    "category": "主食",
+    "difficulty": 4,
+    "ingredients": [
+      "盐",
+      "油",
+      "午餐肉罐头",
+      "鸡蛋",
+      "青豆",
+      "冷冻去皮基围虾",
+      "葱",
+      "冷饭",
+      "玉米粒",
+      "胡萝卜"
+    ],
+    "methods": [
+      "酱",
+      "炒",
+      "烧"
+    ],
+    "cuisines": [
+      "沪菜",
+      "苏菜"
+    ],
+    "cooking_time_min": 4.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/staple/扬州炒饭/扬州炒饭.md",
+    "recipe_id": "6ceb0c7ffb45701d62ffddefd635726c"
+  },
+  {
+    "dish_name": "西红柿鸡蛋挂面",
+    "category": "主食",
+    "difficulty": 2,
+    "ingredients": [
+      "蚝油或者鸡精",
+      "酱油",
+      "盐",
+      "西红柿一个",
+      "香油",
+      "鸡蛋",
+      "葱",
+      "青椒",
+      "挂面或者鲜面条也行"
+    ],
+    "methods": [
+      "酱",
+      "煮",
+      "熬"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 20.0,
+    "carb_amount_g": 58.2,
+    "source_file": "dishes/staple/西红柿鸡蛋挂面/西红柿鸡蛋挂面.md",
+    "recipe_id": "e636ad457ff6f257739d9fb667ad89bc"
+  },
+  {
+    "dish_name": "鲣鱼海苔玉米饭",
+    "category": "主食",
+    "difficulty": 2,
+    "ingredients": [
+      "必备：玉米粒",
+      "教程用的是米家小饭煲"
+    ],
+    "methods": [
+      "煲",
+      "煮",
+      "炸",
+      "拌"
+    ],
+    "cuisines": [
+      "东北菜",
+      "日本菜"
+    ],
+    "cooking_time_min": 40.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/staple/鲣鱼海苔玉米饭/鲣鱼海苔玉米饭.md",
+    "recipe_id": "9f2fdee8b659c770e63aae3c18847c23"
+  },
+  {
+    "dish_name": "空气炸锅鸡翅中",
+    "category": "半成品",
+    "difficulty": 2,
+    "ingredients": [
+      "可选：罗勒碎",
+      "可选：云南单山蘸水"
+    ],
+    "methods": [
+      "腌",
+      "烤",
+      "炸",
+      "烧"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 40.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/semi-finished/空气炸锅鸡翅中/空气炸锅鸡翅中.md",
+    "recipe_id": "47740dd7a90fe211feb051e18a07ab21"
+  },
+  {
+    "dish_name": "懒人蛋挞",
+    "category": "半成品",
+    "difficulty": 3,
+    "ingredients": [
+      "也可以没有）",
+      "比如家乐福",
+      "沃尔玛等等）",
+      "隔热手套 1 双",
+      "网购蛋挞液 1 盒"
+    ],
+    "methods": [
+      "酱",
+      "烘",
+      "炸",
+      "烤"
+    ],
+    "cuisines": [
+      "西餐"
+    ],
+    "cooking_time_min": 15.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/semi-finished/懒人蛋挞/懒人蛋挞.md",
+    "recipe_id": "b5a2564412694963a13dc214b782e02b"
+  },
+  {
+    "dish_name": "炸薯条",
+    "category": "半成品",
+    "difficulty": 2,
+    "ingredients": [],
+    "methods": [
+      "酱",
+      "泡",
+      "炸"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/semi-finished/炸薯条/炸薯条.md",
+    "recipe_id": "f56e8979e3d807e3ba5b9f94f11f3c76"
+  },
+  {
+    "dish_name": "速冻汤圆",
+    "category": "半成品",
+    "difficulty": 1,
+    "ingredients": [
+      "速冻汤圆",
+      "微波炉"
+    ],
+    "methods": [],
+    "cuisines": [
+      "浙菜"
+    ],
+    "cooking_time_min": 1.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/semi-finished/速冻汤圆/速冻汤圆.md",
+    "recipe_id": "e84b4e2538179a95d7f942738aae17da"
+  },
+  {
+    "dish_name": "空气炸锅羊排",
+    "category": "半成品",
+    "difficulty": 3,
+    "ingredients": [
+      "可选：烧烤料",
+      "必备：厨房纸",
+      "一片一小盒）",
+      "可选：罗勒碎",
+      "底下更容易熟",
+      "同样是因为懒）"
+    ],
+    "methods": [
+      "腌",
+      "炸",
+      "蒜蓉",
+      "酱",
+      "烤",
+      "烧"
+    ],
+    "cuisines": [
+      "法国菜"
+    ],
+    "cooking_time_min": 40.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/semi-finished/空气炸锅羊排/空气炸锅羊排.md",
+    "recipe_id": "b0bfcb995bec636bd2ab774f6f730473"
+  },
+  {
+    "dish_name": "奥利奥冰淇淋",
+    "category": "甜品",
+    "difficulty": 3,
+    "ingredients": [
+      "原味奥利奥",
+      "小刀",
+      "冰淇淋模具",
+      "淡奶油",
+      "电动打蛋器"
+    ],
+    "methods": [],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 18.0,
+    "source_file": "dishes/dessert/奥利奥冰淇淋/奥利奥冰淇淋.md",
+    "recipe_id": "cbe9d56b4269bafec148e570eddd39db"
+  },
+  {
+    "dish_name": "龟苓膏",
+    "category": "甜品",
+    "difficulty": 2,
+    "ingredients": [
+      "模具或碗",
+      "龟苓膏粉 25 克",
+      "开水 500 毫升",
+      "冷水 120 毫升",
+      "白砂糖 100 克",
+      "搅拌工具",
+      "小锅"
+    ],
+    "methods": [
+      "拌",
+      "泡"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/dessert/龟苓膏/龟苓膏.md",
+    "recipe_id": "a643b75c73a47eb8ba763f8693acd8fc"
+  },
+  {
+    "dish_name": "咖啡椰奶冻",
+    "category": "甜品",
+    "difficulty": 4,
+    "ingredients": [
+      "过滤网"
+    ],
+    "methods": [
+      "煮",
+      "泡",
+      "拌"
+    ],
+    "cuisines": [
+      "意大利菜"
+    ],
+    "cooking_time_min": 182.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/dessert/咖啡椰奶冻/咖啡椰奶冻.md",
+    "recipe_id": "9f0ad460d1af6568032a8625469091d5"
+  },
+  {
+    "dish_name": "炸鲜奶",
+    "category": "甜品",
+    "difficulty": 3,
+    "ingredients": [
+      "鸡蛋",
+      "玉米淀粉",
+      "面包模具",
+      "牛奶",
+      "面包糠",
+      "白糖"
+    ],
+    "methods": [
+      "泡",
+      "熬",
+      "炸",
+      "煮",
+      "拌",
+      "烧"
+    ],
+    "cuisines": [
+      "粤菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 141.5,
+    "source_file": "dishes/dessert/炸鲜奶/炸鲜奶.md",
+    "recipe_id": "b07a1aafceec24952b2ff3e8c555242c"
+  },
+  {
+    "dish_name": "反沙芋头",
+    "category": "甜品",
+    "difficulty": 3,
+    "ingredients": [
+      "葱",
+      "白砂糖或冰糖",
+      "水",
+      "实惠新鲜）"
+    ],
+    "methods": [
+      "泡",
+      "炒",
+      "炸",
+      "熬",
+      "煮"
+    ],
+    "cuisines": [
+      "潮汕",
+      "粤菜"
+    ],
+    "cooking_time_min": 20.0,
+    "carb_amount_g": 30.0,
+    "source_file": "dishes/dessert/反沙芋头/反沙芋头.md",
+    "recipe_id": "c7600807e69b613eb03ebdef0785baa2"
+  },
+  {
+    "dish_name": "提拉米苏",
+    "category": "甜品",
+    "difficulty": 4,
+    "ingredients": [
+      "白砂糖",
+      "打蛋器",
+      "无菌鸡蛋",
+      "可按照自己口味调节）",
+      "一个装成品的容器",
+      "可可粉",
+      "手指饼干",
+      "马斯卡彭芝士",
+      "放凉浓缩咖啡"
+    ],
+    "methods": [
+      "拌",
+      "烘",
+      "烤"
+    ],
+    "cuisines": [
+      "意大利菜",
+      "西餐"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 50.0,
+    "source_file": "dishes/dessert/提拉米苏/提拉米苏.md",
+    "recipe_id": "9d9aec6c659b7eaea73367728d53b892"
+  },
+  {
+    "dish_name": "酸奶意式奶冻",
+    "category": "甜品",
+    "difficulty": 4,
+    "ingredients": [
+      "糖",
+      "原味酸奶",
+      "筛网",
+      "淡奶油",
+      "吉利丁片"
+    ],
+    "methods": [
+      "酱",
+      "拌",
+      "泡"
+    ],
+    "cuisines": [
+      "意大利菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/dessert/酸奶意式奶冻/酸奶意式奶冻.md",
+    "recipe_id": "e5fb4552130cb1b5427ea7d70f32ebe3"
+  },
+  {
+    "dish_name": "草莓冰淇淋",
+    "category": "甜品",
+    "difficulty": 2,
+    "ingredients": [
+      "加糖炼乳",
+      "草莓",
+      "冰淇淋模具",
+      "重奶油",
+      "香草精"
+    ],
+    "methods": [
+      "酱",
+      "拌"
+    ],
+    "cuisines": [
+      "美国菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 45.0,
+    "source_file": "dishes/dessert/草莓冰淇淋/草莓冰淇淋.md",
+    "recipe_id": "a567f8bf6ed91461aeb7afae07578ae4"
+  },
+  {
+    "dish_name": "无厨师机蜂蜜面包",
+    "category": "甜品",
+    "difficulty": 5,
+    "ingredients": [
+      "白砂糖：70g",
+      "牛奶: 200g",
+      "水: 20g",
+      "高筋面粉：400g",
+      "鸡蛋：1 个",
+      "盐: 2g",
+      "黄油: 30g",
+      "蜂蜜：20g",
+      "酵母：4g",
+      "芝麻"
+    ],
+    "methods": [
+      "拌",
+      "烤"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/dessert/无厨师机蜂蜜面包/无厨师机蜂蜜面包.md",
+    "recipe_id": "7ac7a08ff710033cebafe01649299868"
+  },
+  {
+    "dish_name": "烤蛋挞",
+    "category": "甜品",
+    "difficulty": 4,
+    "ingredients": [
+      "白砂糖",
+      "鸡蛋",
+      "克数称",
+      "烤箱 大小不限",
+      "牛奶",
+      "淡奶油",
+      "蛋挞皮 品牌不限"
+    ],
+    "methods": [
+      "拌",
+      "烘",
+      "烤"
+    ],
+    "cuisines": [
+      "西餐"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 80.0,
+    "source_file": "dishes/dessert/烤蛋挞/烤蛋挞.md",
+    "recipe_id": "16bf57aded8ac752695af14bc0ffd219"
+  },
+  {
+    "dish_name": "红柚蛋糕",
+    "category": "甜品",
+    "difficulty": 3,
+    "ingredients": [
+      "面粉",
+      "糖",
+      "水",
+      "油",
+      "鸡蛋",
+      "锡纸盘",
+      "空气炸锅",
+      "红柚果肉"
+    ],
+    "methods": [
+      "拌",
+      "炸",
+      "烤"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 23.0,
+    "carb_amount_g": 60.8,
+    "source_file": "dishes/dessert/红柚蛋糕/红柚蛋糕.md",
+    "recipe_id": "84eaea47697803794273df02a7d39051"
+  },
+  {
+    "dish_name": "英式司康",
+    "category": "甜品",
+    "difficulty": 3,
+    "ingredients": [
+      "糖",
+      "盐",
+      "低筋面粉",
+      "奶油奶酪",
+      "鸡蛋",
+      "淡奶油",
+      "泡打粉",
+      "无盐黄油"
+    ],
+    "methods": [
+      "泡",
+      "烘",
+      "酱",
+      "拌",
+      "烤"
+    ],
+    "cuisines": [
+      "英国菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 136.8,
+    "source_file": "dishes/dessert/英式司康/英式司康.md",
+    "recipe_id": "bb435bb6854f7e305af9497c361032c8"
+  },
+  {
+    "dish_name": "芋泥雪媚娘",
+    "category": "甜品",
+    "difficulty": 5,
+    "ingredients": [
+      "白砂糖",
+      "紫薯粉",
+      "玉米淀粉",
+      "黄油",
+      "保鲜膜",
+      "淡奶油",
+      "牛奶",
+      "料理搅拌机",
+      "实惠新鲜）",
+      "糯米粉",
+      "筛网"
+    ],
+    "methods": [
+      "炒",
+      "蒸",
+      "煮",
+      "拌",
+      "烤"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 120.0,
+    "carb_amount_g": 85.9,
+    "source_file": "dishes/dessert/芋泥雪媚娘/芋泥雪媚娘.md",
+    "recipe_id": "4f46be009fcf01249a6c82408204af71"
+  },
+  {
+    "dish_name": "魔芋蛋糕",
+    "category": "甜品",
+    "difficulty": 4,
+    "ingredients": [
+      "烤箱",
+      "餐刀",
+      "烘焙纸",
+      "电动打蛋器",
+      "金属蛋糕模具",
+      "隔热手套",
+      "[可选] 分蛋器"
+    ],
+    "methods": [
+      "拌",
+      "泡",
+      "烘",
+      "烤"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/dessert/魔芋蛋糕/魔芋蛋糕.md",
+    "recipe_id": "72cd52672c0ea7e6d2c5367c65440fa2"
+  },
+  {
+    "dish_name": "玛格丽特饼干",
+    "category": "甜品",
+    "difficulty": 3,
+    "ingredients": [
+      "白砂糖",
+      "低筋面粉",
+      "盐",
+      "烤箱",
+      "黄油",
+      "熟蛋黄",
+      "玉米淀粉"
+    ],
+    "methods": [
+      "拌",
+      "烘",
+      "烤"
+    ],
+    "cuisines": [
+      "意大利菜"
+    ],
+    "cooking_time_min": 20.0,
+    "carb_amount_g": 103.0,
+    "source_file": "dishes/dessert/玛格丽特饼干/玛格丽特饼干.md",
+    "recipe_id": "a4d8fa2623e8ea4039ca24dbccdc8817"
+  },
+  {
+    "dish_name": "雪花酥",
+    "category": "甜品",
+    "difficulty": 3,
+    "ingredients": [
+      "擀面杖",
+      "不粘平底锅",
+      "雪花酥/牛轧糖模具",
+      "一次性塑料手套"
+    ],
+    "methods": [
+      "拌",
+      "烘"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 30.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/dessert/雪花酥/雪花酥.md",
+    "recipe_id": "e5cf9855e214fac69ac0ba2266bc097f"
+  },
+  {
+    "dish_name": "戚风蛋糕",
+    "category": "甜品",
+    "difficulty": 5,
+    "ingredients": [
+      "打蛋器（电动最好",
+      "烤箱（电饭锅可替代",
+      "刮刀",
+      "常用尺寸为 6 寸"
+    ],
+    "methods": [
+      "拌",
+      "泡",
+      "烘",
+      "烤"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 128.2,
+    "source_file": "dishes/dessert/戚风蛋糕/戚风蛋糕.md",
+    "recipe_id": "23320e09b9f5cea1638f5d3a5c57148c"
+  },
+  {
+    "dish_name": "示例菜",
+    "category": "其它",
+    "difficulty": 4,
+    "ingredients": [
+      "咖喱块",
+      "土豆",
+      "藤椒油"
+    ],
+    "methods": [],
+    "cuisines": [],
+    "cooking_time_min": 17.5,
+    "carb_amount_g": 20.4,
+    "source_file": "dishes/template/示例菜/示例菜.md",
+    "recipe_id": "4956bb127dfc3571638729fdb8f7f42b"
+  },
+  {
+    "dish_name": "豉汁蒸白鱔食谱",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "豆豉",
+      "糖",
+      "生抽",
+      "葱",
+      "姜",
+      "老抽",
+      "麻油",
+      "生粉",
+      "白鱔",
+      "装饰用）",
+      "蒜头",
+      "红椒（可选"
+    ],
+    "methods": [
+      "腌",
+      "酱",
+      "蒸",
+      "拌",
+      "烧"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 14.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/豉汁蒸白鱔/豉汁蒸白鱔食谱.md",
+    "recipe_id": "4551a9cd202c911cf7b052bee5b496b7"
+  },
+  {
+    "dish_name": "西红柿土豆炖牛肉",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "酱油",
+      "洋葱",
+      "花椒",
+      "西红柿",
+      "葱",
+      "姜",
+      "八角",
+      "老抽",
+      "小料",
+      "香叶",
+      "黑胡椒粉",
+      "土豆",
+      "料酒",
+      "牛肉",
+      "白糖"
+    ],
+    "methods": [
+      "酱",
+      "煮",
+      "炒",
+      "炖"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/西红柿土豆炖牛肉/西红柿土豆炖牛肉.md",
+    "recipe_id": "69c4840c7d3f1d18826a88f7d330503b"
+  },
+  {
+    "dish_name": "黔式腊肠娃娃菜",
+    "category": "荤菜",
+    "difficulty": 1,
+    "ingredients": [
+      "娃娃菜",
+      "黔式腊肠"
+    ],
+    "methods": [],
+    "cuisines": [
+      "川菜",
+      "湘菜"
+    ],
+    "cooking_time_min": 15.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/黔式腊肠娃娃菜/黔式腊肠娃娃菜.md",
+    "recipe_id": "2dcbbc92386673ff16d389e0efefc27e"
+  },
+  {
+    "dish_name": "清蒸鳜鱼",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "鳜鱼",
+      "小葱",
+      "姜片",
+      "食用油",
+      "生抽",
+      "大葱",
+      "红辣椒"
+    ],
+    "methods": [
+      "蒸",
+      "炒",
+      "清蒸",
+      "泡"
+    ],
+    "cuisines": [
+      "浙菜",
+      "湘菜",
+      "鄂菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/清蒸鳜鱼/清蒸鳜鱼.md",
+    "recipe_id": "59c89417de347de8ec3565e73bf26301"
+  },
+  {
+    "dish_name": "牛排",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "口蘑",
+      "香料（可选",
+      "平底锅",
+      "盐",
+      "预制牛排酱汁",
+      "牛排",
+      "锡箔纸",
+      "小土豆",
+      "大蒜",
+      "黑胡椒粉",
+      "推荐迷迭香或者百里香",
+      "这里推荐芦笋",
+      "配菜（ 可选",
+      "厨房纸",
+      "按喜好准备",
+      "小番茄",
+      "黄油",
+      "橄榄油",
+      "汤匙"
+    ],
+    "methods": [
+      "酱",
+      "煮",
+      "烤",
+      "烧",
+      "煎"
+    ],
+    "cuisines": [
+      "沪菜",
+      "法国菜",
+      "粤菜",
+      "美国菜",
+      "英国菜",
+      "西餐"
+    ],
+    "cooking_time_min": 22.5,
+    "carb_amount_g": 3.4,
+    "source_file": "dishes/meat_dish/牛排/牛排.md",
+    "recipe_id": "94d22483352b8fa6f68ceadf46b5d722"
+  },
+  {
+    "dish_name": "瘦肉土豆片",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "食用盐",
+      "纯瘦肉",
+      "蒜苗",
+      "生抽",
+      "生粉",
+      "老抽",
+      "土豆"
+    ],
+    "methods": [
+      "腌",
+      "拌",
+      "炒",
+      "烧"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 3.0,
+    "carb_amount_g": 34.0,
+    "source_file": "dishes/meat_dish/瘦肉土豆片/瘦肉土豆片.md",
+    "recipe_id": "9721c8b2fa4c76069be9de4ba60100e6"
+  },
+  {
+    "dish_name": "湖南家常红烧肉",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "食用油",
+      "盐",
+      "生抽",
+      "冰糖",
+      "姜",
+      "干小米椒🌶",
+      "老抽",
+      "八角",
+      "香叶",
+      "开水",
+      "料酒",
+      "桂皮",
+      "带皮五花肉"
+    ],
+    "methods": [
+      "红烧",
+      "炒",
+      "煮",
+      "拌",
+      "烧",
+      "炖"
+    ],
+    "cuisines": [
+      "湘菜"
+    ],
+    "cooking_time_min": 1.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/湖南家常红烧肉/湖南家常红烧肉.md",
+    "recipe_id": "744dc585926c3dc8e8f11d919be4f189"
+  },
+  {
+    "dish_name": "回锅肉",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "小葱",
+      "味精",
+      "蒜苗",
+      "豆瓣酱",
+      "生抽酱油",
+      "料酒",
+      "五花肉",
+      "生姜",
+      "青红椒"
+    ],
+    "methods": [
+      "炒",
+      "酱",
+      "蒸",
+      "煮",
+      "烧",
+      "煎",
+      "爆"
+    ],
+    "cuisines": [
+      "京菜",
+      "川菜"
+    ],
+    "cooking_time_min": 15.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/回锅肉/回锅肉.md",
+    "recipe_id": "dbf1dd7d7e3300ed9c17e82414dff3f9"
+  },
+  {
+    "dish_name": "糖醋排骨",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "鸡精",
+      "排骨",
+      "白砂糖",
+      "番茄酱",
+      "食用油",
+      "生抽",
+      "五香粉",
+      "老抽",
+      "蚝油",
+      "姜片",
+      "香醋",
+      "芝麻"
+    ],
+    "methods": [
+      "糖醋",
+      "炒",
+      "炸",
+      "酱",
+      "煮",
+      "焖",
+      "煎"
+    ],
+    "cuisines": [
+      "川菜",
+      "沪菜",
+      "浙菜",
+      "苏菜"
+    ],
+    "cooking_time_min": 20.0,
+    "carb_amount_g": 30.0,
+    "source_file": "dishes/meat_dish/糖醋排骨/糖醋排骨.md",
+    "recipe_id": "d7cd5ced44b0fdfd02fc2d0e6c7a4a6c"
+  },
+  {
+    "dish_name": "黑椒牛柳",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "黑胡椒",
+      "牛肉",
+      "盐",
+      "黑椒",
+      "花生油",
+      "菜椒",
+      "淀粉",
+      "洋葱"
+    ],
+    "methods": [
+      "腌",
+      "炒",
+      "烧"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 24.0,
+    "carb_amount_g": 2.5,
+    "source_file": "dishes/meat_dish/黑椒牛柳/黑椒牛柳.md",
+    "recipe_id": "84ad2fe1fd5fc7136177e9efbc088641"
+  },
+  {
+    "dish_name": "茭白炒肉",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "鸡精",
+      "食用油",
+      "盐",
+      "姜",
+      "瘦肉",
+      "蒜",
+      "茭白",
+      "料酒",
+      "淀粉"
+    ],
+    "methods": [
+      "煮",
+      "炒",
+      "烧",
+      "拌"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 12.8,
+    "source_file": "dishes/meat_dish/茭白炒肉/茭白炒肉.md",
+    "recipe_id": "e586d6fbc57cb7298eacf1c1eadf7594"
+  },
+  {
+    "dish_name": "农家一碗香",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [],
+    "methods": [
+      "炒",
+      "酱",
+      "煮",
+      "煎",
+      "爆"
+    ],
+    "cuisines": [
+      "湘菜"
+    ],
+    "cooking_time_min": 17.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/农家一碗香/农家一碗香.md",
+    "recipe_id": "a58635744ad9744b29a96db7f9d9fedb"
+  },
+  {
+    "dish_name": "香辣鸡爪煲",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "鸡精",
+      "盐",
+      "生抽",
+      "葱",
+      "姜",
+      "八角",
+      "鸡爪",
+      "老抽",
+      "香叶",
+      "辣椒面",
+      "蚝油",
+      "五香粉",
+      "蒜",
+      "料酒",
+      "小米椒"
+    ],
+    "methods": [
+      "炒",
+      "酱",
+      "煮",
+      "拌",
+      "烧",
+      "煲"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/香辣鸡爪煲/香辣鸡爪煲.md",
+    "recipe_id": "336afe0e0b3e2dc18ad8dd46dee8cb49"
+  },
+  {
+    "dish_name": "巴基斯坦牛肉咖喱",
+    "category": "荤菜",
+    "difficulty": 5,
+    "ingredients": [
+      "电饭煲/电炖锅",
+      "螺丝椒",
+      "原味酸奶",
+      "姜粉",
+      "普通的炒锅",
+      "Masala 粉",
+      "蒜粉",
+      "番茄",
+      "牛肉"
+    ],
+    "methods": [
+      "炒",
+      "酱",
+      "蒸",
+      "拌",
+      "煲",
+      "炖"
+    ],
+    "cuisines": [
+      "印度菜",
+      "巴基斯坦菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/巴基斯坦牛肉咖喱/巴基斯坦牛肉咖喱.md",
+    "recipe_id": "68a5ba089c045697d4c79e4604cba457"
+  },
+  {
+    "dish_name": "青椒土豆炒肉",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "猪肉",
+      "酱油",
+      "盐",
+      "葱",
+      "姜",
+      "土豆淀粉",
+      "土豆",
+      "蒜",
+      "青椒"
+    ],
+    "methods": [
+      "炒",
+      "酱",
+      "拌",
+      "烧",
+      "炖"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 1.0,
+    "carb_amount_g": 55.3,
+    "source_file": "dishes/meat_dish/青椒土豆炒肉/青椒土豆炒肉.md",
+    "recipe_id": "46e826f40a3b6b864e63fb2cf53e2bca"
+  },
+  {
+    "dish_name": "西红柿牛腩",
+    "category": "荤菜",
+    "difficulty": 5,
+    "ingredients": [
+      "八角三小片",
+      "西红柿",
+      "生抽",
+      "燃气灶",
+      "白胡椒粉",
+      "葱花",
+      "牛腩",
+      "料/黄酒",
+      "姜各 10g",
+      "白糖",
+      "两片姜片"
+    ],
+    "methods": [
+      "炒",
+      "煮",
+      "烤",
+      "烧",
+      "炖"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/西红柿牛腩/西红柿牛腩.md",
+    "recipe_id": "d09bd4731dcb9bd71b485a1306ed91a9"
+  },
+  {
+    "dish_name": "老妈蹄花",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "鸡精",
+      "盐",
+      "生抽",
+      "香醋",
+      "油泼辣子",
+      "葱",
+      "姜",
+      "白芸豆",
+      "白胡椒粉",
+      "白芷",
+      "蒜",
+      "花椒油",
+      "料酒",
+      "当归",
+      "小米椒",
+      "猪蹄"
+    ],
+    "methods": [
+      "酸辣",
+      "泡",
+      "煮",
+      "烧",
+      "油泼",
+      "炖",
+      "红烧"
+    ],
+    "cuisines": [
+      "川菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/老妈蹄花/老妈蹄花.md",
+    "recipe_id": "fc677dfe373f9eefa1539dad78d47460"
+  },
+  {
+    "dish_name": "香煎五花肉",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "味精",
+      "酱油",
+      "豆瓣酱",
+      "盐",
+      "油",
+      "姜蒜",
+      "五花肉条",
+      "生菜",
+      "料酒"
+    ],
+    "methods": [
+      "腌",
+      "煮",
+      "酱",
+      "煎"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 10.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/香煎五花肉/香煎五花肉.md",
+    "recipe_id": "fce369352fbac2496e40c21e1aa7f5d7"
+  },
+  {
+    "dish_name": "老式锅包肉",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "猪通脊肉",
+      "味精",
+      "食用油",
+      "盐",
+      "白熟芝麻",
+      "姜",
+      "香菜",
+      "土豆淀粉",
+      "小苏打",
+      "蒜",
+      "中筋面粉",
+      "大葱",
+      "料酒",
+      "胡萝卜",
+      "白糖"
+    ],
+    "methods": [
+      "腌",
+      "拌",
+      "炸"
+    ],
+    "cuisines": [
+      "东北菜"
+    ],
+    "cooking_time_min": 40.0,
+    "carb_amount_g": 271.7,
+    "source_file": "dishes/meat_dish/老式锅包肉/老式锅包肉.md",
+    "recipe_id": "0fb64ca95bf8fb43213d2194ce1e4448"
+  },
+  {
+    "dish_name": "香菇滑鸡",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "葱",
+      "姜",
+      "大鸡腿",
+      "蒜",
+      "干香菇"
+    ],
+    "methods": [
+      "腌",
+      "泡",
+      "炒",
+      "酱",
+      "蒸",
+      "爆"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 1.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/香菇滑鸡/香菇滑鸡.md",
+    "recipe_id": "9d3d42bf4fc982de272c8be00891ef59"
+  },
+  {
+    "dish_name": "酱排骨",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "排骨",
+      "白砂糖",
+      "食用油",
+      "生抽",
+      "五香粉",
+      "老抽",
+      "蚝油",
+      "姜",
+      "蒜",
+      "料酒",
+      "小米椒"
+    ],
+    "methods": [
+      "炒",
+      "卤",
+      "酱",
+      "煮",
+      "拌",
+      "焖",
+      "烧"
+    ],
+    "cuisines": [
+      "苏菜",
+      "鲁菜"
+    ],
+    "cooking_time_min": 40.0,
+    "carb_amount_g": 15.0,
+    "source_file": "dishes/meat_dish/酱排骨/酱排骨.md",
+    "recipe_id": "1038ffff1c7f1f5ca677802e06377aa6"
+  },
+  {
+    "dish_name": "芥末罗氏虾",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "胡椒粉",
+      "食用油",
+      "盐",
+      "生抽",
+      "生粉",
+      "小米辣",
+      "蚝油",
+      "黄油",
+      "蒜",
+      "罗氏虾",
+      "青芥末",
+      "白糖"
+    ],
+    "methods": [
+      "炒",
+      "炸",
+      "蒜蓉",
+      "蒸",
+      "煮",
+      "焖",
+      "酱",
+      "煎"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 2.0,
+    "carb_amount_g": 3.0,
+    "source_file": "dishes/meat_dish/芥末罗氏虾/芥末罗氏虾.md",
+    "recipe_id": "3462919b503b6b84d15c6946c45e633f"
+  },
+  {
+    "dish_name": "土豆炖排骨",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "小葱",
+      "干辣椒",
+      "花椒",
+      "生抽",
+      "姜",
+      "八角",
+      "肋排",
+      "老抽",
+      "蚝油",
+      "黄豆酱",
+      "土豆",
+      "料酒",
+      "桂皮",
+      "白糖"
+    ],
+    "methods": [
+      "红烧",
+      "炒",
+      "酱",
+      "煮",
+      "焖",
+      "烧",
+      "煲",
+      "煎",
+      "炖"
+    ],
+    "cuisines": [
+      "印度菜"
+    ],
+    "cooking_time_min": 72.0,
+    "carb_amount_g": 61.0,
+    "source_file": "dishes/meat_dish/土豆炖排骨/土豆炖排骨.md",
+    "recipe_id": "d053913385f3df877c43cbaa777922c4"
+  },
+  {
+    "dish_name": "羊排焖面",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "甜椒",
+      "白砂糖",
+      "干辣椒",
+      "花椒",
+      "老抽",
+      "大葱",
+      "生姜",
+      "带皮羊排肉",
+      "青椒"
+    ],
+    "methods": [
+      "炒",
+      "煮",
+      "拌",
+      "焖",
+      "炖"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 40.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/羊排焖面/羊排焖面.md",
+    "recipe_id": "9f7268d5cd03eb5990e512daadb10dc0"
+  },
+  {
+    "dish_name": "荔枝肉",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "鸡精",
+      "白砂糖",
+      "番茄酱",
+      "凤梨",
+      "食用油",
+      "香醋",
+      "生抽",
+      "鸡蛋",
+      "瘦肉",
+      "姜末",
+      "淀粉",
+      "芝麻"
+    ],
+    "methods": [
+      "熘",
+      "炒",
+      "炸",
+      "酱",
+      "拌",
+      "烧",
+      "糟"
+    ],
+    "cuisines": [
+      "闽菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 90.0,
+    "source_file": "dishes/meat_dish/荔枝肉/荔枝肉.md",
+    "recipe_id": "1db532f338ef4ae73784f2beb13b1a3a"
+  },
+  {
+    "dish_name": "台式卤肉饭",
+    "category": "荤菜",
+    "difficulty": 5,
+    "ingredients": [
+      "食用油",
+      "红葱头",
+      "冰糖",
+      "大蒜",
+      "鸡蛋",
+      "八角",
+      "生抽酱油",
+      "五香粉",
+      "白胡椒粉",
+      "香叶",
+      "米饭",
+      "带皮五花肉",
+      "米酒"
+    ],
+    "methods": [
+      "酱",
+      "煮",
+      "卤",
+      "炖"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 90.0,
+    "carb_amount_g": 20.0,
+    "source_file": "dishes/meat_dish/台式卤肉饭/台式卤肉饭.md",
+    "recipe_id": "711a18ed134aec0df251dd4bb746ba5a"
+  },
+  {
+    "dish_name": "咖喱肥牛",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "肥牛卷",
+      "香叶",
+      "咖喱块",
+      "土豆",
+      "纯牛奶",
+      "胡萝卜",
+      "洋葱"
+    ],
+    "methods": [
+      "炒",
+      "炸",
+      "煮",
+      "拌",
+      "烧",
+      "炖"
+    ],
+    "cuisines": [
+      "印度菜"
+    ],
+    "cooking_time_min": 4.5,
+    "carb_amount_g": 34.0,
+    "source_file": "dishes/meat_dish/咖喱肥牛/咖喱肥牛.md",
+    "recipe_id": "19b8593b4de35f02a50fcb2e30564a9e"
+  },
+  {
+    "dish_name": "奶酪培根通心粉",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "面粉",
+      "大蒜",
+      "黄油",
+      "牛奶",
+      "肉类",
+      "奶酪",
+      "通心粉",
+      "洋葱"
+    ],
+    "methods": [
+      "煮",
+      "烘",
+      "烤",
+      "拌"
+    ],
+    "cuisines": [
+      "美国菜"
+    ],
+    "cooking_time_min": 6.0,
+    "carb_amount_g": 35.7,
+    "source_file": "dishes/meat_dish/奶酪培根通心粉/奶酪培根通心粉.md",
+    "recipe_id": "a7ad2ca9d5b8d380da748606226500d9"
+  },
+  {
+    "dish_name": "湘祁米夫鸭",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "蒸肉粉",
+      "食用油",
+      "细辣椒粉",
+      "盐",
+      "鸭子",
+      "姜蒜",
+      "白胡椒粉",
+      "开水",
+      "粘米粉",
+      "糯米粉",
+      "五花肉"
+    ],
+    "methods": [
+      "蒸",
+      "炒",
+      "煮",
+      "烧"
+    ],
+    "cuisines": [
+      "湘菜"
+    ],
+    "cooking_time_min": 22.5,
+    "carb_amount_g": 100.0,
+    "source_file": "dishes/meat_dish/湘祁米夫鸭/湘祁米夫鸭.md",
+    "recipe_id": "582486c49404b581ae7d461569f78025"
+  },
+  {
+    "dish_name": "梅菜扣肉",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "食用盐",
+      "鸡精",
+      "白砂糖",
+      "食用油",
+      "生抽",
+      "五香粉",
+      "老抽",
+      "梅菜",
+      "蒜末",
+      "五花肉",
+      "小米椒"
+    ],
+    "methods": [
+      "焗",
+      "泡",
+      "炸",
+      "酱",
+      "蒸",
+      "煮",
+      "焖"
+    ],
+    "cuisines": [
+      "客家",
+      "湘菜",
+      "粤菜"
+    ],
+    "cooking_time_min": 125.0,
+    "carb_amount_g": 5.0,
+    "source_file": "dishes/meat_dish/梅菜扣肉/梅菜扣肉.md",
+    "recipe_id": "4acf45f3577e5b3561250873b2d4cbf9"
+  },
+  {
+    "dish_name": "枝竹羊腩煲",
+    "category": "荤菜",
+    "difficulty": 5,
+    "ingredients": [
+      "老抽",
+      "香菇",
+      "腐乳",
+      "羊腩",
+      "八角",
+      "香叶",
+      "腐竹",
+      "桂皮",
+      "葱段",
+      "清水",
+      "南乳",
+      "姜片",
+      "料酒",
+      "其余配菜例如马蹄",
+      "蒜瓣",
+      "冰糖",
+      "蚝油",
+      "洋葱或红葱头",
+      "柱侯酱"
+    ],
+    "methods": [
+      "泡",
+      "炒",
+      "炸",
+      "酱",
+      "煮",
+      "拌",
+      "焖",
+      "煲",
+      "炖"
+    ],
+    "cuisines": [
+      "粤菜"
+    ],
+    "cooking_time_min": 292.0,
+    "carb_amount_g": 20.0,
+    "source_file": "dishes/meat_dish/枝竹羊腩煲/枝竹羊腩煲.md",
+    "recipe_id": "db7d6004200d7d4df656e0bac723b3d0"
+  },
+  {
+    "dish_name": "醉排骨",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "鸡蛋黄",
+      "排骨",
+      "白砂糖",
+      "番茄酱",
+      "食用油",
+      "葱",
+      "鱼露",
+      "地瓜粉",
+      "香醋",
+      "芝麻",
+      "蒜头"
+    ],
+    "methods": [
+      "腌",
+      "炸",
+      "蒜蓉",
+      "拌",
+      "酱",
+      "醉"
+    ],
+    "cuisines": [
+      "印度菜",
+      "闽菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 10.0,
+    "source_file": "dishes/meat_dish/醉排骨/醉排骨.md",
+    "recipe_id": "f60e567cf76b324e8fe0cbcde263c9a5"
+  },
+  {
+    "dish_name": "无骨鸡爪",
+    "category": "荤菜",
+    "difficulty": 5,
+    "ingredients": [
+      "柠檬",
+      "花椒油",
+      "盐",
+      "生抽",
+      "黑醋",
+      "大蒜",
+      "白糖",
+      "姜",
+      "小米辣",
+      "鸡爪",
+      "蚝油",
+      "香菜",
+      "大葱",
+      "料酒",
+      "洋葱"
+    ],
+    "methods": [
+      "酱",
+      "煮",
+      "酸辣"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 10.0,
+    "source_file": "dishes/meat_dish/无骨鸡爪/无骨鸡爪.md",
+    "recipe_id": "e98d1acc5423f9aa05ed3b43a129060a"
+  },
+  {
+    "dish_name": "猪皮冻",
+    "category": "荤菜",
+    "difficulty": 5,
+    "ingredients": [
+      "花椒",
+      "香叶",
+      "白芷",
+      "大料",
+      "桂皮",
+      "猪皮",
+      "小茴香",
+      "丁香"
+    ],
+    "methods": [
+      "酱",
+      "煮",
+      "熬",
+      "泡"
+    ],
+    "cuisines": [
+      "东北菜",
+      "西北"
+    ],
+    "cooking_time_min": 97.5,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/猪皮冻/猪皮冻.md",
+    "recipe_id": "97670c169d9cff2ed4837159d189cd6d"
+  },
+  {
+    "dish_name": "柱候牛腩",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "南腐乳",
+      "郫县豆瓣酱",
+      "姜",
+      "老抽",
+      "蒜",
+      "生抽",
+      "花雕酒",
+      "八角",
+      "带筋的部位）",
+      "香叶",
+      "但极度推荐！）",
+      "甘草",
+      "高压锅（可选",
+      "叉烧酱",
+      "白酒",
+      "柱候酱",
+      "干辣椒",
+      "花椒",
+      "小米辣",
+      "蚝油",
+      "炖煮锅",
+      "牛腩（首选坑腩",
+      "丁香"
+    ],
+    "methods": [
+      "炒",
+      "酱",
+      "煮",
+      "焖",
+      "烧",
+      "煲",
+      "炖"
+    ],
+    "cuisines": [
+      "粤菜"
+    ],
+    "cooking_time_min": 17.5,
+    "carb_amount_g": 10.0,
+    "source_file": "dishes/meat_dish/柱候牛腩/柱候牛腩.md",
+    "recipe_id": "b294ead6e5097a327656b88f2f959bc4"
+  },
+  {
+    "dish_name": "啤酒鸭",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "鸡精",
+      "干辣椒",
+      "豆瓣酱",
+      "盐",
+      "冰糖",
+      "鸭肉",
+      "姜",
+      "生抽酱油",
+      "八角",
+      "香叶",
+      "啤酒",
+      "蒜",
+      "料酒",
+      "老抽酱油",
+      "丁香"
+    ],
+    "methods": [
+      "炒",
+      "酱",
+      "煮",
+      "焖",
+      "涮",
+      "炖"
+    ],
+    "cuisines": [
+      "川菜",
+      "湘菜"
+    ],
+    "cooking_time_min": 35.0,
+    "carb_amount_g": 10.0,
+    "source_file": "dishes/meat_dish/啤酒鸭/啤酒鸭.md",
+    "recipe_id": "4f21bacac6bf53a4aa21b7a673b8f907"
+  },
+  {
+    "dish_name": "小炒黄牛肉",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "野山椒",
+      "牛里脊",
+      "香菜",
+      "小米椒",
+      "芹菜"
+    ],
+    "methods": [
+      "腌",
+      "炒",
+      "酱",
+      "爆"
+    ],
+    "cuisines": [
+      "湘菜"
+    ],
+    "cooking_time_min": 1.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/小炒黄牛肉/小炒黄牛肉.md",
+    "recipe_id": "8770f558ad315bbb06c2e9a17690455b"
+  },
+  {
+    "dish_name": "宫保鸡丁",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "鸡精",
+      "干辣椒",
+      "芝麻油",
+      "盐",
+      "生抽酱油",
+      "手枪腿",
+      "大葱",
+      "熟花生",
+      "香醋",
+      "植物油",
+      "淀粉",
+      "白糖",
+      "料酒"
+    ],
+    "methods": [
+      "泡",
+      "炒",
+      "酱",
+      "油泼",
+      "爆"
+    ],
+    "cuisines": [
+      "京菜",
+      "川菜",
+      "鲁菜",
+      "黔菜"
+    ],
+    "cooking_time_min": 62.0,
+    "carb_amount_g": 23.2,
+    "source_file": "dishes/meat_dish/宫保鸡丁/宫保鸡丁.md",
+    "recipe_id": "4601431b797022a708859b795886349b"
+  },
+  {
+    "dish_name": "贵州辣子鸡",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "条子椒",
+      "蒜苗",
+      "豆瓣酱",
+      "花椒",
+      "酒糟",
+      "食用油",
+      "大蒜",
+      "姜",
+      "老抽",
+      "农村玉米鸡",
+      "遵义的子弹头",
+      "香叶",
+      "啤酒",
+      "土豆"
+    ],
+    "methods": [
+      "麻辣",
+      "炒",
+      "炸",
+      "酱",
+      "焖",
+      "糟"
+    ],
+    "cuisines": [
+      "鲁菜",
+      "黔菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/贵州辣子鸡/贵州辣子鸡.md",
+    "recipe_id": "1bcef5c872875c91b1853cf2f63a53ae"
+  },
+  {
+    "dish_name": "小炒鸡肝",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "食用盐",
+      "鸡精",
+      "胡椒粉",
+      "食用油",
+      "芝麻",
+      "姜",
+      "五香粉",
+      "生鸡肝",
+      "烧烤料或孜然粉",
+      "大葱",
+      "料酒",
+      "特别说明一下。）"
+    ],
+    "methods": [
+      "炒",
+      "烤",
+      "烧",
+      "爆"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 7.5,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/小炒鸡肝/小炒鸡肝.md",
+    "recipe_id": "e5a3584c07a53eadd40143773a07b449"
+  },
+  {
+    "dish_name": "麻婆豆腐",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "水果刀",
+      "内脂豆腐",
+      "酱油",
+      "花椒",
+      "大蒜",
+      "这个是灵魂）",
+      "香辣酱",
+      "食盐",
+      "咸鸭蛋（推荐留夫鸭的",
+      "五花肉",
+      "生姜",
+      "小米椒"
+    ],
+    "methods": [
+      "蒜蓉",
+      "酱",
+      "烧"
+    ],
+    "cuisines": [
+      "川菜",
+      "意大利菜",
+      "日本菜",
+      "美国菜"
+    ],
+    "cooking_time_min": 11.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/麻婆豆腐/麻婆豆腐.md",
+    "recipe_id": "30735a2835a22213deeb264dfe813d25"
+  },
+  {
+    "dish_name": "徽派红烧肉",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "白砂糖",
+      "食用油",
+      "盐",
+      "生抽",
+      "葱",
+      "五香粉",
+      "老抽",
+      "蚝油",
+      "姜片",
+      "料酒",
+      "五花肉",
+      "蒜头"
+    ],
+    "methods": [
+      "炒",
+      "炸",
+      "煮",
+      "烧",
+      "煎",
+      "红烧"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 32.0,
+    "carb_amount_g": 100.0,
+    "source_file": "dishes/meat_dish/徽派红烧肉/徽派红烧肉.md",
+    "recipe_id": "41b17311060790f3c2cf1fced18a1576"
+  },
+  {
+    "dish_name": "水煮牛肉",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "豆瓣酱",
+      "豆芽",
+      "鸡蛋",
+      "姜",
+      "蚝油",
+      "香菜",
+      "蒜",
+      "料酒",
+      "干辣椒粉",
+      "淀粉",
+      "牛肉",
+      "红辣椒"
+    ],
+    "methods": [
+      "腌",
+      "麻辣",
+      "炒",
+      "酱",
+      "煮",
+      "拌"
+    ],
+    "cuisines": [
+      "川菜",
+      "沪菜"
+    ],
+    "cooking_time_min": 15.0,
+    "carb_amount_g": 12.8,
+    "source_file": "dishes/meat_dish/水煮牛肉/水煮牛肉.md",
+    "recipe_id": "a29525cfe72c2628e3f356c0b3c9555c"
+  },
+  {
+    "dish_name": "冬瓜酿肉",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "胡椒粉",
+      "冬瓜",
+      "生抽",
+      "鸡蛋",
+      "葱",
+      "猪肉末",
+      "淀粉",
+      "葱姜末"
+    ],
+    "methods": [
+      "腌",
+      "炒",
+      "蒸",
+      "煮",
+      "拌"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 15.0,
+    "carb_amount_g": 25.5,
+    "source_file": "dishes/meat_dish/冬瓜酿肉/冬瓜酿肉.md",
+    "recipe_id": "5738d39a60bbdc661d17a4cd32bb0111"
+  },
+  {
+    "dish_name": "卤菜",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "南腐乳",
+      "干辣椒",
+      "豆瓣酱",
+      "盐",
+      "生抽",
+      "大蒜",
+      "黄豆酱",
+      "老抽",
+      "蚝油",
+      "啤酒",
+      "白糖（最好是黄冰糖",
+      "高压锅",
+      "牛腱子",
+      "生姜",
+      "滤网",
+      "卤料包",
+      "洋葱",
+      "用于熬糖色）"
+    ],
+    "methods": [
+      "腌",
+      "焗",
+      "泡",
+      "炒",
+      "熬",
+      "麻辣",
+      "卤",
+      "酱",
+      "煮",
+      "焖"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 30.0,
+    "source_file": "dishes/meat_dish/卤菜/卤菜.md",
+    "recipe_id": "bf601c67b2bcfd64b00e92ca122b6be3"
+  },
+  {
+    "dish_name": "酱牛肉",
+    "category": "荤菜",
+    "difficulty": 5,
+    "ingredients": [
+      "花椒",
+      "生抽",
+      "冰糖",
+      "盐",
+      "葱",
+      "姜",
+      "老抽",
+      "八角",
+      "黄豆酱",
+      "香叶",
+      "料酒",
+      "桂皮",
+      "牛肉"
+    ],
+    "methods": [
+      "腌",
+      "泡",
+      "酱",
+      "煮",
+      "炖"
+    ],
+    "cuisines": [
+      "京菜",
+      "鲁菜"
+    ],
+    "cooking_time_min": 270.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/酱牛肉/酱牛肉.md",
+    "recipe_id": "5bbef55483336e27e346d384ab8b0829"
+  },
+  {
+    "dish_name": "红烧猪蹄",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "食用油",
+      "盐",
+      "生抽",
+      "冰糖",
+      "葱",
+      "姜",
+      "老抽",
+      "八角",
+      "香叶",
+      "料酒",
+      "桂皮",
+      "猪蹄"
+    ],
+    "methods": [
+      "红烧",
+      "炒",
+      "熬",
+      "煮",
+      "烧",
+      "煲",
+      "炖"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 18.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/红烧猪蹄/红烧猪蹄.md",
+    "recipe_id": "6f361db2f2965d9bc3a9d8e9f44779d9"
+  },
+  {
+    "dish_name": "香干芹菜炒肉",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "猪肉",
+      "豆干",
+      "鸡精：可选",
+      "花椒：可选",
+      "食用油",
+      "盐",
+      "大蒜",
+      "老抽",
+      "蚝油",
+      "香芹/芹菜"
+    ],
+    "methods": [
+      "酱",
+      "炒",
+      "爆"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 1.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/香干芹菜炒肉/香干芹菜炒肉.md",
+    "recipe_id": "619d5809ae9e259ed0424de1c0267371"
+  },
+  {
+    "dish_name": "干煸仔鸡",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "胡椒粉",
+      "花椒碎",
+      "鸡腿",
+      "盐",
+      "生抽",
+      "大蒜",
+      "老抽",
+      "土豆",
+      "料酒",
+      "淀粉",
+      "青椒",
+      "白糖"
+    ],
+    "methods": [
+      "腌",
+      "炒",
+      "炸",
+      "酱",
+      "煮",
+      "拌",
+      "烧",
+      "爆"
+    ],
+    "cuisines": [
+      "京菜",
+      "川菜"
+    ],
+    "cooking_time_min": 42.0,
+    "carb_amount_g": 81.0,
+    "source_file": "dishes/meat_dish/干煸仔鸡/干煸仔鸡.md",
+    "recipe_id": "c42346453ff855a10b1f4eece82d6a35"
+  },
+  {
+    "dish_name": "新疆大盘鸡",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "干线椒",
+      "花椒",
+      "油",
+      "盐",
+      "大蒜",
+      "生抽",
+      "蚝油",
+      "香叶",
+      "菜椒和甜椒（可以不用",
+      "土豆",
+      "香果",
+      "鸡肉",
+      "大葱",
+      "料酒",
+      "白糖",
+      "加上配色好看）"
+    ],
+    "methods": [
+      "泡",
+      "炒",
+      "麻辣",
+      "煮",
+      "拌",
+      "爆",
+      "炖"
+    ],
+    "cuisines": [
+      "新疆菜"
+    ],
+    "cooking_time_min": 5.0,
+    "carb_amount_g": 147.5,
+    "source_file": "dishes/meat_dish/新疆大盘鸡/新疆大盘鸡.md",
+    "recipe_id": "18516b6b21b8e277729ff297cfefe516"
+  },
+  {
+    "dish_name": "姜炒鸡",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "鸡",
+      "盐",
+      "生抽",
+      "大蒜",
+      "美人辣",
+      "老抽",
+      "啤酒",
+      "泡椒",
+      "生姜",
+      "小米椒"
+    ],
+    "methods": [
+      "腌",
+      "泡",
+      "炒",
+      "焖"
+    ],
+    "cuisines": [
+      "湘菜"
+    ],
+    "cooking_time_min": 35.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/姜炒鸡/姜炒鸡.md",
+    "recipe_id": "7b5fc2d3de16a724cce176a1a16c471d"
+  },
+  {
+    "dish_name": "姜葱捞鸡",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "鸡腿肉",
+      "姜",
+      "葱",
+      "盐焗鸡粉"
+    ],
+    "methods": [
+      "腌",
+      "焗",
+      "蒸",
+      "煮",
+      "拌",
+      "爆"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 15.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/姜葱捞鸡/姜葱捞鸡.md",
+    "recipe_id": "abc1c461abc34981da95583ffef1f4d6"
+  },
+  {
+    "dish_name": "鱼香茄子",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "味精",
+      "糖",
+      "醋",
+      "盐",
+      "肉末",
+      "生抽",
+      "水淀粉",
+      "豆瓣酱",
+      "老抽",
+      "茄子"
+    ],
+    "methods": [
+      "酸辣",
+      "泡",
+      "炒",
+      "炸",
+      "酱",
+      "拌",
+      "烧"
+    ],
+    "cuisines": [
+      "川菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/鱼香茄子/鱼香茄子.md",
+    "recipe_id": "694463cd702c24b184e9bf129d00a243"
+  },
+  {
+    "dish_name": "口水鸡",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "辣椒粉",
+      "味精",
+      "醋",
+      "花椒",
+      "花生",
+      "生抽",
+      "葱姜蒜",
+      "半只鸡",
+      "白糖"
+    ],
+    "methods": [
+      "煮",
+      "麻辣",
+      "凉拌",
+      "拌"
+    ],
+    "cuisines": [
+      "川菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 5.0,
+    "source_file": "dishes/meat_dish/口水鸡/口水鸡.md",
+    "recipe_id": "246043a228c1b73e430cb8c1668812a9"
+  },
+  {
+    "dish_name": "豆豉鲮鱼油麦菜",
+    "category": "荤菜",
+    "difficulty": 2,
+    "ingredients": [
+      "食用油",
+      "生抽",
+      "甘竹牌鲮鱼罐头",
+      "蒜",
+      "白糖",
+      "油麦菜"
+    ],
+    "methods": [
+      "拌",
+      "炒",
+      "炝",
+      "爆"
+    ],
+    "cuisines": [
+      "粤菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 3.0,
+    "source_file": "dishes/meat_dish/豆豉鲮鱼油麦菜/豆豉鲮鱼油麦菜.md",
+    "recipe_id": "86b23e9a8f0f561da17790345370a1e5"
+  },
+  {
+    "dish_name": "简易红烧肉",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "`八角`",
+      "`香叶`",
+      "`水`",
+      "`老抽`",
+      "`葱`",
+      "辅料：`生姜`",
+      "`冰糖`",
+      "`料酒`",
+      "`鸡蛋`",
+      "主料：`大肉`",
+      "注：如果有可能",
+      "`豆皮`",
+      "`盐`",
+      "`生抽`"
+    ],
+    "methods": [
+      "红烧",
+      "炒",
+      "酱",
+      "煮",
+      "烧",
+      "煎",
+      "炖"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 15.0,
+    "source_file": "dishes/meat_dish/红烧肉/简易红烧肉.md",
+    "recipe_id": "e11778334a7bb95b9adf98145d0f888c"
+  },
+  {
+    "dish_name": "南派红烧肉",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "铝锅其次",
+      "`香叶`",
+      "`冰糖`",
+      "`凉水`",
+      "`老抽`",
+      "`开水`",
+      "高压锅也可以",
+      "`八角`",
+      "主料：`五花肉`",
+      "辅料：`油`",
+      "`生姜`",
+      "`葱`",
+      "`蒜`",
+      "最好不要铁锅",
+      "注：如果有可能",
+      "`盐`",
+      "铜锅）",
+      "`料酒`",
+      "`花椒`"
+    ],
+    "methods": [
+      "煮",
+      "炒",
+      "烧",
+      "红烧"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 65.0,
+    "carb_amount_g": 30.0,
+    "source_file": "dishes/meat_dish/红烧肉/南派红烧肉.md",
+    "recipe_id": "bcbc8a2c9ae828416821e8ed92ddd9a6"
+  },
+  {
+    "dish_name": "尖叫牛蛙",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "胡椒粉",
+      "泡姜",
+      "野山椒",
+      "猪油",
+      "豆瓣酱",
+      "青红辣椒",
+      "大蒜",
+      "牛蛙肉",
+      "生粉",
+      "葱花",
+      "啤酒",
+      "泡椒",
+      "料酒",
+      "盐巴",
+      "藤椒油"
+    ],
+    "methods": [
+      "腌",
+      "泡",
+      "酱"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 10.5,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/尖叫牛蛙/尖叫牛蛙.md",
+    "recipe_id": "de1da0e2e5021dcf0d5b9dbd60db2edb"
+  },
+  {
+    "dish_name": "凉拌鸡丝",
+    "category": "荤菜",
+    "difficulty": 3,
+    "ingredients": [
+      "盐",
+      "生抽",
+      "鸡胸肉",
+      "麻油",
+      "姜",
+      "料酒",
+      "香醋",
+      "凉白开水",
+      "白糖"
+    ],
+    "methods": [
+      "泡",
+      "煮",
+      "拌",
+      "烧",
+      "凉拌"
+    ],
+    "cuisines": [
+      "川菜"
+    ],
+    "cooking_time_min": 30.0,
+    "carb_amount_g": 3.0,
+    "source_file": "dishes/meat_dish/凉拌鸡丝/凉拌鸡丝.md",
+    "recipe_id": "2a816261c3a9f2127f9cbecadbc7a361"
+  },
+  {
+    "dish_name": "荷兰豆炒腊肠",
+    "category": "荤菜",
+    "difficulty": 2,
+    "ingredients": [
+      "生抽",
+      "食用油",
+      "腊肠",
+      "荷兰豆"
+    ],
+    "methods": [
+      "蒸",
+      "炒",
+      "爆"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/荷兰豆炒腊肠/荷兰豆炒腊肠.md",
+    "recipe_id": "cbe6f35c43c113c3a935dbb8650a354e"
+  },
+  {
+    "dish_name": "广式萝卜牛腩",
+    "category": "荤菜",
+    "difficulty": 4,
+    "ingredients": [
+      "蒜瓣",
+      "干辣椒",
+      "酱油",
+      "盐",
+      "白萝卜",
+      "冰糖",
+      "葱",
+      "八角",
+      "老抽",
+      "蚝油",
+      "香叶",
+      "南乳",
+      "牛腩",
+      "姜片",
+      "桂皮",
+      "柱侯酱"
+    ],
+    "methods": [
+      "泡",
+      "炒",
+      "卤",
+      "酱",
+      "煮",
+      "焖",
+      "爆",
+      "炖"
+    ],
+    "cuisines": [
+      "粤菜"
+    ],
+    "cooking_time_min": 37.5,
+    "carb_amount_g": 10.0,
+    "source_file": "dishes/meat_dish/广式萝卜牛腩/广式萝卜牛腩.md",
+    "recipe_id": "d8c8866d7ae23a21200add2e94106a0b"
+  },
+  {
+    "dish_name": "血浆鸭",
+    "category": "荤菜",
+    "difficulty": 5,
+    "ingredients": [
+      "鸡精",
+      "酒（或者白酒",
+      "盐",
+      "生抽",
+      "鲜仔鸭肉",
+      "葱",
+      "姜",
+      "啤酒",
+      "米酒皆可）",
+      "料酒",
+      "辣椒",
+      "蒜仔"
+    ],
+    "methods": [
+      "酸辣",
+      "炒",
+      "拌",
+      "焖",
+      "煎",
+      "爆"
+    ],
+    "cuisines": [
+      "湘菜",
+      "黔菜"
+    ],
+    "cooking_time_min": 25.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/meat_dish/血浆鸭/血浆鸭.md",
+    "recipe_id": "ccec2da022c556c977181196bc4b11fa"
+  },
+  {
+    "dish_name": "油泼辣子",
+    "category": "调料",
+    "difficulty": 3,
+    "ingredients": [
+      "小葱",
+      "家庭小陶瓷碗",
+      "糖",
+      "盐",
+      "花椒",
+      "五香粉",
+      "八角",
+      "花生油",
+      "干辣椒面",
+      "香叶",
+      "家庭铁勺子",
+      "草寇",
+      "熟白芝麻",
+      "白芷",
+      "姜片",
+      "白醋",
+      "小米椒",
+      "蒜头"
+    ],
+    "methods": [
+      "泡",
+      "油泼"
+    ],
+    "cuisines": [
+      "西北"
+    ],
+    "cooking_time_min": 10.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/condiment/油泼辣子/油泼辣子.md",
+    "recipe_id": "e92d46c321e019822fa9eda5b7d71e6e"
+  },
+  {
+    "dish_name": "蔗糖糖浆",
+    "category": "调料",
+    "difficulty": 1,
+    "ingredients": [
+      "白砂糖",
+      "便宜）",
+      "水"
+    ],
+    "methods": [],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 100.0,
+    "source_file": "dishes/condiment/蔗糖糖浆/蔗糖糖浆.md",
+    "recipe_id": "92f390dc2d98f54aa6eb5d9a7441d3fa"
+  },
+  {
+    "dish_name": "草莓酱",
+    "category": "调料",
+    "difficulty": 2,
+    "ingredients": [
+      "草莓",
+      "白砂糖",
+      "保鲜膜"
+    ],
+    "methods": [
+      "腌",
+      "熬",
+      "酱",
+      "煮",
+      "拌",
+      "烧"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 60.0,
+    "carb_amount_g": 400.0,
+    "source_file": "dishes/condiment/草莓酱/草莓酱.md",
+    "recipe_id": "a05933bb0198dd3a56e642dda623afda"
+  },
+  {
+    "dish_name": "陈皮排骨汤",
+    "category": "汤品",
+    "difficulty": 3,
+    "ingredients": [
+      "排骨",
+      "陈皮",
+      "盐",
+      "西洋参",
+      "玉竹",
+      "煲汤盅",
+      "麦冬",
+      "石斛"
+    ],
+    "methods": [
+      "熬",
+      "煮",
+      "烧",
+      "煲",
+      "炖"
+    ],
+    "cuisines": [
+      "粤菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/soup/陈皮排骨汤/陈皮排骨汤.md",
+    "recipe_id": "789cdda031ae37e82f3e2cfef30a10d1"
+  },
+  {
+    "dish_name": "排骨苦瓜汤",
+    "category": "汤品",
+    "difficulty": 4,
+    "ingredients": [
+      "排骨",
+      "虾皮",
+      "苦瓜",
+      "电压力锅",
+      "砂锅"
+    ],
+    "methods": [
+      "泡",
+      "炒",
+      "煮",
+      "煲",
+      "炖"
+    ],
+    "cuisines": [
+      "粤菜"
+    ],
+    "cooking_time_min": 180.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/soup/排骨苦瓜汤/排骨苦瓜汤.md",
+    "recipe_id": "2af133c2c28f2b9463c139c32434b0ab"
+  },
+  {
+    "dish_name": "菌菇炖乳鸽",
+    "category": "汤品",
+    "difficulty": 4,
+    "ingredients": [
+      "食用盐",
+      "菌菇",
+      "玉米",
+      "姜",
+      "瓦罐或者高压锅",
+      "料酒",
+      "乳鸽"
+    ],
+    "methods": [
+      "煮",
+      "烧",
+      "炖"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 50.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/soup/菌菇炖乳鸽/菌菇炖乳鸽.md",
+    "recipe_id": "51fe5ac68f5048b454364df1549e5827"
+  },
+  {
+    "dish_name": "玉米排骨汤",
+    "category": "汤品",
+    "difficulty": 3,
+    "ingredients": [
+      "食用盐",
+      "排骨",
+      "胡箩卜",
+      "食用油",
+      "醋",
+      "玉米",
+      "黑胡椒粉",
+      "用铁锅也行）",
+      "砂锅（没有的话",
+      "大葱",
+      "料酒",
+      "生姜"
+    ],
+    "methods": [
+      "炒",
+      "煮",
+      "烧",
+      "煲",
+      "炖"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/soup/玉米排骨汤/玉米排骨汤.md",
+    "recipe_id": "999de6fabda02d96dcb8a04fa0ba54fd"
+  },
+  {
+    "dish_name": "朱雀汤",
+    "category": "汤品",
+    "difficulty": 1,
+    "ingredients": [
+      "香油",
+      "鸡蛋",
+      "水",
+      "白糖"
+    ],
+    "methods": [
+      "煮",
+      "泡",
+      "烧"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 20.0,
+    "source_file": "dishes/soup/朱雀汤/朱雀汤.md",
+    "recipe_id": "2ddcc8180b864c0b94ab02d3bd7f8105"
+  },
+  {
+    "dish_name": "银耳莲子粥",
+    "category": "汤品",
+    "difficulty": 4,
+    "ingredients": [
+      "银耳",
+      "冰糖",
+      "去心莲子",
+      "枸杞",
+      "红枣"
+    ],
+    "methods": [
+      "拌",
+      "泡",
+      "烧",
+      "熬"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 45.0,
+    "carb_amount_g": 15.0,
+    "source_file": "dishes/soup/银耳莲子粥/银耳莲子粥.md",
+    "recipe_id": "1defc21268606ad37a400cb2aa9fb7b9"
+  },
+  {
+    "dish_name": "昂刺鱼豆腐汤",
+    "category": "汤品",
+    "difficulty": 3,
+    "ingredients": [
+      "食用盐",
+      "胡椒粉",
+      "食用油",
+      "昂刺鱼或者沙光鱼",
+      "豆腐",
+      "姜",
+      "料酒",
+      "香葱"
+    ],
+    "methods": [
+      "腌",
+      "泡",
+      "熬",
+      "蒸",
+      "煮",
+      "烧",
+      "煎",
+      "炖"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 37.5,
+    "carb_amount_g": null,
+    "source_file": "dishes/soup/昂刺鱼豆腐汤/昂刺鱼豆腐汤.md",
+    "recipe_id": "afc14243084f7ca4b500f0afcc65f855"
+  },
+  {
+    "dish_name": "羊肉汤",
+    "category": "汤品",
+    "difficulty": 3,
+    "ingredients": [
+      "食用盐",
+      "食用油",
+      "羊肉或羊杂",
+      "白胡椒粉",
+      "香菜",
+      "大葱",
+      "料酒",
+      "孜然粉"
+    ],
+    "methods": [
+      "煮",
+      "炒",
+      "熬",
+      "炖"
+    ],
+    "cuisines": [
+      "川菜",
+      "鲁菜"
+    ],
+    "cooking_time_min": 2.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/soup/羊肉汤/羊肉汤.md",
+    "recipe_id": "69f669a7608ed4ea72515e0f621d280d"
+  },
+  {
+    "dish_name": "勾芡香菇汤",
+    "category": "汤品",
+    "difficulty": 3,
+    "ingredients": [
+      "食用盐",
+      "鸡精",
+      "食用油",
+      "生粉",
+      "香菇",
+      "香葱"
+    ],
+    "methods": [
+      "泡",
+      "炒",
+      "炸",
+      "煮",
+      "拌",
+      "煎"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 19.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/soup/勾芡香菇汤/勾芡香菇汤.md",
+    "recipe_id": "6c2ea891c8e10f056a3e9c9fa0012ba1"
+  },
+  {
+    "dish_name": "香煎翘嘴鱼",
+    "category": "水产",
+    "difficulty": 4,
+    "ingredients": [
+      "豆瓣酱",
+      "盐",
+      "生抽",
+      "葱",
+      "姜",
+      "肉细腻",
+      "老抽",
+      "香菜",
+      "蒜",
+      "料酒",
+      "口感好）",
+      "青椒",
+      "白糖",
+      "翘嘴鱼（肉食性鱼类"
+    ],
+    "methods": [
+      "腌",
+      "炒",
+      "酱",
+      "烧",
+      "煎"
+    ],
+    "cuisines": [
+      "湘菜"
+    ],
+    "cooking_time_min": 10.0,
+    "carb_amount_g": 10.0,
+    "source_file": "dishes/aquatic/香煎翘嘴鱼/香煎翘嘴鱼.md",
+    "recipe_id": "89eabbe4d55385f980f781a7944b5e3a"
+  },
+  {
+    "dish_name": "鳊鱼炖豆腐",
+    "category": "水产",
+    "difficulty": 3,
+    "ingredients": [
+      "干辣椒",
+      "盐",
+      "生抽",
+      "冰糖",
+      "葱",
+      "姜",
+      "老抽",
+      "八角",
+      "香叶",
+      "老豆腐",
+      "热水",
+      "蒜",
+      "料酒",
+      "桂皮",
+      "鳊鱼"
+    ],
+    "methods": [
+      "腌",
+      "炒",
+      "烧",
+      "煎",
+      "炖"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 20.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/aquatic/鳊鱼炖豆腐/鳊鱼炖豆腐.md",
+    "recipe_id": "3e88746b45a75c85853ef890f041dc31"
+  },
+  {
+    "dish_name": "小龙虾",
+    "category": "水产",
+    "difficulty": 4,
+    "ingredients": [
+      "小龙虾",
+      "青花椒",
+      "花椒",
+      "油",
+      "生抽",
+      "盐",
+      "八角",
+      "葱姜蒜",
+      "黄豆酱",
+      "香叶",
+      "啤酒",
+      "桂皮",
+      "子弹头辣椒",
+      "郫县豆瓣"
+    ],
+    "methods": [
+      "酱",
+      "炒"
+    ],
+    "cuisines": [
+      "东北菜",
+      "墨西哥菜",
+      "美国菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/aquatic/小龙虾/小龙虾.md",
+    "recipe_id": "49d0abfca9d79bc984fd12db3fe5eb36"
+  },
+  {
+    "dish_name": "蒜香黄油虾",
+    "category": "水产",
+    "difficulty": 2,
+    "ingredients": [
+      "柠檬",
+      "厨房用夹",
+      "大蒜",
+      "无盐黄油",
+      "大虾",
+      "平底煎锅",
+      "白葡萄酒"
+    ],
+    "methods": [
+      "腌",
+      "炒",
+      "酱",
+      "煮",
+      "煎"
+    ],
+    "cuisines": [
+      "西餐"
+    ],
+    "cooking_time_min": 1.2,
+    "carb_amount_g": null,
+    "source_file": "dishes/aquatic/蒜香黄油虾/蒜香黄油虾.md",
+    "recipe_id": "9f5c6a87131c8ebd2f953eba97362852"
+  },
+  {
+    "dish_name": "白灼虾",
+    "category": "水产",
+    "difficulty": 2,
+    "ingredients": [
+      "酱油",
+      "食用油",
+      "香醋",
+      "葱",
+      "姜",
+      "蚝油",
+      "蒜",
+      "料酒",
+      "活虾",
+      "芝麻",
+      "洋葱"
+    ],
+    "methods": [
+      "清蒸",
+      "灼",
+      "蒜蓉",
+      "蒸",
+      "煮",
+      "酱",
+      "烧",
+      "白灼"
+    ],
+    "cuisines": [
+      "粤菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/aquatic/白灼虾/白灼虾.md",
+    "recipe_id": "55c31c06dcf1606e69e55111395d3ae6"
+  },
+  {
+    "dish_name": "葱烧海参",
+    "category": "水产",
+    "difficulty": 3,
+    "ingredients": [
+      "大葱葱白"
+    ],
+    "methods": [
+      "泡",
+      "炸",
+      "酱",
+      "拌",
+      "焖",
+      "烧",
+      "炖"
+    ],
+    "cuisines": [
+      "京菜",
+      "鲁菜"
+    ],
+    "cooking_time_min": 11.5,
+    "carb_amount_g": 3.7,
+    "source_file": "dishes/aquatic/葱烧海参/葱烧海参.md",
+    "recipe_id": "1610a95f6986a965d60842c96e44088b"
+  },
+  {
+    "dish_name": "蛏抱蛋",
+    "category": "水产",
+    "difficulty": 3,
+    "ingredients": [
+      "鸡精",
+      "蛏子",
+      "食用油",
+      "生抽",
+      "鸡蛋",
+      "料酒",
+      "淀粉",
+      "洋葱"
+    ],
+    "methods": [
+      "炸",
+      "煮",
+      "拌",
+      "烧",
+      "煎"
+    ],
+    "cuisines": [
+      "闽菜"
+    ],
+    "cooking_time_min": 2.0,
+    "carb_amount_g": 17.0,
+    "source_file": "dishes/aquatic/蛏抱蛋/蛏抱蛋.md",
+    "recipe_id": "aa26412ed5a782b3b2b55a137d37d48e"
+  },
+  {
+    "dish_name": "油焖大虾",
+    "category": "水产",
+    "difficulty": 4,
+    "ingredients": [
+      "盐",
+      "冰糖",
+      "葱",
+      "姜",
+      "料酒",
+      "植物油",
+      "黑虎虾"
+    ],
+    "methods": [
+      "葱油",
+      "油焖",
+      "糖醋",
+      "炸",
+      "拌",
+      "焖",
+      "烧"
+    ],
+    "cuisines": [
+      "鄂菜",
+      "鲁菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 10.0,
+    "source_file": "dishes/aquatic/油焖大虾/油焖大虾.md",
+    "recipe_id": "5e9a677f687b25b3ed660e25a9fec209"
+  },
+  {
+    "dish_name": "葱油桂鱼",
+    "category": "水产",
+    "difficulty": 4,
+    "ingredients": [
+      "蒸鱼豉油",
+      "盐",
+      "姜",
+      "蒸鱼盘子",
+      "桂鱼",
+      "蒸笼",
+      "削皮刀",
+      "塑料盘或塑料盆",
+      "厨房纸",
+      "小葱",
+      "清水",
+      "料酒",
+      "菜刀",
+      "铁锅",
+      "砧板",
+      "小米辣",
+      "一次性手套",
+      "植物油",
+      "防烫盘夹"
+    ],
+    "methods": [
+      "腌",
+      "蒸",
+      "葱油"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 35.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/aquatic/葱油桂鱼/葱油桂鱼.md",
+    "recipe_id": "5c8b1fb1f1c5097bbd5022a7b5848758"
+  },
+  {
+    "dish_name": "蒜蓉虾",
+    "category": "水产",
+    "difficulty": 2,
+    "ingredients": [
+      "生抽",
+      "海虾",
+      "蒜蓉酱",
+      "食用油"
+    ],
+    "methods": [
+      "蒜蓉",
+      "蒸",
+      "酱",
+      "烧"
+    ],
+    "cuisines": [
+      "粤菜"
+    ],
+    "cooking_time_min": 3.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/aquatic/蒜蓉虾/蒜蓉虾.md",
+    "recipe_id": "33668631a46eb15a75dedc3b981d5b0a"
+  },
+  {
+    "dish_name": "干煎阿根廷红虾",
+    "category": "水产",
+    "difficulty": 3,
+    "ingredients": [
+      "柠檬",
+      "黑胡椒",
+      "生抽",
+      "阿根廷红虾",
+      "大蒜",
+      "香菜",
+      "生姜",
+      "海盐",
+      "洋葱",
+      "白葡萄酒"
+    ],
+    "methods": [
+      "干煎",
+      "炒",
+      "煎"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 3.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/aquatic/干煎阿根廷红虾/干煎阿根廷红虾.md",
+    "recipe_id": "f8b0e06a555156b521b2119f18c5ee2c"
+  },
+  {
+    "dish_name": "清蒸鲈鱼",
+    "category": "水产",
+    "difficulty": 3,
+    "ingredients": [
+      "食用盐",
+      "蒸鱼豉油",
+      "食用油",
+      "姜",
+      "鲈鱼",
+      "料酒",
+      "香葱"
+    ],
+    "methods": [
+      "腌",
+      "清蒸",
+      "泡",
+      "蒸",
+      "焖"
+    ],
+    "cuisines": [
+      "沪菜",
+      "粤菜"
+    ],
+    "cooking_time_min": 20.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/aquatic/清蒸鲈鱼/清蒸鲈鱼.md",
+    "recipe_id": "fe2ac37e52be55e8955b0f8a84eb9914"
+  },
+  {
+    "dish_name": "芥末黄油罗氏虾",
+    "category": "水产",
+    "difficulty": 3,
+    "ingredients": [
+      "盐",
+      "生抽",
+      "芥末",
+      "蚝油",
+      "黄油",
+      "香菜",
+      "蒜",
+      "料酒",
+      "罗氏虾",
+      "白糖",
+      "朗姆酒或啤酒"
+    ],
+    "methods": [
+      "炒",
+      "蒜蓉",
+      "煮",
+      "拌",
+      "酱",
+      "煎"
+    ],
+    "cuisines": [
+      "粤菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 3.0,
+    "source_file": "dishes/aquatic/芥末黄油罗氏虾/芥末黄油罗氏虾.md",
+    "recipe_id": "6257735d955a1d76ac0f215242608fdc"
+  },
+  {
+    "dish_name": "烤鱼",
+    "category": "水产",
+    "difficulty": 4,
+    "ingredients": [
+      "青花椒",
+      "豆瓣酱",
+      "绿豆芽",
+      "白胡椒粉",
+      "干辣椒段",
+      "火锅底料",
+      "芹菜段",
+      "大蒜",
+      "八角",
+      "香叶",
+      "桂皮",
+      "千张",
+      "食用盐",
+      "灯笼椒",
+      "去除不要的器官）",
+      "白芝麻",
+      "料酒",
+      "洋葱",
+      "熟花生米",
+      "香菜（放更好吃",
+      "大葱"
+    ],
+    "methods": [
+      "腌",
+      "泡",
+      "麻辣",
+      "酱",
+      "煮",
+      "烤",
+      "炖"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 5.5,
+    "carb_amount_g": null,
+    "source_file": "dishes/aquatic/混合烤鱼/烤鱼.md",
+    "recipe_id": "34e7d4b5de9835e0a9d2594670722174"
+  },
+  {
+    "dish_name": "鲤鱼炖白菜",
+    "category": "水产",
+    "difficulty": 3,
+    "ingredients": [
+      "郫县豆瓣酱",
+      "鲤鱼",
+      "白菜心/娃娃菜",
+      "干辣椒",
+      "食用油",
+      "盐",
+      "生抽",
+      "姜",
+      "老抽",
+      "八角",
+      "蒜",
+      "桂皮"
+    ],
+    "methods": [
+      "泡",
+      "炒",
+      "酱",
+      "煎",
+      "炖"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 17.5,
+    "carb_amount_g": null,
+    "source_file": "dishes/aquatic/鲤鱼炖白菜/鲤鱼炖白菜.md",
+    "recipe_id": "d7737cbc23f75b1b56f1a6f9c5ec003c"
+  },
+  {
+    "dish_name": "糖醋鲤鱼",
+    "category": "水产",
+    "difficulty": 4,
+    "ingredients": [
+      "菜刀一个",
+      "笊篱一个",
+      "番茄酱",
+      "鲤鱼",
+      "盐",
+      "葱",
+      "姜",
+      "盆",
+      "白醋",
+      "料酒",
+      "淀粉",
+      "锅铲一个",
+      "白糖",
+      "香菜一颗"
+    ],
+    "methods": [
+      "腌",
+      "油焖",
+      "糖醋",
+      "炸",
+      "酱",
+      "焖",
+      "烧"
+    ],
+    "cuisines": [
+      "鲁菜"
+    ],
+    "cooking_time_min": 30.0,
+    "carb_amount_g": 28.5,
+    "source_file": "dishes/aquatic/糖醋鲤鱼/糖醋鲤鱼.md",
+    "recipe_id": "40f1924c7511a8549559dd1cf0c3e5ab"
+  },
+  {
+    "dish_name": "黄油煎虾",
+    "category": "水产",
+    "difficulty": 3,
+    "ingredients": [
+      "一次用一小盒 7g）",
+      "盐",
+      "生抽",
+      "黄油（推荐安佳",
+      "黑胡椒粒",
+      "米酒",
+      "普通明虾也可以）",
+      "白糖"
+    ],
+    "methods": [
+      "酱",
+      "炒",
+      "煎"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/aquatic/黄油煎虾/黄油煎虾.md",
+    "recipe_id": "f052286e555f3e3cf66301380f49bd83"
+  },
+  {
+    "dish_name": "菠萝咖啡特调",
+    "category": "饮品",
+    "difficulty": 3,
+    "ingredients": [
+      "海盐",
+      "糖",
+      "朗姆酒",
+      "冰块",
+      "牛奶",
+      "菠萝汁",
+      "咖啡液",
+      "苏打水",
+      "奶油"
+    ],
+    "methods": [
+      "泡",
+      "烘"
+    ],
+    "cuisines": [
+      "沪菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/drink/菠萝咖啡特调/菠萝咖啡特调.md",
+    "recipe_id": "bee98735b2d2e04a25c21869e63d589e"
+  },
+  {
+    "dish_name": "百香果橙子特调",
+    "category": "饮品",
+    "difficulty": 3,
+    "ingredients": [
+      "白砂糖",
+      "原料:",
+      "装饰使用）",
+      "工具",
+      "百香果",
+      "手动压汁器",
+      "蜂蜜",
+      "冰块",
+      "橙子"
+    ],
+    "methods": [
+      "腌",
+      "拌",
+      "泡"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 38.2,
+    "source_file": "dishes/drink/百香果橙子特调/百香果橙子特调.md",
+    "recipe_id": "55bafc93a27fe649cc7440f77813120d"
+  },
+  {
+    "dish_name": "酒酿醪糟",
+    "category": "饮品",
+    "difficulty": 4,
+    "ingredients": [
+      "温度计",
+      "蒸锅",
+      "糯米 800g"
+    ],
+    "methods": [
+      "煲",
+      "蒸",
+      "糟",
+      "拌"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 12.5,
+    "carb_amount_g": null,
+    "source_file": "dishes/drink/酒酿醪糟/酒酿醪糟.md",
+    "recipe_id": "b879ae353c35fd5781f388ad7d7d2de3"
+  },
+  {
+    "dish_name": "砂糖椰子冰沙",
+    "category": "饮品",
+    "difficulty": 1,
+    "ingredients": [
+      "咖啡调糖",
+      "瓶装椰汁"
+    ],
+    "methods": [],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/drink/砂糖椰子冰沙/砂糖椰子冰沙.md",
+    "recipe_id": "e9982fdf95378eccd14d8018510c417a"
+  },
+  {
+    "dish_name": "奇异果菠菜特调",
+    "category": "饮品",
+    "difficulty": 1,
+    "ingredients": [
+      "白砂糖",
+      "原料:",
+      "水",
+      "工具",
+      "苹果",
+      "榨汁机",
+      "菠菜叶",
+      "奇异果"
+    ],
+    "methods": [
+      "拌"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 12.0,
+    "source_file": "dishes/drink/奇异果菠菜特调/奇异果菠菜特调.md",
+    "recipe_id": "f4b8a05022973c3c347f9076f738add3"
+  },
+  {
+    "dish_name": "海边落日",
+    "category": "饮品",
+    "difficulty": 3,
+    "ingredients": [
+      "白朗姆",
+      "柠檬",
+      "量酒器",
+      "水果刀",
+      "搅拌棒",
+      "大号的玻璃杯",
+      "红石榴糖浆",
+      "蓝橙力娇酒",
+      "冰块",
+      "吸管",
+      "柠檬汁",
+      "苏打水",
+      "调酒杯",
+      "NFC 橙汁"
+    ],
+    "methods": [
+      "拌"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/drink/海边落日/海边落日.md",
+    "recipe_id": "8154ac072dbf79bf0b6f4ac83a51de1f"
+  },
+  {
+    "dish_name": "冰粉",
+    "category": "饮品",
+    "difficulty": 2,
+    "ingredients": [
+      "冰粉籽 200g",
+      "过滤豆浆渣的纱布一块",
+      "凉白开 2000g",
+      "一次性透明塑料杯",
+      "遇水发光冰块"
+    ],
+    "methods": [],
+    "cuisines": [
+      "川菜",
+      "黔菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/drink/冰粉/冰粉.md",
+    "recipe_id": "0cec58b85613c6c66bdde6aac56bd38c"
+  },
+  {
+    "dish_name": "金汤力",
+    "category": "饮品",
+    "difficulty": 2,
+    "ingredients": [
+      "柠檬",
+      "新鲜绿叶（可选",
+      "手动压汁器",
+      "汤力水气泡水",
+      "金酒",
+      "冰块",
+      "装饰用）"
+    ],
+    "methods": [
+      "拌",
+      "泡"
+    ],
+    "cuisines": [
+      "英国菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/drink/金汤力/金汤力.md",
+    "recipe_id": "c1dedbe7d9d545db07996ca2387ae4c6"
+  },
+  {
+    "dish_name": "金菲士",
+    "category": "饮品",
+    "difficulty": 2,
+    "ingredients": [
+      "雪克瓶",
+      "柠檬",
+      "新鲜绿叶（可选",
+      "手动压汁器",
+      "金酒",
+      "冰块",
+      "[蔗糖糖浆]",
+      "苏打气泡水",
+      "装饰用）"
+    ],
+    "methods": [
+      "拌",
+      "泡",
+      "爆"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 35.0,
+    "source_file": "dishes/drink/金菲士/金菲士.md",
+    "recipe_id": "e3643fc704f5dc1c11b0986915d26331"
+  },
+  {
+    "dish_name": "柠檬水",
+    "category": "饮品",
+    "difficulty": 1,
+    "ingredients": [
+      "柠檬",
+      "果蜜",
+      "工具",
+      "冰",
+      "雪克杯",
+      "原料"
+    ],
+    "methods": [
+      "泡"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": null,
+    "source_file": "dishes/drink/柠檬水/柠檬水.md",
+    "recipe_id": "c65c0d88b2cccf38224e042e11025ce7"
+  },
+  {
+    "dish_name": "耙耙柑茶",
+    "category": "饮品",
+    "difficulty": 2,
+    "ingredients": [
+      "原料:",
+      "工具",
+      "搅拌机",
+      "[蔗糖糖浆]",
+      "冰块",
+      "茉莉绿茶",
+      "耙耙柑"
+    ],
+    "methods": [
+      "拌",
+      "泡"
+    ],
+    "cuisines": [],
+    "cooking_time_min": null,
+    "carb_amount_g": 10.0,
+    "source_file": "dishes/drink/耙耙柑茶/耙耙柑茶.md",
+    "recipe_id": "7b7f5e9a997a4262162ac4697aec6317"
+  },
+  {
+    "dish_name": "泰国手标红茶",
+    "category": "饮品",
+    "difficulty": 3,
+    "ingredients": [
+      "水",
+      "带刻度容器",
+      "克称",
+      "牛奶",
+      "港式奶茶过滤袋",
+      "炼乳",
+      "茶粉",
+      "白糖"
+    ],
+    "methods": [
+      "拌",
+      "烧"
+    ],
+    "cuisines": [
+      "泰国菜"
+    ],
+    "cooking_time_min": null,
+    "carb_amount_g": 24.0,
+    "source_file": "dishes/drink/泰国手标红茶/泰国手标红茶.md",
+    "recipe_id": "fcc8b0aec0b766a77f438475c8273aae"
+  },
+  {
+    "dish_name": "酸梅汤",
+    "category": "饮品",
+    "difficulty": 4,
+    "ingredients": [
+      "乌梅",
+      "干桂花",
+      "陈皮",
+      "水",
+      "山楂片",
+      "红豆蔻",
+      "乌枣",
+      "甘草",
+      "黄冰糖"
+    ],
+    "methods": [
+      "泡",
+      "熬",
+      "煮",
+      "拌",
+      "煎"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 60.0,
+    "carb_amount_g": 100.0,
+    "source_file": "dishes/drink/酸梅汤/酸梅汤.md",
+    "recipe_id": "d54ab7d9c0f9dd9be8fdbda964a6a6ee"
+  },
+  {
+    "dish_name": "苏格兰蛋",
+    "category": "早餐",
+    "difficulty": 3,
+    "ingredients": [
+      "空气炸锅或者油锅",
+      "鸡蛋",
+      "培根",
+      "芝士",
+      "手抓饼皮"
+    ],
+    "methods": [
+      "泡",
+      "炸"
+    ],
+    "cuisines": [],
+    "cooking_time_min": 25.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/breakfast/苏格兰蛋/苏格兰蛋.md",
+    "recipe_id": "505c242e0a51ea0069b58c340d59cff1"
+  },
+  {
+    "dish_name": "温泉蛋",
+    "category": "早餐",
+    "difficulty": 3,
+    "ingredients": [
+      "鸡蛋"
+    ],
+    "methods": [
+      "酱",
+      "煮"
+    ],
+    "cuisines": [
+      "日本菜"
+    ],
+    "cooking_time_min": 3.0,
+    "carb_amount_g": null,
+    "source_file": "dishes/breakfast/温泉蛋/温泉蛋.md",
+    "recipe_id": "24f80ebf4f298b6ae9bb6ab6cfe04248"
+  }
+]

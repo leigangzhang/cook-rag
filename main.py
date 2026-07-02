@@ -6,11 +6,15 @@ from pathlib import Path
 from typing import Optional
 from dotenv import load_dotenv
 from config import DEFAULT_CONFIG, RAGConf
+
 from modules.build_index import BuildIndex
 from modules.llm_generator import LLMGenerator
 from modules.query_retrial import QueryRetrail
 from modules.question_refactor import QuestionRefactor
 from modules.baike_crawler import BaikeCrawler
+from modules.query_router import QueryRouter,SearchStrategy,GraphRetriever
+
+from modules import graph_generator
 from langchain_community.chat_models.moonshot import MoonshotChat
 
 
@@ -25,6 +29,13 @@ logging.basicConfig(
     level=logging.INFO, 
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
+
+# 静音 huggingface_hub / urllib3 等第三方库的 INFO 日志
+# 模型已本地缓存，无需其输出的 HTTP HEAD 请求探测日志
+for _lib in ('huggingface_hub', 'urllib3', 'urllib3.connectionpool', 'filelock',
+              'sentence_transformers', 'faiss'):
+    logging.getLogger(_lib).setLevel(logging.WARNING)
+
 logger = logging.getLogger(__name__)
 
 
@@ -69,6 +80,14 @@ class RAGSystem:
             self.index_builder.save_index(vectorstore)
             logger.info("知识库构建完成")
 
+        # 检查Graph索引是否存在
+        graph_json = Path(self.config.graph_json_path)
+        if not graph_json.exists():
+            logger.info("未找到graph.json索引，开始构建新的Graph索引")
+            graph_generator.run()
+            if graph_json.exists():
+                logger.info("Graph索引构建完成")
+
         # 用户输入问题
         print("请输入您的问题（输入 'exit' 退出）：")
 
@@ -101,13 +120,22 @@ class RAGSystem:
                 else:
                     rewrite_query = self.question_refactor.question_rewrite(llm, user_query, question_type)
                 
-                # 查询检索
-                self.query_retriver = QueryRetrail(vectorstore)
-                # 向量检索的文本块合并成父文档后可能会减少，因此先按1.25倍的Top K检索文本块和实现元数据过滤
-                docs = self.query_retriver.verctor_retrial(user_query, question_type, top_k=math.ceil(top_k * 1.25)) 
-                filter_docs = self.query_retriver.metadata_filter_query(user_query, docs, top_k=math.ceil(top_k * 1.25))
-                parent_docs = self.query_retriver.get_parent_documents(filter_docs, documents, top_k)
-                logger.info(f"检索到 {len(parent_docs)} 个相关文档块")
+                # 查询分析(路由)
+                """根据用户的查询复杂度决定使用向量检索还是图检索"""
+                self.query_router = QueryRouter()
+                analysis = self.query_router.query_analysis(llm, user_query)
+                logger.info(f"查询分析检索类型: {analysis['recommended_strategy']}")
+                if analysis['recommended_strategy'] == SearchStrategy.GRAPH_RAG.value:
+                    self.graph_retriver = GraphRetriever()
+                    parent_docs = self.graph_retriver.graph_retrial(llm, user_query, top_k)
+                else:
+                    # 查询检索
+                    self.query_retriver = QueryRetrail(vectorstore)
+                    # 向量检索的文本块合并成父文档后可能会减少，因此先按1.25倍的Top K检索文本块和实现元数据过滤
+                    docs = self.query_retriver.verctor_retrial(user_query, question_type, top_k=math.ceil(top_k * 1.25)) 
+                    filter_docs = self.query_retriver.metadata_filter_query(user_query, docs, top_k=math.ceil(top_k * 1.25))
+                    parent_docs = self.query_retriver.get_parent_documents(filter_docs, documents, top_k)
+                    logger.info(f"检索到 {len(parent_docs)} 个相关文档块")    
 
                 if len(parent_docs) == 0:
                     print("未检索到相关文档，无法基于LLM生成有效回复，请重新调整后再输入。")

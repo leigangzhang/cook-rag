@@ -27,6 +27,7 @@ ENV/
 # IDE
 .idea/
 .vscode/
+.codex/
 *.swp
 *.swo
 
@@ -68,8 +69,14 @@ data/imgs/
 .cache/modelscope/
 .cargo
 
-# Models
+# Snapshots
+.agent-rollback/
+.safesandbox/
+.history/
 
 # LLM API keys
 *.key
 *.secret
+
+# Test
+tests/
