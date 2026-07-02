@@ -1,0 +1,1617 @@
+{
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/aquatic/\u5496\u55b1\u7092\u87f9.md": {
+    "mtime": 1781663004.3653984,
+    "ast_hash": "a3ca1f7a595bcd320caeadabf0b7b3d4",
+    "semantic_hash": "a3ca1f7a595bcd320caeadabf0b7b3d4"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/aquatic/\u5c0f\u9f99\u867e/\u5c0f\u9f99\u867e.md": {
+    "mtime": 1781663004.3667614,
+    "ast_hash": "4fbea06f17e08b5e0f383f1c3f201b3e",
+    "semantic_hash": "4fbea06f17e08b5e0f383f1c3f201b3e"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/aquatic/\u5e72\u714e\u963f\u6839\u5ef7\u7ea2\u867e/\u5e72\u714e\u963f\u6839\u5ef7\u7ea2\u867e.md": {
+    "mtime": 1781663004.3731117,
+    "ast_hash": "a6250784eb6fd258fb7481a9cd3bc048",
+    "semantic_hash": "a6250784eb6fd258fb7481a9cd3bc048"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/aquatic/\u5fae\u6ce2\u8471\u59dc\u9ed1\u9cd5\u9c7c.md": {
+    "mtime": 1781663004.3780892,
+    "ast_hash": "195207c07bba81d2935eb2bf637c02cc",
+    "semantic_hash": "195207c07bba81d2935eb2bf637c02cc"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/aquatic/\u6c34\u716e\u9c7c.md": {
+    "mtime": 1781663004.3749409,
+    "ast_hash": "f12c304fcd055216f1ec5fede33a205b",
+    "semantic_hash": "f12c304fcd055216f1ec5fede33a205b"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/aquatic/\u6cb9\u7116\u5927\u867e/\u6cb9\u7116\u5927\u867e.md": {
+    "mtime": 1781663004.3704925,
+    "ast_hash": "2c3f7881aece2ed690dac489796a1a1b",
+    "semantic_hash": "2c3f7881aece2ed690dac489796a1a1b"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/aquatic/\u6df7\u5408\u70e4\u9c7c/\u70e4\u9c7c.md": {
+    "mtime": 1781663004.3763297,
+    "ast_hash": "678d024e91f6fd585b42fd9221958a3c",
+    "semantic_hash": "678d024e91f6fd585b42fd9221958a3c"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/aquatic/\u6e05\u84b8\u751f\u869d.md": {
+    "mtime": 1781663004.3652308,
+    "ast_hash": "bc8a679a99ea22e54b85857e2afb2ac5",
+    "semantic_hash": "bc8a679a99ea22e54b85857e2afb2ac5"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/aquatic/\u6e05\u84b8\u9c88\u9c7c/\u6e05\u84b8\u9c88\u9c7c.md": {
+    "mtime": 1781663004.3746796,
+    "ast_hash": "3688933f123768e8e1900e0997f340b2",
+    "semantic_hash": "3688933f123768e8e1900e0997f340b2"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/aquatic/\u767d\u707c\u867e/\u767d\u707c\u867e.md": {
+    "mtime": 1781663004.367604,
+    "ast_hash": "12562540084209bbc2c2645f954e3c25",
+    "semantic_hash": "12562540084209bbc2c2645f954e3c25"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/aquatic/\u7cd6\u918b\u9ca4\u9c7c/\u7cd6\u918b\u9ca4\u9c7c.md": {
+    "mtime": 1781663004.3779058,
+    "ast_hash": "2f6e23bd8a542db331a177bf3d3659a3",
+    "semantic_hash": "2f6e23bd8a542db331a177bf3d3659a3"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/aquatic/\u7ea2\u70e7\u9c7c.md": {
+    "mtime": 1781663004.3655853,
+    "ast_hash": "1596696b25c9647c210718de29eb04a7",
+    "semantic_hash": "1596696b25c9647c210718de29eb04a7"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/aquatic/\u7ea2\u70e7\u9c7c\u5934.md": {
+    "mtime": 1781663004.36507,
+    "ast_hash": "b89f3351ab497f44c69db2fc274b806e",
+    "semantic_hash": "b89f3351ab497f44c69db2fc274b806e"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/aquatic/\u7ea2\u70e7\u9ca4\u9c7c.md": {
+    "mtime": 1781663004.364853,
+    "ast_hash": "c6926e42000671b1f7601b1e20441815",
+    "semantic_hash": "c6926e42000671b1f7601b1e20441815"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/aquatic/\u82a5\u672b\u9ec4\u6cb9\u7f57\u6c0f\u867e/\u82a5\u672b\u9ec4\u6cb9\u7f57\u6c0f\u867e.md": {
+    "mtime": 1781663004.3752463,
+    "ast_hash": "ad1afb1966ad5e76434770c92c4378a7",
+    "semantic_hash": "ad1afb1966ad5e76434770c92c4378a7"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/aquatic/\u8471\u6cb9\u6842\u9c7c/\u8471\u6cb9\u6842\u9c7c.md": {
+    "mtime": 1781663004.370974,
+    "ast_hash": "2457f4825cb98ed7572e1adef8cd0f0a",
+    "semantic_hash": "2457f4825cb98ed7572e1adef8cd0f0a"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/aquatic/\u8471\u70e7\u6d77\u53c2/\u8471\u70e7\u6d77\u53c2.md": {
+    "mtime": 1781663004.3692465,
+    "ast_hash": "eb2cbc228e0bce7f51b07b91c9400ffc",
+    "semantic_hash": "eb2cbc228e0bce7f51b07b91c9400ffc"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/aquatic/\u849c\u84c9\u867e/\u849c\u84c9\u867e.md": {
+    "mtime": 1781663004.3719053,
+    "ast_hash": "1248be57e9c3b40b402f8e90b57bb6d0",
+    "semantic_hash": "1248be57e9c3b40b402f8e90b57bb6d0"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/aquatic/\u849c\u9999\u9ec4\u6cb9\u867e/\u849c\u9999\u9ec4\u6cb9\u867e.md": {
+    "mtime": 1781663004.3670738,
+    "ast_hash": "62123c89f136e723e8b190f6dd982f43",
+    "semantic_hash": "62123c89f136e723e8b190f6dd982f43"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/aquatic/\u86cf\u62b1\u86cb/\u86cf\u62b1\u86cb.md": {
+    "mtime": 1781663004.369841,
+    "ast_hash": "b8d3a41e1a55dbf7c040b4e9372c6213",
+    "semantic_hash": "b8d3a41e1a55dbf7c040b4e9372c6213"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/aquatic/\u9999\u714e\u7fd8\u5634\u9c7c/\u9999\u714e\u7fd8\u5634\u9c7c.md": {
+    "mtime": 1781663004.3640504,
+    "ast_hash": "d08b8702857d6da31fa9e7035ef069e2",
+    "semantic_hash": "d08b8702857d6da31fa9e7035ef069e2"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/aquatic/\u9ca4\u9c7c\u7096\u767d\u83dc/\u9ca4\u9c7c\u7096\u767d\u83dc.md": {
+    "mtime": 1781663004.3767366,
+    "ast_hash": "067ba1a27d1fc4e21677f0eceb6a9f2f",
+    "semantic_hash": "067ba1a27d1fc4e21677f0eceb6a9f2f"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/aquatic/\u9cca\u9c7c\u7096\u8c46\u8150/\u9cca\u9c7c\u7096\u8c46\u8150.md": {
+    "mtime": 1781663004.3661351,
+    "ast_hash": "7b80cc948406cdf7d7c9542f5cc75e8c",
+    "semantic_hash": "7b80cc948406cdf7d7c9542f5cc75e8c"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/aquatic/\u9ec4\u6cb9\u714e\u867e/\u9ec4\u6cb9\u714e\u867e.md": {
+    "mtime": 1781663004.3783743,
+    "ast_hash": "562f2d591a4091c18682ea2ee90149d3",
+    "semantic_hash": "562f2d591a4091c18682ea2ee90149d3"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/breakfast/\u5410\u53f8\u679c\u9171.md": {
+    "mtime": 1781663004.392008,
+    "ast_hash": "14726dfa4e1735e34b9bd29ac7c91f1b",
+    "semantic_hash": "14726dfa4e1735e34b9bd29ac7c91f1b"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/breakfast/\u592a\u9633\u86cb.md": {
+    "mtime": 1781663004.3935297,
+    "ast_hash": "0b65c7a0ca77f0a1ac0c55b3ee0531f6",
+    "semantic_hash": "0b65c7a0ca77f0a1ac0c55b3ee0531f6"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/breakfast/\u5b8c\u7f8e\u6c34\u716e\u86cb.md": {
+    "mtime": 1781663004.3909671,
+    "ast_hash": "a2baa1f7e8804da2f1d36171f01eb78b",
+    "semantic_hash": "a2baa1f7e8804da2f1d36171f01eb78b"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/breakfast/\u5fae\u6ce2\u7089\u8377\u5305\u86cb.md": {
+    "mtime": 1781663004.3900568,
+    "ast_hash": "c7ec5aa83508a1858786bdfb5f6bec0a",
+    "semantic_hash": "c7ec5aa83508a1858786bdfb5f6bec0a"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/breakfast/\u5fae\u6ce2\u7089\u86cb\u7cd5.md": {
+    "mtime": 1781663004.3921912,
+    "ast_hash": "f8ecbba7c787d3e63e4ea6be0d36ba61",
+    "semantic_hash": "f8ecbba7c787d3e63e4ea6be0d36ba61"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/breakfast/\u624b\u6293\u997c.md": {
+    "mtime": 1781663004.3905213,
+    "ast_hash": "57ec7270ad6e430f54ddf8cdc9ac84bf",
+    "semantic_hash": "57ec7270ad6e430f54ddf8cdc9ac84bf"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/breakfast/\u6842\u5706\u7ea2\u67a3\u7ca5.md": {
+    "mtime": 1781663004.389838,
+    "ast_hash": "8a678e1844f48e5a2c53ad03481dc1a0",
+    "semantic_hash": "8a678e1844f48e5a2c53ad03481dc1a0"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/breakfast/\u6c34\u716e\u7389\u7c73.md": {
+    "mtime": 1781663004.390228,
+    "ast_hash": "63e15c7277332bc400f9f5150964b09b",
+    "semantic_hash": "63e15c7277332bc400f9f5150964b09b"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/breakfast/\u6e29\u6cc9\u86cb/\u6e29\u6cc9\u86cb.md": {
+    "mtime": 1781663004.3941438,
+    "ast_hash": "1fa78dce8348be1dffbcdc8335497636",
+    "semantic_hash": "1fa78dce8348be1dffbcdc8335497636"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/breakfast/\u6e8f\u5fc3\u86cb.md": {
+    "mtime": 1781663004.3906991,
+    "ast_hash": "dc99553eb4158da9f996f71a2a8f1da8",
+    "semantic_hash": "dc99553eb4158da9f996f71a2a8f1da8"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/breakfast/\u714e\u997a.md": {
+    "mtime": 1781663004.3931556,
+    "ast_hash": "85ffb243ed693194b57bcd203b290499",
+    "semantic_hash": "85ffb243ed693194b57bcd203b290499"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/breakfast/\u71d5\u9ea6\u9e21\u86cb\u997c.md": {
+    "mtime": 1781663004.3912208,
+    "ast_hash": "5ef35d2f63a34b05cfcd2ac18c0ecdf3",
+    "semantic_hash": "5ef35d2f63a34b05cfcd2ac18c0ecdf3"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/breakfast/\u725b\u5976\u71d5\u9ea6.md": {
+    "mtime": 1781663004.389012,
+    "ast_hash": "fd3654de7e786fc5afff5f6074ae18d7",
+    "semantic_hash": "fd3654de7e786fc5afff5f6074ae18d7"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/breakfast/\u7a7a\u6c14\u70b8\u9505\u9762\u5305\u7247.md": {
+    "mtime": 1781663004.394678,
+    "ast_hash": "84418fcaa68dbc52b2bcaf4f1df534f6",
+    "semantic_hash": "84418fcaa68dbc52b2bcaf4f1df534f6"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/breakfast/\u7f8e\u5f0f\u7092\u86cb.md": {
+    "mtime": 1781663004.3938599,
+    "ast_hash": "9cfe66ca1f49c751dc4923d0290476d8",
+    "semantic_hash": "9cfe66ca1f49c751dc4923d0290476d8"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/breakfast/\u82cf\u683c\u5170\u86cb/\u82cf\u683c\u5170\u86cb.md": {
+    "mtime": 1781663004.392644,
+    "ast_hash": "8986ec80472b5d69dce5159df6b92e04",
+    "semantic_hash": "8986ec80472b5d69dce5159df6b92e04"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/breakfast/\u8336\u53f6\u86cb.md": {
+    "mtime": 1781663004.3896408,
+    "ast_hash": "2c9c06bdb875ee50fd974bc89b08ba04",
+    "semantic_hash": "2c9c06bdb875ee50fd974bc89b08ba04"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/breakfast/\u84b8\u6c34\u86cb.md": {
+    "mtime": 1781663004.3945167,
+    "ast_hash": "5d2f065d9531424565e530a3f4917fd6",
+    "semantic_hash": "5d2f065d9531424565e530a3f4917fd6"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/breakfast/\u84b8\u82b1\u5377.md": {
+    "mtime": 1781663004.3918085,
+    "ast_hash": "18c95520cd8e59779c944cc73d6f872f",
+    "semantic_hash": "18c95520cd8e59779c944cc73d6f872f"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/breakfast/\u86cb\u714e\u7ccd\u7c91.md": {
+    "mtime": 1781663004.3943508,
+    "ast_hash": "c495ecda1210a5d05aed2b0d61481df4",
+    "semantic_hash": "c495ecda1210a5d05aed2b0d61481df4"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/breakfast/\u91d1\u67aa\u9c7c\u9171\u4e09\u660e\u6cbb.md": {
+    "mtime": 1781663004.3933556,
+    "ast_hash": "f9d11ab941eb7f5c1f280d51115bee6a",
+    "semantic_hash": "f9d11ab941eb7f5c1f280d51115bee6a"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/breakfast/\u9e21\u86cb\u4e09\u660e\u6cbb.md": {
+    "mtime": 1781663004.3936977,
+    "ast_hash": "8195f8242ca5cc4b0368c60abc4b165f",
+    "semantic_hash": "8195f8242ca5cc4b0368c60abc4b165f"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/condiment/\u6cb9\u6cfc\u8fa3\u5b50/\u6cb9\u6cfc\u8fa3\u5b50.md": {
+    "mtime": 1781663004.3528936,
+    "ast_hash": "25fd3d30876e4bfbf66ef01f378a4d44",
+    "semantic_hash": "25fd3d30876e4bfbf66ef01f378a4d44"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/condiment/\u6cb9\u9165.md": {
+    "mtime": 1781663004.3520522,
+    "ast_hash": "25bf6c40349e3f7c859dc73775be4774",
+    "semantic_hash": "25bf6c40349e3f7c859dc73775be4774"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/condiment/\u70b8\u4e32\u9171\u6599.md": {
+    "mtime": 1781663004.3530834,
+    "ast_hash": "c20d481c62efce574996171436f6ea8f",
+    "semantic_hash": "c20d481c62efce574996171436f6ea8f"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/condiment/\u7b80\u6613\u7248\u7092\u7cd6\u8272.md": {
+    "mtime": 1781663004.351871,
+    "ast_hash": "1ef6a20a9146f0afea13d4ec076034e8",
+    "semantic_hash": "1ef6a20a9146f0afea13d4ec076034e8"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/condiment/\u7cd6\u918b\u6c41.md": {
+    "mtime": 1781663004.3557172,
+    "ast_hash": "1a84800079a13e5d48dc8d1a0ef3a5aa",
+    "semantic_hash": "1a84800079a13e5d48dc8d1a0ef3a5aa"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/condiment/\u8349\u8393\u9171/\u8349\u8393\u9171.md": {
+    "mtime": 1781663004.3554971,
+    "ast_hash": "59c9e1a1d6d0723f0c562916ff770708",
+    "semantic_hash": "59c9e1a1d6d0723f0c562916ff770708"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/condiment/\u8471\u6cb9.md": {
+    "mtime": 1781663004.3534017,
+    "ast_hash": "f3b202fad4b607af34fb343d23e55b3e",
+    "semantic_hash": "f3b202fad4b607af34fb343d23e55b3e"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/condiment/\u849c\u9999\u9171\u6cb9.md": {
+    "mtime": 1781663004.3522255,
+    "ast_hash": "06a08bdab874949b4c591128381252b4",
+    "semantic_hash": "06a08bdab874949b4c591128381252b4"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/condiment/\u8517\u7cd6\u7cd6\u6d46/\u8517\u7cd6\u7cd6\u6d46.md": {
+    "mtime": 1781663004.3537095,
+    "ast_hash": "ed9bea6e183ada1b6fb5eedc6fc32b16",
+    "semantic_hash": "ed9bea6e183ada1b6fb5eedc6fc32b16"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/dessert/\u53cd\u6c99\u828b\u5934/\u53cd\u6c99\u828b\u5934.md": {
+    "mtime": 1781663004.2753975,
+    "ast_hash": "a3a561d6f740033b08a0e4259610c4db",
+    "semantic_hash": "a3a561d6f740033b08a0e4259610c4db"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/dessert/\u5496\u5561\u6930\u5976\u51bb/\u5496\u5561\u6930\u5976\u51bb.md": {
+    "mtime": 1781663004.2744055,
+    "ast_hash": "c145887ddf8be638f079a10eabe80997",
+    "semantic_hash": "c145887ddf8be638f079a10eabe80997"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/dessert/\u5965\u5229\u5965\u51b0\u6dc7\u6dcb/\u5965\u5229\u5965\u51b0\u6dc7\u6dcb.md": {
+    "mtime": 1781663004.273395,
+    "ast_hash": "f6763daa5b18f7e3f93e10d7de1ee531",
+    "semantic_hash": "f6763daa5b18f7e3f93e10d7de1ee531"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/dessert/\u621a\u98ce\u86cb\u7cd5/\u621a\u98ce\u86cb\u7cd5.md": {
+    "mtime": 1781663004.2831154,
+    "ast_hash": "ff4cbdff4f6bdc7e4e0ffc133f2f8ffb",
+    "semantic_hash": "ff4cbdff4f6bdc7e4e0ffc133f2f8ffb"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/dessert/\u63d0\u62c9\u7c73\u82cf/\u63d0\u62c9\u7c73\u82cf.md": {
+    "mtime": 1781663004.275672,
+    "ast_hash": "71427a1fbe502702371aa56685a95450",
+    "semantic_hash": "71427a1fbe502702371aa56685a95450"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/dessert/\u65e0\u53a8\u5e08\u673a\u8702\u871c\u9762\u5305/\u65e0\u53a8\u5e08\u673a\u8702\u871c\u9762\u5305.md": {
+    "mtime": 1781663004.277548,
+    "ast_hash": "33f4ae667ed3fe964c180f7337e3c0dc",
+    "semantic_hash": "33f4ae667ed3fe964c180f7337e3c0dc"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/dessert/\u70b8\u9c9c\u5976/\u70b8\u9c9c\u5976.md": {
+    "mtime": 1781663004.2747033,
+    "ast_hash": "80aa5b87f0cc5ab63fa6f298d2a3f010",
+    "semantic_hash": "80aa5b87f0cc5ab63fa6f298d2a3f010"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/dessert/\u70e4\u86cb\u631e/\u70e4\u86cb\u631e.md": {
+    "mtime": 1781663004.277993,
+    "ast_hash": "0c683f2b6f82524fba17fe353d95d2b7",
+    "semantic_hash": "0c683f2b6f82524fba17fe353d95d2b7"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/dessert/\u739b\u683c\u4e3d\u7279\u997c\u5e72/\u739b\u683c\u4e3d\u7279\u997c\u5e72.md": {
+    "mtime": 1781663004.2799947,
+    "ast_hash": "45932431d0ad08492752b6e2319118b5",
+    "semantic_hash": "45932431d0ad08492752b6e2319118b5"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/dessert/\u7ea2\u67da\u86cb\u7cd5/\u7ea2\u67da\u86cb\u7cd5.md": {
+    "mtime": 1781663004.278302,
+    "ast_hash": "e4745771a9b0eaf7cbcbcc195c8b7c25",
+    "semantic_hash": "e4745771a9b0eaf7cbcbcc195c8b7c25"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/dessert/\u828b\u6ce5\u96ea\u5a9a\u5a18/\u828b\u6ce5\u96ea\u5a9a\u5a18.md": {
+    "mtime": 1781663004.2792912,
+    "ast_hash": "ce0b09491517385b7de773e872c8c5d6",
+    "semantic_hash": "ce0b09491517385b7de773e872c8c5d6"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/dessert/\u82f1\u5f0f\u53f8\u5eb7/\u82f1\u5f0f\u53f8\u5eb7.md": {
+    "mtime": 1781663004.2788057,
+    "ast_hash": "309f53e2cae307f5f952b168c0e9eb9c",
+    "semantic_hash": "309f53e2cae307f5f952b168c0e9eb9c"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/dessert/\u8349\u8393\u51b0\u6dc7\u6dcb/\u8349\u8393\u51b0\u6dc7\u6dcb.md": {
+    "mtime": 1781663004.276891,
+    "ast_hash": "6e0b4ee60508acbc975dc97af5c38c68",
+    "semantic_hash": "6e0b4ee60508acbc975dc97af5c38c68"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/dessert/\u9178\u5976\u610f\u5f0f\u5976\u51bb/\u9178\u5976\u610f\u5f0f\u5976\u51bb.md": {
+    "mtime": 1781663004.2762551,
+    "ast_hash": "b7d16f357194e195f7fc3c01bbac4273",
+    "semantic_hash": "b7d16f357194e195f7fc3c01bbac4273"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/dessert/\u96ea\u82b1\u9165/\u96ea\u82b1\u9165.md": {
+    "mtime": 1781663004.280509,
+    "ast_hash": "909bb2ff214a11a0f7107b4b104d27d6",
+    "semantic_hash": "909bb2ff214a11a0f7107b4b104d27d6"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/dessert/\u9b54\u828b\u86cb\u7cd5/\u9b54\u828b\u86cb\u7cd5.md": {
+    "mtime": 1781663004.279674,
+    "ast_hash": "deb5a2c613f6e96ab3d3042bcf943d16",
+    "semantic_hash": "deb5a2c613f6e96ab3d3042bcf943d16"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/dessert/\u9f9f\u82d3\u818f/\u9f9f\u82d3\u818f.md": {
+    "mtime": 1781663004.2736943,
+    "ast_hash": "fe8c94285e931939163fe430b3ea9d25",
+    "semantic_hash": "fe8c94285e931939163fe430b3ea9d25"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/drink/B52\u8f70\u70b8\u673a.md": {
+    "mtime": 1781663004.3880897,
+    "ast_hash": "fbcf10620085e5dece041a3d52b39491",
+    "semantic_hash": "fbcf10620085e5dece041a3d52b39491"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/drink/Mojito\u83ab\u5409\u6258.md": {
+    "mtime": 1781663004.3885574,
+    "ast_hash": "cc6b07e356cc6b7fb908b187ac5786e7",
+    "semantic_hash": "cc6b07e356cc6b7fb908b187ac5786e7"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/drink/\u51ac\u74dc\u8336.md": {
+    "mtime": 1781663004.3862007,
+    "ast_hash": "9547f310175f65b4a7e4162829353621",
+    "semantic_hash": "9547f310175f65b4a7e4162829353621"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/drink/\u51b0\u7c89/\u51b0\u7c89.md": {
+    "mtime": 1781663004.3833246,
+    "ast_hash": "cb8e2289520ef34461d477f58ccf4b08",
+    "semantic_hash": "cb8e2289520ef34461d477f58ccf4b08"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/drink/\u53ef\u4e50\u6876.md": {
+    "mtime": 1781663004.3876274,
+    "ast_hash": "0dd803fb001d5b6882e00d78745c1fbe",
+    "semantic_hash": "0dd803fb001d5b6882e00d78745c1fbe"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/drink/\u5947\u5f02\u679c\u83e0\u83dc\u7279\u8c03/\u5947\u5f02\u679c\u83e0\u83dc\u7279\u8c03.md": {
+    "mtime": 1781663004.3820179,
+    "ast_hash": "09062a6ee79f125697d5adb07772e4ee",
+    "semantic_hash": "09062a6ee79f125697d5adb07772e4ee"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/drink/\u5976\u8336.md": {
+    "mtime": 1781663004.3794425,
+    "ast_hash": "ad8bf53d7948832e497a833c5b349145",
+    "semantic_hash": "ad8bf53d7948832e497a833c5b349145"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/drink/\u6768\u679d\u7518\u9732.md": {
+    "mtime": 1781663004.3812058,
+    "ast_hash": "a3350eab0016ca8c7da1dd89420b23ad",
+    "semantic_hash": "a3350eab0016ca8c7da1dd89420b23ad"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/drink/\u67e0\u6aac\u6c34/\u67e0\u6aac\u6c34.md": {
+    "mtime": 1781663004.3845866,
+    "ast_hash": "ddadb697cd8a79b75ca31bc2a0276125",
+    "semantic_hash": "ddadb697cd8a79b75ca31bc2a0276125"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/drink/\u6cf0\u56fd\u624b\u6807\u7ea2\u8336/\u6cf0\u56fd\u624b\u6807\u7ea2\u8336.md": {
+    "mtime": 1781663004.3864884,
+    "ast_hash": "81e1b18ada93146bdeac0bace3485772",
+    "semantic_hash": "81e1b18ada93146bdeac0bace3485772"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/drink/\u6d77\u8fb9\u843d\u65e5/\u6d77\u8fb9\u843d\u65e5.md": {
+    "mtime": 1781663004.3826854,
+    "ast_hash": "6c81e2759fdfa3283a78730268f68a35",
+    "semantic_hash": "6c81e2759fdfa3283a78730268f68a35"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/drink/\u767e\u9999\u679c\u6a59\u5b50\u7279\u8c03/\u767e\u9999\u679c\u6a59\u5b50\u7279\u8c03.md": {
+    "mtime": 1781663004.379814,
+    "ast_hash": "3718fb4f86b7af9215a6723b7552fc9c",
+    "semantic_hash": "3718fb4f86b7af9215a6723b7552fc9c"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/drink/\u7802\u7cd6\u6930\u5b50\u51b0\u6c99/\u7802\u7cd6\u6930\u5b50\u51b0\u6c99.md": {
+    "mtime": 1781663004.3814979,
+    "ast_hash": "9575023beecfadd2b8dc738c4497875b",
+    "semantic_hash": "9575023beecfadd2b8dc738c4497875b"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/drink/\u8019\u8019\u67d1\u8336/\u8019\u8019\u67d1\u8336.md": {
+    "mtime": 1781663004.385998,
+    "ast_hash": "8892f9a2cff24933899e7a8af00e84d2",
+    "semantic_hash": "8892f9a2cff24933899e7a8af00e84d2"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/drink/\u83e0\u841d\u5496\u5561\u7279\u8c03/\u83e0\u841d\u5496\u5561\u7279\u8c03.md": {
+    "mtime": 1781663004.3792317,
+    "ast_hash": "3feafbeb806e74337912fae52d5f6b07",
+    "semantic_hash": "3feafbeb806e74337912fae52d5f6b07"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/drink/\u9152\u917f\u91aa\u7cdf/\u9152\u917f\u91aa\u7cdf.md": {
+    "mtime": 1781663004.3806152,
+    "ast_hash": "0dd67efbaad5cc3c922c62b35f22dfd3",
+    "semantic_hash": "0dd67efbaad5cc3c922c62b35f22dfd3"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/drink/\u9178\u6885\u6c64/\u9178\u6885\u6c64.md": {
+    "mtime": 1781663004.3873873,
+    "ast_hash": "2d7c8e6750168841134bf18c0769a2a1",
+    "semantic_hash": "2d7c8e6750168841134bf18c0769a2a1"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/drink/\u9178\u6885\u6c64\uff08\u534a\u6210\u54c1\u52a0\u5de5\uff09.md": {
+    "mtime": 1781663004.3850985,
+    "ast_hash": "eb36184301dc0227552f4e38502292c5",
+    "semantic_hash": "eb36184301dc0227552f4e38502292c5"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/drink/\u91d1\u6c64\u529b/\u91d1\u6c64\u529b.md": {
+    "mtime": 1781663004.3836331,
+    "ast_hash": "1d8fd800835efd3280f27114f32f6e25",
+    "semantic_hash": "1d8fd800835efd3280f27114f32f6e25"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/drink/\u91d1\u83f2\u58eb/\u91d1\u83f2\u58eb.md": {
+    "mtime": 1781663004.3842916,
+    "ast_hash": "66001dcebd1cb97d2f2d70f1614bb0c4",
+    "semantic_hash": "66001dcebd1cb97d2f2d70f1614bb0c4"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/drink/\u957f\u5c9b\u51b0\u8336.md": {
+    "mtime": 1781663004.3882728,
+    "ast_hash": "d8eb4ed2368e6be27fdfcfae952f9c7c",
+    "semantic_hash": "d8eb4ed2368e6be27fdfcfae952f9c7c"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u4e61\u6751\u5564\u9152\u9e2d.md": {
+    "mtime": 1781663004.314181,
+    "ast_hash": "47544475ed92c66f83a70658f79c0099",
+    "semantic_hash": "47544475ed92c66f83a70658f79c0099"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u519c\u5bb6\u4e00\u7897\u9999/\u519c\u5bb6\u4e00\u7897\u9999.md": {
+    "mtime": 1781663004.2930784,
+    "ast_hash": "8e2f1a971cdc346027bd332cbec8a2ac",
+    "semantic_hash": "8e2f1a971cdc346027bd332cbec8a2ac"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u51ac\u74dc\u917f\u8089/\u51ac\u74dc\u917f\u8089.md": {
+    "mtime": 1781663004.3364086,
+    "ast_hash": "f4ac439396f1e391ac74e0a6a7bee0df",
+    "semantic_hash": "f4ac439396f1e391ac74e0a6a7bee0df"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u51b7\u5403\u5154.md": {
+    "mtime": 1781663004.3193855,
+    "ast_hash": "500ff6500b1b7cafa771ea3f5eab252e",
+    "semantic_hash": "500ff6500b1b7cafa771ea3f5eab252e"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u51c9\u62cc\u9e21\u4e1d/\u51c9\u62cc\u9e21\u4e1d.md": {
+    "mtime": 1781663004.3491507,
+    "ast_hash": "43efcf475a16b515ae081183c2d47494",
+    "semantic_hash": "43efcf475a16b515ae081183c2d47494"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u5364\u83dc/\u5364\u83dc.md": {
+    "mtime": 1781663004.3376806,
+    "ast_hash": "626ac554eefd39d6772df87b0419d491",
+    "semantic_hash": "626ac554eefd39d6772df87b0419d491"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u53e3\u6c34\u9e21/\u53e3\u6c34\u9e21.md": {
+    "mtime": 1781663004.3453605,
+    "ast_hash": "54a09190207cdc37d498a1da30045708",
+    "semantic_hash": "54a09190207cdc37d498a1da30045708"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u53ef\u4e50\u9e21\u7fc5.md": {
+    "mtime": 1781663004.2865503,
+    "ast_hash": "915d983f4e19233b4a6c87dba6cad128",
+    "semantic_hash": "915d983f4e19233b4a6c87dba6cad128"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u53f0\u5f0f\u5364\u8089\u996d/\u53f0\u5f0f\u5364\u8089\u996d.md": {
+    "mtime": 1781663004.3087723,
+    "ast_hash": "3bf15095fde11dc2e76e7a8056a72225",
+    "semantic_hash": "3bf15095fde11dc2e76e7a8056a72225"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u5495\u565c\u8089.md": {
+    "mtime": 1781663004.3267734,
+    "ast_hash": "6c88413fafb42c44f61174425f61a3da",
+    "semantic_hash": "6c88413fafb42c44f61174425f61a3da"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u5496\u55b1\u80a5\u725b/\u5496\u55b1\u80a5\u725b.md": {
+    "mtime": 1781663004.3100624,
+    "ast_hash": "e136e093a90481e714b95411fbfb6969",
+    "semantic_hash": "e136e093a90481e714b95411fbfb6969"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u5546\u829d\u8089.md": {
+    "mtime": 1781663004.3084855,
+    "ast_hash": "18aaa6d59da97260f9a73d450398b514",
+    "semantic_hash": "18aaa6d59da97260f9a73d450398b514"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u5564\u9152\u9e2d/\u5564\u9152\u9e2d.md": {
+    "mtime": 1781663004.3256433,
+    "ast_hash": "c939bbcc35075e59683492612dddf1af",
+    "semantic_hash": "c939bbcc35075e59683492612dddf1af"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u56de\u9505\u8089/\u56de\u9505\u8089.md": {
+    "mtime": 1781663004.2900546,
+    "ast_hash": "e258a882540e1799247ebfee104fa34b",
+    "semantic_hash": "e258a882540e1799247ebfee104fa34b"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u571f\u8c46\u7096\u6392\u9aa8/\u571f\u8c46\u7096\u6392\u9aa8.md": {
+    "mtime": 1781663004.3049273,
+    "ast_hash": "77e34bcea74799c87e09b891f793516a",
+    "semantic_hash": "77e34bcea74799c87e09b891f793516a"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u5976\u916a\u57f9\u6839\u901a\u5fc3\u7c89/\u5976\u916a\u57f9\u6839\u901a\u5fc3\u7c89.md": {
+    "mtime": 1781663004.310965,
+    "ast_hash": "2abd2cd3bea7fbab9d81397de35dc023",
+    "semantic_hash": "2abd2cd3bea7fbab9d81397de35dc023"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u59dc\u7092\u9e21/\u59dc\u7092\u9e21.md": {
+    "mtime": 1781663004.3429103,
+    "ast_hash": "01f35ba27fdcb5261fdcde3b34cb7620",
+    "semantic_hash": "01f35ba27fdcb5261fdcde3b34cb7620"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u59dc\u8471\u635e\u9e21/\u59dc\u8471\u635e\u9e21.md": {
+    "mtime": 1781663004.3432515,
+    "ast_hash": "1653bfe6f0398cab405e1eaf0dbff7c4",
+    "semantic_hash": "1653bfe6f0398cab405e1eaf0dbff7c4"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u5b5c\u7136\u725b\u8089.md": {
+    "mtime": 1781663004.300206,
+    "ast_hash": "9516012365e4f806c6034d6ab97cdfe4",
+    "semantic_hash": "9516012365e4f806c6034d6ab97cdfe4"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u5bab\u4fdd\u9e21\u4e01/\u5bab\u4fdd\u9e21\u4e01.md": {
+    "mtime": 1781663004.3277256,
+    "ast_hash": "bc47e5996b65c73ff5cd2c65abf32b4e",
+    "semantic_hash": "bc47e5996b65c73ff5cd2c65abf32b4e"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u5c0f\u7092\u8089.md": {
+    "mtime": 1781663004.290475,
+    "ast_hash": "a6d301addff9d0e779179f321f90e612",
+    "semantic_hash": "a6d301addff9d0e779179f321f90e612"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u5c0f\u7092\u9e21\u809d/\u5c0f\u7092\u9e21\u809d.md": {
+    "mtime": 1781663004.3286958,
+    "ast_hash": "44c1ac7683ada178a3225b0103d39a41",
+    "semantic_hash": "44c1ac7683ada178a3225b0103d39a41"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u5c0f\u7092\u9ec4\u725b\u8089/\u5c0f\u7092\u9ec4\u725b\u8089.md": {
+    "mtime": 1781663004.3263485,
+    "ast_hash": "96179310a8ec7ce9f0301bfa417ed88a",
+    "semantic_hash": "96179310a8ec7ce9f0301bfa417ed88a"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u5c0f\u7c73\u8fa3\u7092\u8089.md": {
+    "mtime": 1781663004.3094196,
+    "ast_hash": "de187c4203556a924cf6ec0d1f01db81",
+    "semantic_hash": "de187c4203556a924cf6ec0d1f01db81"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u5c0f\u9165\u8089.md": {
+    "mtime": 1781663004.348496,
+    "ast_hash": "2f207fa76668e61d05b8614bc09e9791",
+    "semantic_hash": "2f207fa76668e61d05b8614bc09e9791"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u5c16\u53eb\u725b\u86d9/\u5c16\u53eb\u725b\u86d9.md": {
+    "mtime": 1781663004.348317,
+    "ast_hash": "d851bbd9c47b4e1374c79a2600b48373",
+    "semantic_hash": "d851bbd9c47b4e1374c79a2600b48373"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u5c16\u6912\u7092\u725b\u8089.md": {
+    "mtime": 1781663004.30831,
+    "ast_hash": "7804fe5380257a93fd69220e3c192615",
+    "semantic_hash": "7804fe5380257a93fd69220e3c192615"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u5c71\u897f\u8fc7\u6cb9\u8089.md": {
+    "mtime": 1781663004.3502545,
+    "ast_hash": "ec31440ce6cf376baf9a4b3d3e4594ce",
+    "semantic_hash": "ec31440ce6cf376baf9a4b3d3e4594ce"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u5df4\u57fa\u65af\u5766\u725b\u8089\u5496\u55b1/\u5df4\u57fa\u65af\u5766\u725b\u8089\u5496\u55b1.md": {
+    "mtime": 1781663004.296894,
+    "ast_hash": "493a00d9821f7db92b51cc966b1c1b2c",
+    "semantic_hash": "493a00d9821f7db92b51cc966b1c1b2c"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u5e26\u628a\u8098\u5b50.md": {
+    "mtime": 1781663004.3174434,
+    "ast_hash": "25f422c8c21375231b130ea088052b2f",
+    "semantic_hash": "25f422c8c21375231b130ea088052b2f"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u5e72\u7178\u4ed4\u9e21/\u5e72\u7178\u4ed4\u9e21.md": {
+    "mtime": 1781663004.341389,
+    "ast_hash": "348ea30367b36fc979b5f7c614f2e94a",
+    "semantic_hash": "348ea30367b36fc979b5f7c614f2e94a"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u5e7f\u5f0f\u841d\u535c\u725b\u8169/\u5e7f\u5f0f\u841d\u535c\u725b\u8169.md": {
+    "mtime": 1781663004.3506799,
+    "ast_hash": "d03db7ab07d7f7a90d55fcba929af95f",
+    "semantic_hash": "d03db7ab07d7f7a90d55fcba929af95f"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u5fbd\u6d3e\u7ea2\u70e7\u8089/\u5fbd\u6d3e\u7ea2\u70e7\u8089.md": {
+    "mtime": 1781663004.330582,
+    "ast_hash": "3922812426e3c35f6cea092db4527a68",
+    "semantic_hash": "3922812426e3c35f6cea092db4527a68"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u610f\u5f0f\u70e4\u9e21.md": {
+    "mtime": 1781663004.3384953,
+    "ast_hash": "630ad4eb8bb6a510c8575785800c108e",
+    "semantic_hash": "630ad4eb8bb6a510c8575785800c108e"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u65b0\u7586\u5927\u76d8\u9e21/\u65b0\u7586\u5927\u76d8\u9e21.md": {
+    "mtime": 1781663004.342023,
+    "ast_hash": "e6cc2f2cddd37dea7df0794c40507ca9",
+    "semantic_hash": "e6cc2f2cddd37dea7df0794c40507ca9"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u65e0\u9aa8\u9e21\u722a/\u65e0\u9aa8\u9e21\u722a.md": {
+    "mtime": 1781663004.3178701,
+    "ast_hash": "8cec61938580035d3b5ebf296b71d1ce",
+    "semantic_hash": "8cec61938580035d3b5ebf296b71d1ce"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u6740\u732a\u83dc.md": {
+    "mtime": 1781663004.3092618,
+    "ast_hash": "52600688a21f0bd138e5cc6c444253be",
+    "semantic_hash": "52600688a21f0bd138e5cc6c444253be"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u679d\u7af9\u7f8a\u8169\u7172/\u679d\u7af9\u7f8a\u8169\u7172.md": {
+    "mtime": 1781663004.3164804,
+    "ast_hash": "e050359dc725bec7de84eafaddf450cb",
+    "semantic_hash": "e050359dc725bec7de84eafaddf450cb"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u67f1\u5019\u725b\u8169/\u67f1\u5019\u725b\u8169.md": {
+    "mtime": 1781663004.325136,
+    "ast_hash": "a1e7403aa78b6e532770dbdeef9ccf70",
+    "semantic_hash": "a1e7403aa78b6e532770dbdeef9ccf70"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u6885\u83dc\u6263\u8089/\u6885\u83dc\u6263\u8089.md": {
+    "mtime": 1781663004.315952,
+    "ast_hash": "a5ef79414478b8d0951245ae9f4aef1b",
+    "semantic_hash": "a5ef79414478b8d0951245ae9f4aef1b"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u6912\u76d0\u6392\u6761.md": {
+    "mtime": 1781663004.3260522,
+    "ast_hash": "32fcb6d718e2f2fd886103941e76b589",
+    "semantic_hash": "32fcb6d718e2f2fd886103941e76b589"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u6c34\u716e\u725b\u8089/\u6c34\u716e\u725b\u8089.md": {
+    "mtime": 1781663004.3346822,
+    "ast_hash": "51d0e82c52c1ff620db43806b0608acd",
+    "semantic_hash": "51d0e82c52c1ff620db43806b0608acd"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u6c34\u716e\u8089\u7247.md": {
+    "mtime": 1781663004.3051255,
+    "ast_hash": "ae0f7407456f0b3fff7e520d838595c8",
+    "semantic_hash": "ae0f7407456f0b3fff7e520d838595c8"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u6d0b\u8471\u7092\u732a\u8089.md": {
+    "mtime": 1781663004.2873085,
+    "ast_hash": "4fcf6948583a1e61433f7ee5863acfaf",
+    "semantic_hash": "4fcf6948583a1e61433f7ee5863acfaf"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u6e05\u84b8\u9cdc\u9c7c/\u6e05\u84b8\u9cdc\u9c7c.md": {
+    "mtime": 1781663004.2868614,
+    "ast_hash": "48c128402e609b5bf1c5dba5055202fa",
+    "semantic_hash": "48c128402e609b5bf1c5dba5055202fa"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u6e56\u5357\u5bb6\u5e38\u7ea2\u70e7\u8089/\u6e56\u5357\u5bb6\u5e38\u7ea2\u70e7\u8089.md": {
+    "mtime": 1781663004.2893667,
+    "ast_hash": "705fae83bafab68c9ad2bb964c41a14f",
+    "semantic_hash": "705fae83bafab68c9ad2bb964c41a14f"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u6e58\u7941\u7c73\u592b\u9e2d/\u6e58\u7941\u7c73\u592b\u9e2d.md": {
+    "mtime": 1781663004.3135858,
+    "ast_hash": "e93fbc942fe2225945204a2a4b7213e4",
+    "semantic_hash": "e93fbc942fe2225945204a2a4b7213e4"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u70e4\u9e21\u7fc5.md": {
+    "mtime": 1781663004.3195527,
+    "ast_hash": "814d07b0a5e76812217fc292b94a4f8d",
+    "semantic_hash": "814d07b0a5e76812217fc292b94a4f8d"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u725b\u6392/\u725b\u6392.md": {
+    "mtime": 1781663004.287896,
+    "ast_hash": "5343292278cf64e9a644333e6719ddb1",
+    "semantic_hash": "5343292278cf64e9a644333e6719ddb1"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u732a\u76ae\u51bb/\u732a\u76ae\u51bb.md": {
+    "mtime": 1781663004.3190463,
+    "ast_hash": "33698cc5e36079b31578a6a04af6fcc4",
+    "semantic_hash": "33698cc5e36079b31578a6a04af6fcc4"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u732a\u8089\u70e9\u9178\u83dc.md": {
+    "mtime": 1781663004.314378,
+    "ast_hash": "49f27af24f59f8cfd8651d58d69e4a63",
+    "semantic_hash": "49f27af24f59f8cfd8651d58d69e4a63"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u751c\u8fa3\u70e4\u5168\u7fc5.md": {
+    "mtime": 1781663004.2978473,
+    "ast_hash": "58c7c2a546e6419b68935da2f97028fb",
+    "semantic_hash": "58c7c2a546e6419b68935da2f97028fb"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u756a\u8304\u7ea2\u9171.md": {
+    "mtime": 1781663004.3471408,
+    "ast_hash": "29eaec168117bb061c503931f6bfc7b2",
+    "semantic_hash": "29eaec168117bb061c503931f6bfc7b2"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u7626\u8089\u571f\u8c46\u7247/\u7626\u8089\u571f\u8c46\u7247.md": {
+    "mtime": 1781663004.2887526,
+    "ast_hash": "aec344010f2ae9a3778affe89cd47332",
+    "semantic_hash": "aec344010f2ae9a3778affe89cd47332"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u767d\u83dc\u732a\u8089\u7096\u7c89\u6761.md": {
+    "mtime": 1781663004.326928,
+    "ast_hash": "e308726f0d0302655e07243a274daa30",
+    "semantic_hash": "e308726f0d0302655e07243a274daa30"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u7c89\u84b8\u8089.md": {
+    "mtime": 1781663004.2895293,
+    "ast_hash": "f80f7cad12a412abe312c3e2de31b3ba",
+    "semantic_hash": "f80f7cad12a412abe312c3e2de31b3ba"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u7cd6\u918b\u6392\u9aa8/\u7cd6\u918b\u6392\u9aa8.md": {
+    "mtime": 1781663004.2910075,
+    "ast_hash": "cd9195ab612a2faeb01c7bae71866f86",
+    "semantic_hash": "cd9195ab612a2faeb01c7bae71866f86"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u7cd6\u918b\u91cc\u810a.md": {
+    "mtime": 1781663004.2970707,
+    "ast_hash": "322bf3e3fb5dc201c4971a4e2d06aacc",
+    "semantic_hash": "322bf3e3fb5dc201c4971a4e2d06aacc"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u7ea2\u70e7\u732a\u8e44/\u7ea2\u70e7\u732a\u8e44.md": {
+    "mtime": 1781663004.3393831,
+    "ast_hash": "f3e3537e59341a377fc5d607c346eea9",
+    "semantic_hash": "f3e3537e59341a377fc5d607c346eea9"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u7ea2\u70e7\u8089/\u5357\u6d3e\u7ea2\u70e7\u8089.md": {
+    "mtime": 1781663004.3469553,
+    "ast_hash": "9b799c088e38de6856183b8a68df4ccc",
+    "semantic_hash": "9b799c088e38de6856183b8a68df4ccc"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u7ea2\u70e7\u8089/\u7b80\u6613\u7ea2\u70e7\u8089.md": {
+    "mtime": 1781663004.3466978,
+    "ast_hash": "03fd3ddc5c7c5b149d66b4507dcd4e0e",
+    "semantic_hash": "03fd3ddc5c7c5b149d66b4507dcd4e0e"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u7f8a\u6392\u7116\u9762/\u7f8a\u6392\u7116\u9762.md": {
+    "mtime": 1781663004.3057764,
+    "ast_hash": "f5760f77a1baf170502f41ef3fff057f",
+    "semantic_hash": "f5760f77a1baf170502f41ef3fff057f"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u8001\u5988\u8e44\u82b1/\u8001\u5988\u8e44\u82b1.md": {
+    "mtime": 1781663004.299708,
+    "ast_hash": "225b5cd66a45c9466d6f463bfa1792c2",
+    "semantic_hash": "225b5cd66a45c9466d6f463bfa1792c2"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u8001\u5f0f\u9505\u5305\u8089/\u8001\u5f0f\u9505\u5305\u8089.md": {
+    "mtime": 1781663004.3009565,
+    "ast_hash": "dfc43603a155431b01adcedea71fd9d6",
+    "semantic_hash": "dfc43603a155431b01adcedea71fd9d6"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u8089\u997c\u7096\u86cb.md": {
+    "mtime": 1781663004.3145378,
+    "ast_hash": "311508e77ef92d3a13a7766e41755d26",
+    "semantic_hash": "311508e77ef92d3a13a7766e41755d26"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u82a5\u672b\u7f57\u6c0f\u867e/\u82a5\u672b\u7f57\u6c0f\u867e.md": {
+    "mtime": 1781663004.3031056,
+    "ast_hash": "2f16cbe53047a406284ca52a21f6e2ba",
+    "semantic_hash": "2f16cbe53047a406284ca52a21f6e2ba"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u832d\u767d\u7092\u8089/\u832d\u767d\u7092\u8089.md": {
+    "mtime": 1781663004.2924407,
+    "ast_hash": "decbb77a61a3838f5a7c73030c3b984e",
+    "semantic_hash": "decbb77a61a3838f5a7c73030c3b984e"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u8354\u679d\u8089/\u8354\u679d\u8089.md": {
+    "mtime": 1781663004.306114,
+    "ast_hash": "b41a680bf6b9a3500135181144fa823a",
+    "semantic_hash": "b41a680bf6b9a3500135181144fa823a"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u8377\u5170\u8c46\u7092\u814a\u80a0/\u8377\u5170\u8c46\u7092\u814a\u80a0.md": {
+    "mtime": 1781663004.349731,
+    "ast_hash": "d00510e1c6d1007027384025e6795425",
+    "semantic_hash": "d00510e1c6d1007027384025e6795425"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u841d\u535c\u7096\u7f8a\u6392.md": {
+    "mtime": 1781663004.3166747,
+    "ast_hash": "7184bb6bbed5e95815544dc7b3c4aae9",
+    "semantic_hash": "7184bb6bbed5e95815544dc7b3c4aae9"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u849c\u82d4\u7092\u8089\u672b.md": {
+    "mtime": 1781663004.3000548,
+    "ast_hash": "fe07cc7f0b2ba21b8fdffbbb384e0b2c",
+    "semantic_hash": "fe07cc7f0b2ba21b8fdffbbb384e0b2c"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u864e\u76ae\u8098\u5b50.md": {
+    "mtime": 1781663004.285247,
+    "ast_hash": "3aae2ee5c6ecc40e53065d540639ddef",
+    "semantic_hash": "3aae2ee5c6ecc40e53065d540639ddef"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u8682\u8681\u4e0a\u6811.md": {
+    "mtime": 1781663004.3473184,
+    "ast_hash": "5cffd56289b61019f8511475641697e7",
+    "semantic_hash": "5cffd56289b61019f8511475641697e7"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u8840\u6d46\u9e2d/\u8840\u6d46\u9e2d.md": {
+    "mtime": 1781663004.3513541,
+    "ast_hash": "2886a19065673f33b524e62d99b1d9c5",
+    "semantic_hash": "2886a19065673f33b524e62d99b1d9c5"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u897f\u7ea2\u67ff\u571f\u8c46\u7096\u725b\u8089/\u897f\u7ea2\u67ff\u571f\u8c46\u7096\u725b\u8089.md": {
+    "mtime": 1781663004.2855477,
+    "ast_hash": "c8befc17ed91b865b9847bf29cf36dc8",
+    "semantic_hash": "c8befc17ed91b865b9847bf29cf36dc8"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u897f\u7ea2\u67ff\u725b\u8169/\u897f\u7ea2\u67ff\u725b\u8169.md": {
+    "mtime": 1781663004.298127,
+    "ast_hash": "7772065260b123ef462da90e0174806b",
+    "semantic_hash": "7772065260b123ef462da90e0174806b"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u8c46\u8c49\u9cae\u9c7c\u6cb9\u9ea6\u83dc/\u8c46\u8c49\u9cae\u9c7c\u6cb9\u9ea6\u83dc.md": {
+    "mtime": 1781663004.345813,
+    "ast_hash": "79f5eff63f8b56d13549c6d7efc7a774",
+    "semantic_hash": "79f5eff63f8b56d13549c6d7efc7a774"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u8c49\u6c41\u84b8\u767d\u9c54/\u8c49\u6c41\u84b8\u767d\u9c54\u98df\u8c31.md": {
+    "mtime": 1781663004.284774,
+    "ast_hash": "e39fcf23f288ac6b2914a79534fb1c6b",
+    "semantic_hash": "e39fcf23f288ac6b2914a79534fb1c6b"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u8d35\u5dde\u8fa3\u5b50\u9e21/\u8d35\u5dde\u8fa3\u5b50\u9e21.md": {
+    "mtime": 1781663004.3282793,
+    "ast_hash": "060167995c6e250fa788f31edb84a042",
+    "semantic_hash": "060167995c6e250fa788f31edb84a042"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u8fa3\u6912\u7092\u8089.md": {
+    "mtime": 1781663004.345521,
+    "ast_hash": "15c6870a4fed0a3e1b13f5769adfc9f6",
+    "semantic_hash": "15c6870a4fed0a3e1b13f5769adfc9f6"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u9171\u6392\u9aa8/\u9171\u6392\u9aa8.md": {
+    "mtime": 1781663004.3022084,
+    "ast_hash": "923ce9f0dcbcb22889c6786959b215cb",
+    "semantic_hash": "923ce9f0dcbcb22889c6786959b215cb"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u9171\u725b\u8089/\u9171\u725b\u8089.md": {
+    "mtime": 1781663004.33881,
+    "ast_hash": "591aa8ca6e01b278517b1f59d65ee5d1",
+    "semantic_hash": "591aa8ca6e01b278517b1f59d65ee5d1"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u9189\u6392\u9aa8/\u9189\u6392\u9aa8.md": {
+    "mtime": 1781663004.317259,
+    "ast_hash": "bf075f348e5dfce0dc87e1678a01c5cb",
+    "semantic_hash": "bf075f348e5dfce0dc87e1678a01c5cb"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u9752\u6912\u571f\u8c46\u7092\u8089/\u9752\u6912\u571f\u8c46\u7092\u8089.md": {
+    "mtime": 1781663004.297601,
+    "ast_hash": "a7b2367a0be1cac7f433fde1f2690f88",
+    "semantic_hash": "a7b2367a0be1cac7f433fde1f2690f88"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u9999\u5e72\u8089\u4e1d.md": {
+    "mtime": 1781663004.3309152,
+    "ast_hash": "2d405cd583142d769f901cd5b9f28470",
+    "semantic_hash": "2d405cd583142d769f901cd5b9f28470"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u9999\u5e72\u82b9\u83dc\u7092\u8089/\u9999\u5e72\u82b9\u83dc\u7092\u8089.md": {
+    "mtime": 1781663004.3400452,
+    "ast_hash": "870721e0ab7573cfa56d6db055d1b103",
+    "semantic_hash": "870721e0ab7573cfa56d6db055d1b103"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u9999\u714e\u4e94\u82b1\u8089/\u9999\u714e\u4e94\u82b1\u8089.md": {
+    "mtime": 1781663004.3006904,
+    "ast_hash": "11c6997839dc0dd4ddb6b44d2e7d0421",
+    "semantic_hash": "11c6997839dc0dd4ddb6b44d2e7d0421"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u9999\u83c7\u6ed1\u9e21/\u9999\u83c7\u6ed1\u9e21.md": {
+    "mtime": 1781663004.3012378,
+    "ast_hash": "d8bf54243123cfe9d1e60960caf7795f",
+    "semantic_hash": "d8bf54243123cfe9d1e60960caf7795f"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u9999\u8fa3\u9e21\u722a\u7172/\u9999\u8fa3\u9e21\u722a\u7172.md": {
+    "mtime": 1781663004.294587,
+    "ast_hash": "c80b1212dd1f0b4bdcc7376d8874bbba",
+    "semantic_hash": "c80b1212dd1f0b4bdcc7376d8874bbba"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u9c7c\u9999\u8089\u4e1d.md": {
+    "mtime": 1781663004.327104,
+    "ast_hash": "0623899452c7f889cd5d77a164953f81",
+    "semantic_hash": "0623899452c7f889cd5d77a164953f81"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u9c7c\u9999\u8304\u5b50/\u9c7c\u9999\u8304\u5b50.md": {
+    "mtime": 1781663004.3448257,
+    "ast_hash": "34908056bae60b2487084d6657117b73",
+    "semantic_hash": "34908056bae60b2487084d6657117b73"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u9ebb\u5a46\u8c46\u8150/\u9ebb\u5a46\u8c46\u8150.md": {
+    "mtime": 1781663004.3291597,
+    "ast_hash": "1da31b27992bc90750c3bbd0ad88d196",
+    "semantic_hash": "1da31b27992bc90750c3bbd0ad88d196"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u9ebb\u8fa3\u9999\u9505.md": {
+    "mtime": 1781663004.3016698,
+    "ast_hash": "79896fd6b6dfdd4fd298ef2692e6e586",
+    "semantic_hash": "79896fd6b6dfdd4fd298ef2692e6e586"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u9ec4\u7116\u9e21.md": {
+    "mtime": 1781663004.319215,
+    "ast_hash": "68635d2fb99765c826e089ae78b5efe0",
+    "semantic_hash": "68635d2fb99765c826e089ae78b5efe0"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u9ec4\u74dc\u7092\u8089.md": {
+    "mtime": 1781663004.3307524,
+    "ast_hash": "46a675d80ebaaca35a48fe81f44a053c",
+    "semantic_hash": "46a675d80ebaaca35a48fe81f44a053c"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u9ed1\u6912\u725b\u67f3/\u9ed1\u6912\u725b\u67f3.md": {
+    "mtime": 1781663004.291608,
+    "ast_hash": "29d9f4d7f70ab2ff47f3a3888bb3efec",
+    "semantic_hash": "29d9f4d7f70ab2ff47f3a3888bb3efec"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/meat_dish/\u9ed4\u5f0f\u814a\u80a0\u5a03\u5a03\u83dc/\u9ed4\u5f0f\u814a\u80a0\u5a03\u5a03\u83dc.md": {
+    "mtime": 1781663004.2863696,
+    "ast_hash": "4df4535a7d5831127c5ff0135a493a92",
+    "semantic_hash": "4df4535a7d5831127c5ff0135a493a92"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/semi-finished/\u51c9\u76ae.md": {
+    "mtime": 1781663004.2691624,
+    "ast_hash": "2d70054d2d8459c4768b8ad25430857d",
+    "semantic_hash": "2d70054d2d8459c4768b8ad25430857d"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/semi-finished/\u534a\u6210\u54c1\u610f\u9762.md": {
+    "mtime": 1781663004.2693558,
+    "ast_hash": "f15ab64834b127cec2dcdc56ede74df1",
+    "semantic_hash": "f15ab64834b127cec2dcdc56ede74df1"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/semi-finished/\u61d2\u4eba\u86cb\u631e/\u61d2\u4eba\u86cb\u631e.md": {
+    "mtime": 1781663004.2696497,
+    "ast_hash": "ed0d8ce8c1eca5c65216468ea1a94d91",
+    "semantic_hash": "ed0d8ce8c1eca5c65216468ea1a94d91"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/semi-finished/\u70b8\u85af\u6761/\u70b8\u85af\u6761.md": {
+    "mtime": 1781663004.2701888,
+    "ast_hash": "03b9407fc6c46deddb70f973162337fe",
+    "semantic_hash": "03b9407fc6c46deddb70f973162337fe"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/semi-finished/\u725b\u6cb9\u706b\u9505\u5e95\u6599.md": {
+    "mtime": 1781663004.2712626,
+    "ast_hash": "6eea443a4debef2cc7994e1a10ae4fd6",
+    "semantic_hash": "6eea443a4debef2cc7994e1a10ae4fd6"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/semi-finished/\u7a7a\u6c14\u70b8\u9505\u7f8a\u6392/\u7a7a\u6c14\u70b8\u9505\u7f8a\u6392.md": {
+    "mtime": 1781663004.2720315,
+    "ast_hash": "b092721b301730e8d8ce412ef155f079",
+    "semantic_hash": "b092721b301730e8d8ce412ef155f079"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/semi-finished/\u7a7a\u6c14\u70b8\u9505\u9e21\u7fc5\u4e2d/\u7a7a\u6c14\u70b8\u9505\u9e21\u7fc5\u4e2d.md": {
+    "mtime": 1781663004.2688313,
+    "ast_hash": "ee98891d20f714baf0f5d5838e851bdb",
+    "semantic_hash": "ee98891d20f714baf0f5d5838e851bdb"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/semi-finished/\u901f\u51bb\u6c34\u997a.md": {
+    "mtime": 1781663004.2728655,
+    "ast_hash": "703c8a4094f4b7719874d80bdb4068a9",
+    "semantic_hash": "703c8a4094f4b7719874d80bdb4068a9"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/semi-finished/\u901f\u51bb\u6c64\u5706/\u901f\u51bb\u6c64\u5706.md": {
+    "mtime": 1781663004.271039,
+    "ast_hash": "c6a8cfa9eb8346919db4175ced401cce",
+    "semantic_hash": "c6a8cfa9eb8346919db4175ced401cce"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/semi-finished/\u901f\u51bb\u9984\u9968.md": {
+    "mtime": 1781663004.2681248,
+    "ast_hash": "eeb24a9e0f001caa52da178964974b25",
+    "semantic_hash": "eeb24a9e0f001caa52da178964974b25"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/soup/\u52fe\u82a1\u9999\u83c7\u6c64/\u52fe\u82a1\u9999\u83c7\u6c64.md": {
+    "mtime": 1781663004.362921,
+    "ast_hash": "8530d8fdd8155f359286c36e2cd00e45",
+    "semantic_hash": "8530d8fdd8155f359286c36e2cd00e45"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/soup/\u5976\u6cb9\u8611\u83c7\u6c64.md": {
+    "mtime": 1781663004.3582578,
+    "ast_hash": "831baac4bbf61d58be34aaadaa4c733f",
+    "semantic_hash": "831baac4bbf61d58be34aaadaa4c733f"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/soup/\u5c0f\u7c73\u7ca5.md": {
+    "mtime": 1781663004.357196,
+    "ast_hash": "27b1202c56ffbc4ac36b1a1f38e7b994",
+    "semantic_hash": "27b1202c56ffbc4ac36b1a1f38e7b994"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/soup/\u6392\u9aa8\u82e6\u74dc\u6c64/\u6392\u9aa8\u82e6\u74dc\u6c64.md": {
+    "mtime": 1781663004.3566506,
+    "ast_hash": "e0c03283fb4619aa6de367785b8ae16f",
+    "semantic_hash": "e0c03283fb4619aa6de367785b8ae16f"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/soup/\u6602\u523a\u9c7c\u8c46\u8150\u6c64/\u6602\u523a\u9c7c\u8c46\u8150\u6c64.md": {
+    "mtime": 1781663004.3612115,
+    "ast_hash": "d5a15b14631b43924576f218112f7f85",
+    "semantic_hash": "d5a15b14631b43924576f218112f7f85"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/soup/\u6731\u96c0\u6c64/\u6731\u96c0\u6c64.md": {
+    "mtime": 1781663004.359229,
+    "ast_hash": "95f3e1704af43e4385759f99a598de11",
+    "semantic_hash": "95f3e1704af43e4385759f99a598de11"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/soup/\u7389\u7c73\u6392\u9aa8\u6c64/\u7389\u7c73\u6392\u9aa8\u6c64.md": {
+    "mtime": 1781663004.358753,
+    "ast_hash": "2fe33996637dd6b0a8258c8063fcfd22",
+    "semantic_hash": "2fe33996637dd6b0a8258c8063fcfd22"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/soup/\u751f\u6c46\u4e38\u5b50\u6c64.md": {
+    "mtime": 1781663004.359759,
+    "ast_hash": "f6cc375f735b909e65fca66f0d0a3145",
+    "semantic_hash": "f6cc375f735b909e65fca66f0d0a3145"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/soup/\u756a\u8304\u725b\u8089\u86cb\u82b1\u6c64.md": {
+    "mtime": 1781663004.3575578,
+    "ast_hash": "b2f482a0b323f860f30a15fe0852ce70",
+    "semantic_hash": "b2f482a0b323f860f30a15fe0852ce70"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/soup/\u76ae\u86cb\u7626\u8089\u7ca5.md": {
+    "mtime": 1781663004.362386,
+    "ast_hash": "33578b7acdeebfeae2406d7bf5b92eff",
+    "semantic_hash": "33578b7acdeebfeae2406d7bf5b92eff"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/soup/\u7c73\u7ca5.md": {
+    "mtime": 1781663004.3634448,
+    "ast_hash": "a801e5148d0b8b2170a826c521916dab",
+    "semantic_hash": "a801e5148d0b8b2170a826c521916dab"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/soup/\u7d2b\u83dc\u86cb\u82b1\u6c64.md": {
+    "mtime": 1781663004.35996,
+    "ast_hash": "584a2f116bc7a0e62c6d2b310a8a4ef4",
+    "semantic_hash": "584a2f116bc7a0e62c6d2b310a8a4ef4"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/soup/\u7f57\u5b8b\u6c64.md": {
+    "mtime": 1781663004.3595705,
+    "ast_hash": "0720db9eb11fce9e6010308f351d4886",
+    "semantic_hash": "0720db9eb11fce9e6010308f351d4886"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/soup/\u7f8a\u8089\u6c64/\u7f8a\u8089\u6c64.md": {
+    "mtime": 1781663004.3619807,
+    "ast_hash": "edc33f82894f3f9d3b79f389c7198e3d",
+    "semantic_hash": "edc33f82894f3f9d3b79f389c7198e3d"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/soup/\u814a\u516b\u7ca5.md": {
+    "mtime": 1781663004.3589385,
+    "ast_hash": "8f185fe81f1eb67dc4fec17ad626a945",
+    "semantic_hash": "8f185fe81f1eb67dc4fec17ad626a945"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/soup/\u83cc\u83c7\u7096\u4e73\u9e3d/\u83cc\u83c7\u7096\u4e73\u9e3d.md": {
+    "mtime": 1781663004.357918,
+    "ast_hash": "b6438ffbc2f1c0238190647874eeab29",
+    "semantic_hash": "b6438ffbc2f1c0238190647874eeab29"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/soup/\u897f\u7ea2\u67ff\u9e21\u86cb\u6c64.md": {
+    "mtime": 1781663004.3573744,
+    "ast_hash": "1ad50e08e001b49417f73f0db93894e7",
+    "semantic_hash": "1ad50e08e001b49417f73f0db93894e7"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/soup/\u91d1\u9488\u83c7\u6c64.md": {
+    "mtime": 1781663004.3616266,
+    "ast_hash": "cd7ad11bbc07ccadeae0d89db148cf2d",
+    "semantic_hash": "cd7ad11bbc07ccadeae0d89db148cf2d"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/soup/\u94f6\u8033\u83b2\u5b50\u7ca5/\u94f6\u8033\u83b2\u5b50\u7ca5.md": {
+    "mtime": 1781663004.360424,
+    "ast_hash": "6e59ac58846b849c005faf898bebc503",
+    "semantic_hash": "6e59ac58846b849c005faf898bebc503"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/soup/\u9648\u76ae\u6392\u9aa8\u6c64.md": {
+    "mtime": 1781663004.3568616,
+    "ast_hash": "d91e1115a54a192a66b5b6287f21c4d8",
+    "semantic_hash": "d91e1115a54a192a66b5b6287f21c4d8"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/soup/\u9648\u76ae\u6392\u9aa8\u6c64/\u9648\u76ae\u6392\u9aa8\u6c64.md": {
+    "mtime": 1781663004.3561828,
+    "ast_hash": "c360f4035e905e5f6b298226c99e1d76",
+    "semantic_hash": "c360f4035e905e5f6b298226c99e1d76"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u4e2d\u5f0f\u9985\u997c/\u4e2d\u5f0f\u9985\u997c.md": {
+    "mtime": 1781663004.2522113,
+    "ast_hash": "9701b8d6b970eb8e19298fb2d8595e28",
+    "semantic_hash": "9701b8d6b970eb8e19298fb2d8595e28"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u51c9\u7c89/\u51c9\u7c89.md": {
+    "mtime": 1781663004.2452767,
+    "ast_hash": "bc23f965685731e7e82eb831fbb96682",
+    "semantic_hash": "bc23f965685731e7e82eb831fbb96682"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u57fa\u7840\u725b\u5976\u9762\u5305/\u57fa\u7840\u725b\u5976\u9762\u5305.md": {
+    "mtime": 1781663004.2343462,
+    "ast_hash": "eaeb00b8f3c66a877774820657bd627d",
+    "semantic_hash": "eaeb00b8f3c66a877774820657bd627d"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u5fae\u6ce2\u7089\u814a\u80a0\u7172\u4ed4\u996d/\u5fae\u6ce2\u7089\u814a\u80a0\u7172\u4ed4\u996d.md": {
+    "mtime": 1781663004.2564158,
+    "ast_hash": "50e7528772b3a398a3093309f75b4962",
+    "semantic_hash": "50e7528772b3a398a3093309f75b4962"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u610f\u5f0f\u8089\u9171\u9762/\u610f\u5f0f\u8089\u9171\u9762.md": {
+    "mtime": 1781663004.23883,
+    "ast_hash": "09eb872ed7a9535ecae3cb271c31d54b",
+    "semantic_hash": "09eb872ed7a9535ecae3cb271c31d54b"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u624b\u5de5\u6c34\u997a.md": {
+    "mtime": 1781663004.2639794,
+    "ast_hash": "3bbc579d58571458479e5f02fe7af070",
+    "semantic_hash": "3bbc579d58571458479e5f02fe7af070"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u626c\u5dde\u7092\u996d/\u626c\u5dde\u7092\u996d.md": {
+    "mtime": 1781663004.2643209,
+    "ast_hash": "8c2ad3098f7ef90e1008e60d54859bd6",
+    "semantic_hash": "8c2ad3098f7ef90e1008e60d54859bd6"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u62ab\u8428\u997c\u76ae/\u62ab\u8428\u997c\u76ae.md": {
+    "mtime": 1781663004.232764,
+    "ast_hash": "1963b849411678e610ebe1eeb9bc3352",
+    "semantic_hash": "1963b849411678e610ebe1eeb9bc3352"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u65e5\u5f0f\u5496\u55b1\u996d/\u65e5\u5f0f\u5496\u55b1\u996d.md": {
+    "mtime": 1781663004.2337346,
+    "ast_hash": "0c3de8554ee556544ec1df23ec07b9a3",
+    "semantic_hash": "0c3de8554ee556544ec1df23ec07b9a3"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u65e5\u5f0f\u80a5\u725b\u4e3c\u996d/\u65e5\u5f0f\u80a5\u725b\u4e3c\u996d.md": {
+    "mtime": 1781663004.2464745,
+    "ast_hash": "4a3d20e61f11398d25bee28326993d26",
+    "semantic_hash": "4a3d20e61f11398d25bee28326993d26"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u6c64\u9762.md": {
+    "mtime": 1781663004.2497747,
+    "ast_hash": "d50cf2d302b4f0a07be9b343d3553de3",
+    "semantic_hash": "d50cf2d302b4f0a07be9b343d3553de3"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u6cb3\u5357\u84b8\u9762\u6761/\u6cb3\u5357\u84b8\u9762\u6761.md": {
+    "mtime": 1781663004.2405891,
+    "ast_hash": "bbe52abda7690f9991a84154e6dada53",
+    "semantic_hash": "bbe52abda7690f9991a84154e6dada53"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u706b\u817f\u996d\u56e2/\u706b\u817f\u996d\u56e2.md": {
+    "mtime": 1781663004.241636,
+    "ast_hash": "68b538e97c624f2d599029189afc8bcb",
+    "semantic_hash": "68b538e97c624f2d599029189afc8bcb"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u7092\u51c9\u7c89/\u7092\u51c9\u7c89.md": {
+    "mtime": 1781663004.2312398,
+    "ast_hash": "411a9791dccf8f0c94c6b3880b032f32",
+    "semantic_hash": "411a9791dccf8f0c94c6b3880b032f32"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u7092\u5e74\u7cd5.md": {
+    "mtime": 1781663004.25836,
+    "ast_hash": "ca44e63d39339bea7248366f12ba30d9",
+    "semantic_hash": "ca44e63d39339bea7248366f12ba30d9"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u7092\u610f\u5927\u5229\u9762/\u7092\u610f\u5927\u5229\u9762.md": {
+    "mtime": 1781663004.2504516,
+    "ast_hash": "fceeb9e4870a370c97f11043b1bf7881",
+    "semantic_hash": "fceeb9e4870a370c97f11043b1bf7881"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u7092\u65b9\u4fbf\u9762.md": {
+    "mtime": 1781663004.239143,
+    "ast_hash": "ebbe3dec58b79e9df4a45d2f5abe2e5d",
+    "semantic_hash": "ebbe3dec58b79e9df4a45d2f5abe2e5d"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u7092\u6cb3\u7c89.md": {
+    "mtime": 1781663004.2481098,
+    "ast_hash": "bd6297089362ca2b6a8c4675a04ef168",
+    "semantic_hash": "bd6297089362ca2b6a8c4675a04ef168"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u7092\u998d.md": {
+    "mtime": 1781663004.2649379,
+    "ast_hash": "46feec734f73484617a245b1a284e1e1",
+    "semantic_hash": "46feec734f73484617a245b1a284e1e1"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u70b8\u9171\u9762.md": {
+    "mtime": 1781663004.2484198,
+    "ast_hash": "ecca0a39ccd0f148641b61766b79cbc6",
+    "semantic_hash": "ecca0a39ccd0f148641b61766b79cbc6"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u70d9\u997c/\u70d9\u997c.md": {
+    "mtime": 1781663004.2317371,
+    "ast_hash": "d5e8255ab7f881b15b237cd58faed49f",
+    "semantic_hash": "d5e8255ab7f881b15b237cd58faed49f"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u70e7\u997c/\u829d\u9ebb\u70e7\u997c.md": {
+    "mtime": 1781663004.25428,
+    "ast_hash": "57bebad79e3f055294b95f35c4275c53",
+    "semantic_hash": "57bebad79e3f055294b95f35c4275c53"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u70ed\u5e72\u9762.md": {
+    "mtime": 1781663004.2517536,
+    "ast_hash": "8ef37e0de8b59e0821c376b32f58d95f",
+    "semantic_hash": "8ef37e0de8b59e0821c376b32f58d95f"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u716e\u6ce1\u9762\u52a0\u86cb.md": {
+    "mtime": 1781663004.2510767,
+    "ast_hash": "32fa12cc103241164fa6c5978cf8879f",
+    "semantic_hash": "32fa12cc103241164fa6c5978cf8879f"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u7535\u996d\u7172\u4e09\u6587\u9c7c\u708a\u996d/\u7535\u996d\u7172\u4e09\u6587\u9c7c\u708a\u996d.md": {
+    "mtime": 1781663004.257563,
+    "ast_hash": "531a3b27d51bc547012a1b80309462a4",
+    "semantic_hash": "531a3b27d51bc547012a1b80309462a4"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u7a7a\u6c14\u70b8\u9505\u7167\u70e7\u9e21\u996d/\u7a7a\u6c14\u70b8\u9505\u7167\u70e7\u9e21\u996d.md": {
+    "mtime": 1781663004.2468276,
+    "ast_hash": "7f3b228b87770d85d2782e88d77013f0",
+    "semantic_hash": "7f3b228b87770d85d2782e88d77013f0"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u7c73\u996d/\u716e\u9505\u84b8\u7c73\u996d.md": {
+    "mtime": 1781663004.252891,
+    "ast_hash": "60c0a10f81f35495dfad53982d2a1712",
+    "semantic_hash": "60c0a10f81f35495dfad53982d2a1712"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u7c73\u996d/\u7535\u996d\u7172\u84b8\u7c73\u996d.md": {
+    "mtime": 1781663004.2536647,
+    "ast_hash": "6af3e3508fef3cd7a03fe88839e1539a",
+    "semantic_hash": "6af3e3508fef3cd7a03fe88839e1539a"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u8001\u53cb\u732a\u8089\u7c89/\u8001\u53cb\u732a\u8089\u7c89.md": {
+    "mtime": 1781663004.2474694,
+    "ast_hash": "b0f4d77b71bf5ca490f45a633029f43c",
+    "semantic_hash": "b0f4d77b71bf5ca490f45a633029f43c"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u8001\u5e72\u5988\u62cc\u9762.md": {
+    "mtime": 1781663004.2524297,
+    "ast_hash": "ad429d79e27824a65d6df374117355ab",
+    "semantic_hash": "ad429d79e27824a65d6df374117355ab"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u8089\u86cb\u76d6\u996d.md": {
+    "mtime": 1781663004.2513466,
+    "ast_hash": "cbb2ade07db2e098023d8363dd05253c",
+    "semantic_hash": "cbb2ade07db2e098023d8363dd05253c"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u8304\u5b50\u8089\u714e\u997c/\u8304\u5b50\u8089\u714e\u997c.md": {
+    "mtime": 1781663004.2606952,
+    "ast_hash": "fd094fdbbfb8c4f2b48c916c17035df0",
+    "semantic_hash": "fd094fdbbfb8c4f2b48c916c17035df0"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u8471\u6cb9\u62cc\u9762.md": {
+    "mtime": 1781663004.2569036,
+    "ast_hash": "ddec855c1640c48340d4dbc39fda82c0",
+    "semantic_hash": "ddec855c1640c48340d4dbc39fda82c0"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u84b8\u5364\u9762.md": {
+    "mtime": 1781663004.2602768,
+    "ast_hash": "7a08264b212689ca036ed632e716ffdd",
+    "semantic_hash": "7a08264b212689ca036ed632e716ffdd"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u86cb\u5305\u996d.md": {
+    "mtime": 1781663004.2409425,
+    "ast_hash": "6958b74245f655fcf6a5c1ac45e47803",
+    "semantic_hash": "6958b74245f655fcf6a5c1ac45e47803"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u86cb\u7092\u996d.md": {
+    "mtime": 1781663004.2571187,
+    "ast_hash": "b3a308e85ce47e1b1fe0d9c1d14ed162",
+    "semantic_hash": "b3a308e85ce47e1b1fe0d9c1d14ed162"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u87ba\u86f3\u7c89.md": {
+    "mtime": 1781663004.2580512,
+    "ast_hash": "0a463ddc5ccc5702db8131ff9b5e210e",
+    "semantic_hash": "0a463ddc5ccc5702db8131ff9b5e210e"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u897f\u7ea2\u67ff\u9e21\u86cb\u6302\u9762/\u897f\u7ea2\u67ff\u9e21\u86cb\u6302\u9762.md": {
+    "mtime": 1781663004.2669256,
+    "ast_hash": "b16ff8f80849837ed467b57d804d38db",
+    "semantic_hash": "b16ff8f80849837ed467b57d804d38db"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u8c46\u89d2\u7116\u9762/\u8c46\u89d2\u7116\u9762.md": {
+    "mtime": 1781663004.2600055,
+    "ast_hash": "131ee4216d39e8850c0f461b8661904b",
+    "semantic_hash": "131ee4216d39e8850c0f461b8661904b"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u9171\u62cc\u835e\u9ea6\u9762/\u9171\u62cc\u835e\u9ea6\u9762.md": {
+    "mtime": 1781663004.259632,
+    "ast_hash": "6f29c433a4f7dfb5e326d33506a21f93",
+    "semantic_hash": "6f29c433a4f7dfb5e326d33506a21f93"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u9178\u8fa3\u8568\u6839\u7c89.md": {
+    "mtime": 1781663004.241976,
+    "ast_hash": "60327d993cdca761824323717cc3661f",
+    "semantic_hash": "60327d993cdca761824323717cc3661f"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u91aa\u7cdf\u5c0f\u6c64\u5706.md": {
+    "mtime": 1781663004.2672396,
+    "ast_hash": "2d1bc1e72d2fcf29f29df211b6a05bf9",
+    "semantic_hash": "2d1bc1e72d2fcf29f29df211b6a05bf9"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u97e9\u5f0f\u62cc\u996d/\u97e9\u5f0f\u62cc\u996d.md": {
+    "mtime": 1781663004.2550669,
+    "ast_hash": "f2589b68b4fa24cde3e433bfd3ec487e",
+    "semantic_hash": "f2589b68b4fa24cde3e433bfd3ec487e"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u97ed\u83dc\u76d2\u5b50.md": {
+    "mtime": 1781663004.2500103,
+    "ast_hash": "1e4f5045dc2d27e48957aa8310cfd539",
+    "semantic_hash": "1e4f5045dc2d27e48957aa8310cfd539"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u9ca3\u9c7c\u6d77\u82d4\u7389\u7c73\u996d/\u9ca3\u9c7c\u6d77\u82d4\u7389\u7c73\u996d.md": {
+    "mtime": 1781663004.267562,
+    "ast_hash": "c3b83d1fa3e9b1f1085f8d0b37e18da2",
+    "semantic_hash": "c3b83d1fa3e9b1f1085f8d0b37e18da2"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u9ebb\u6cb9\u62cc\u9762.md": {
+    "mtime": 1781663004.2545366,
+    "ast_hash": "43862f195e5574d052b54180ab630537",
+    "semantic_hash": "43862f195e5574d052b54180ab630537"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/staple/\u9ebb\u8fa3\u51cf\u8102\u835e\u9ea6\u9762.md": {
+    "mtime": 1781663004.2394462,
+    "ast_hash": "389916802fa1d5e700a178a9610930d7",
+    "semantic_hash": "389916802fa1d5e700a178a9610930d7"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/template/\u793a\u4f8b\u83dc/\u793a\u4f8b\u83dc.md": {
+    "mtime": 1781663004.284007,
+    "ast_hash": "e358cd98f994c73176b212e518676498",
+    "semantic_hash": "e358cd98f994c73176b212e518676498"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u4e0a\u6c64\u5a03\u5a03\u83dc/\u4e0a\u6c64\u5a03\u5a03\u83dc.md": {
+    "mtime": 1781663004.21271,
+    "ast_hash": "f4b13298480efd773bd291c6f789111f",
+    "semantic_hash": "f4b13298480efd773bd291c6f789111f"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u51c9\u62cc\u6728\u8033/\u51c9\u62cc\u6728\u8033.md": {
+    "mtime": 1781663004.1944978,
+    "ast_hash": "fff63ad1c1ed197db17f2f442e2deb9d",
+    "semantic_hash": "fff63ad1c1ed197db17f2f442e2deb9d"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u51c9\u62cc\u6cb9\u9ea6\u83dc.md": {
+    "mtime": 1781663004.203394,
+    "ast_hash": "629df4c42481cd7bcd5b7cad0226f393",
+    "semantic_hash": "629df4c42481cd7bcd5b7cad0226f393"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u51c9\u62cc\u83b4\u7b0b/\u51c9\u62cc\u83b4\u7b0b.md": {
+    "mtime": 1781663004.2163148,
+    "ast_hash": "5b3715df9eeab795febd469b8d7c75f5",
+    "semantic_hash": "5b3715df9eeab795febd469b8d7c75f5"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u51c9\u62cc\u8c46\u8150.md": {
+    "mtime": 1781663004.189277,
+    "ast_hash": "17d0228c62d0dc678825fb32ee4c5b43",
+    "semantic_hash": "17d0228c62d0dc678825fb32ee4c5b43"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u51c9\u62cc\u91d1\u9488\u83c7.md": {
+    "mtime": 1781663004.2166042,
+    "ast_hash": "8c3cc6c2b88d574fb643e3a406429240",
+    "semantic_hash": "8c3cc6c2b88d574fb643e3a406429240"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u51c9\u62cc\u9ec4\u74dc.md": {
+    "mtime": 1781663004.2155426,
+    "ast_hash": "5532bdc6e44156833ad6ae587abae1e5",
+    "semantic_hash": "5532bdc6e44156833ad6ae587abae1e5"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u5305\u83dc\u7092\u9e21\u86cb\u7c89\u4e1d/\u5305\u83dc\u7092\u9e21\u86cb\u7c89\u4e1d.md": {
+    "mtime": 1781663004.2213602,
+    "ast_hash": "5fb38b0622121b36ce0ba69410d2219f",
+    "semantic_hash": "5fb38b0622121b36ce0ba69410d2219f"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u5730\u4e09\u9c9c.md": {
+    "mtime": 1781663004.2282898,
+    "ast_hash": "0bff07a2ae6f27f5be94acac674b1cce",
+    "semantic_hash": "0bff07a2ae6f27f5be94acac674b1cce"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u5c0f\u7092\u85d5\u4e01/\u5c0f\u7092\u85d5\u4e01.md": {
+    "mtime": 1781663004.2230823,
+    "ast_hash": "9e17d096c461c133c75e2f99bf6afa08",
+    "semantic_hash": "9e17d096c461c133c75e2f99bf6afa08"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u5e72\u9505\u82b1\u83dc/\u5e72\u9505\u82b1\u83dc.md": {
+    "mtime": 1781663004.1986084,
+    "ast_hash": "473e023ce2f81476f9c7fca329606ad2",
+    "semantic_hash": "473e023ce2f81476f9c7fca329606ad2"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u624b\u6495\u5305\u83dc/\u624b\u6495\u5305\u83dc.md": {
+    "mtime": 1781663004.2184017,
+    "ast_hash": "6ed99a5719ad2cbf262ce9a793c22934",
+    "semantic_hash": "6ed99a5719ad2cbf262ce9a793c22934"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u62d4\u4e1d\u571f\u8c46/\u62d4\u4e1d\u571f\u8c46.md": {
+    "mtime": 1781663004.1909363,
+    "ast_hash": "7e1cbdae721b92ca0cd51e5b8bb0b159",
+    "semantic_hash": "7e1cbdae721b92ca0cd51e5b8bb0b159"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u677e\u4ec1\u7389\u7c73.md": {
+    "mtime": 1781663004.184931,
+    "ast_hash": "2d64aecb0319f7b912ca7525b6dd3da0",
+    "semantic_hash": "2d64aecb0319f7b912ca7525b6dd3da0"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u6912\u76d0\u7389\u7c73/\u6912\u76d0\u7389\u7c73.md": {
+    "mtime": 1781663004.2068002,
+    "ast_hash": "a1a9e4e74649ef3ac2a529243feed8f6",
+    "semantic_hash": "a1a9e4e74649ef3ac2a529243feed8f6"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u6984\u83dc\u8089\u672b\u56db\u5b63\u8c46/\u6984\u83dc\u8089\u672b\u56db\u5b63\u8c46.md": {
+    "mtime": 1781663004.2258208,
+    "ast_hash": "ba82919f8256273b91eb5feece3f7dba",
+    "semantic_hash": "ba82919f8256273b91eb5feece3f7dba"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u6c34\u6cb9\u7116\u852c\u83dc.md": {
+    "mtime": 1781663004.187093,
+    "ast_hash": "026edcaf468dff770ab32e90163658e5",
+    "semantic_hash": "026edcaf468dff770ab32e90163658e5"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u6cb9\u918b\u7206\u86cb.md": {
+    "mtime": 1781663004.228018,
+    "ast_hash": "e8fc1a5a2840a153a2df0bacdda34f81",
+    "semantic_hash": "e8fc1a5a2840a153a2df0bacdda34f81"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u6d0b\u8471\u7092\u9e21\u86cb/\u6d0b\u8471\u7092\u9e21\u86cb.md": {
+    "mtime": 1781663004.229806,
+    "ast_hash": "68044ec1b95089c0296434dafd4c21c4",
+    "semantic_hash": "68044ec1b95089c0296434dafd4c21c4"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u6e05\u7092\u82b1\u83dc.md": {
+    "mtime": 1781663004.200063,
+    "ast_hash": "4d2f0475132b8016fccbb6c2bbd9cd1e",
+    "semantic_hash": "4d2f0475132b8016fccbb6c2bbd9cd1e"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u6e05\u84b8\u5357\u74dc.md": {
+    "mtime": 1781663004.1885765,
+    "ast_hash": "14635f178a96a2cb340c318a005a3764",
+    "semantic_hash": "14635f178a96a2cb340c318a005a3764"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u7092\u6ed1\u86cb/\u7092\u6ed1\u86cb.md": {
+    "mtime": 1781663004.2136157,
+    "ast_hash": "ec2ba9dc2bef443d27642cc15b513fe7",
+    "semantic_hash": "ec2ba9dc2bef443d27642cc15b513fe7"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u7092\u8304\u5b50.md": {
+    "mtime": 1781663004.2152574,
+    "ast_hash": "3bc5d99c83477ce890ad6f70d1c7ed32",
+    "semantic_hash": "3bc5d99c83477ce890ad6f70d1c7ed32"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u7092\u9752\u83dc.md": {
+    "mtime": 1781663004.203016,
+    "ast_hash": "5dd0b1b0fe05d67d3654ba441fa9b84b",
+    "semantic_hash": "5dd0b1b0fe05d67d3654ba441fa9b84b"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u70e4\u8304\u5b50/\u70e4\u8304\u5b50.md": {
+    "mtime": 1781663004.222087,
+    "ast_hash": "7e706b075a69b7a7e789acbda57b9cfe",
+    "semantic_hash": "7e706b075a69b7a7e789acbda57b9cfe"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u767d\u707c\u83dc\u5fc3/\u767d\u707c\u83dc\u5fc3.md": {
+    "mtime": 1781663004.227519,
+    "ast_hash": "31714170c2d6cb7c68512bfeffbb5684",
+    "semantic_hash": "31714170c2d6cb7c68512bfeffbb5684"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u7cd6\u62cc\u897f\u7ea2\u67ff/\u7cd6\u62cc\u897f\u7ea2\u67ff.md": {
+    "mtime": 1781663004.2288673,
+    "ast_hash": "a3945ddee16789a6b0c6c3c691a5ff86",
+    "semantic_hash": "a3945ddee16789a6b0c6c3c691a5ff86"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u7d20\u7092\u8c46\u89d2.md": {
+    "mtime": 1781663004.2252557,
+    "ast_hash": "402ddc9d5d5bc640756156d254b1f7cb",
+    "semantic_hash": "402ddc9d5d5bc640756156d254b1f7cb"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u7ea2\u70e7\u51ac\u74dc/\u7ea2\u70e7\u51ac\u74dc.md": {
+    "mtime": 1781663004.2013714,
+    "ast_hash": "ae49ae39313d5b4e627ae0decb49c1bc",
+    "semantic_hash": "ae49ae39313d5b4e627ae0decb49c1bc"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u7ea2\u70e7\u8304\u5b50.md": {
+    "mtime": 1781663004.2026238,
+    "ast_hash": "870d4c03b6be53e67067289e204ac77f",
+    "semantic_hash": "870d4c03b6be53e67067289e204ac77f"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u8106\u76ae\u8c46\u8150.md": {
+    "mtime": 1781663004.220906,
+    "ast_hash": "0417fae5c25bfb23e40202a86fae1ab5",
+    "semantic_hash": "0417fae5c25bfb23e40202a86fae1ab5"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u82b9\u83dc\u62cc\u8336\u6811\u83c7/\u82b9\u83dc\u62cc\u8336\u6811\u83c7.md": {
+    "mtime": 1781663004.2054226,
+    "ast_hash": "8566d98a9e44cf27373bdcb6dba0faa4",
+    "semantic_hash": "8566d98a9e44cf27373bdcb6dba0faa4"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u8304\u5b50\u7096\u571f\u8c46.md": {
+    "mtime": 1781663004.227771,
+    "ast_hash": "8d1dd08af9b343e8c3f678096180aa42",
+    "semantic_hash": "8d1dd08af9b343e8c3f678096180aa42"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u83b4\u7b0b\u53f6\u714e\u997c/\u83b4\u7b0b\u53f6\u714e\u997c.md": {
+    "mtime": 1781663004.209459,
+    "ast_hash": "a44fbd171296fd17b8fcd4edc274addb",
+    "semantic_hash": "a44fbd171296fd17b8fcd4edc274addb"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u83e0\u83dc\u7092\u9e21\u86cb/\u83e0\u83dc\u7092\u9e21\u86cb.md": {
+    "mtime": 1781663004.2249794,
+    "ast_hash": "c39a6fbaa11119832eec74d9fd0410c5",
+    "semantic_hash": "c39a6fbaa11119832eec74d9fd0410c5"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u8471\u714e\u8c46\u8150.md": {
+    "mtime": 1781663004.1842113,
+    "ast_hash": "ed7be3da76f01ecb3ed28de4df68457b",
+    "semantic_hash": "ed7be3da76f01ecb3ed28de4df68457b"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u849c\u84c9\u7a7a\u5fc3\u83dc/\u849c\u84c9\u7a7a\u5fc3\u83dc.md": {
+    "mtime": 1781663004.2105162,
+    "ast_hash": "af916a59fb5b7285b084fe81f46301a1",
+    "semantic_hash": "af916a59fb5b7285b084fe81f46301a1"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u849c\u84c9\u897f\u5170\u82b1.md": {
+    "mtime": 1781663004.2022488,
+    "ast_hash": "b528f5017efc9706a4f513f63f6533d0",
+    "semantic_hash": "b528f5017efc9706a4f513f63f6533d0"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u84b2\u70e7\u8304\u5b50.md": {
+    "mtime": 1781663004.2057955,
+    "ast_hash": "07ffe4542d9b01838061ad0e5ff33ec6",
+    "semantic_hash": "07ffe4542d9b01838061ad0e5ff33ec6"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u864e\u76ae\u9752\u6912/\u864e\u76ae\u9752\u6912.md": {
+    "mtime": 1781663004.2235816,
+    "ast_hash": "eb97bda7594835ef3fb7af71830d2f50",
+    "semantic_hash": "eb97bda7594835ef3fb7af71830d2f50"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u869d\u6cb9\u4e09\u9c9c\u83c7/\u869d\u6cb9\u4e09\u9c9c\u83c7.md": {
+    "mtime": 1781663004.2141867,
+    "ast_hash": "773d725eb674fdcefcd2f45fbf3e067b",
+    "semantic_hash": "773d725eb674fdcefcd2f45fbf3e067b"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u869d\u6cb9\u751f\u83dc.md": {
+    "mtime": 1781663004.224109,
+    "ast_hash": "ec6e54e1131fe477c9a3c5586b9ce46e",
+    "semantic_hash": "ec6e54e1131fe477c9a3c5586b9ce46e"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u897f\u7ea2\u67ff\u7092\u9e21\u86cb.md": {
+    "mtime": 1781663004.2170117,
+    "ast_hash": "4abb19c64bead0a46fc13ba27d468171",
+    "semantic_hash": "4abb19c64bead0a46fc13ba27d468171"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u897f\u7ea2\u67ff\u8c46\u8150\u6c64\u7fb9/\u897f\u7ea2\u67ff\u8c46\u8150\u6c64\u7fb9.md": {
+    "mtime": 1781663004.183469,
+    "ast_hash": "7f163827401d0478c97d446d88f0cc4e",
+    "semantic_hash": "7f163827401d0478c97d446d88f0cc4e"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u897f\u846b\u82a6\u7092\u9e21\u86cb/\u897f\u846b\u82a6\u7092\u9e21\u86cb.md": {
+    "mtime": 1781663004.1858847,
+    "ast_hash": "e04bbeca7a1ddfca0e4ca36da3884400",
+    "semantic_hash": "e04bbeca7a1ddfca0e4ca36da3884400"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u8bdd\u6885\u716e\u6bdb\u8c46/\u8bdd\u6885\u716e\u6bdb\u8c46.md": {
+    "mtime": 1781663004.208119,
+    "ast_hash": "85a74639f78bdc9ac2726c10bca75f15",
+    "semantic_hash": "85a74639f78bdc9ac2726c10bca75f15"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u9178\u8fa3\u571f\u8c46\u4e1d.md": {
+    "mtime": 1781663004.2040749,
+    "ast_hash": "82dca3bd098e9bb3ca7887f30c2c5521",
+    "semantic_hash": "82dca3bd098e9bb3ca7887f30c2c5521"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u91d1\u9488\u83c7\u65e5\u672c\u8c46\u8150\u7172.md": {
+    "mtime": 1781663004.1879177,
+    "ast_hash": "5c7772214b86e1162dccafb951a85a63",
+    "semantic_hash": "5c7772214b86e1162dccafb951a85a63"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u9655\u5317\u71ac\u8c46\u89d2.md": {
+    "mtime": 1781663004.230068,
+    "ast_hash": "1217d18c0bd3d1760a094f99e43d5da8",
+    "semantic_hash": "1217d18c0bd3d1760a094f99e43d5da8"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u96f7\u6912\u76ae\u86cb.md": {
+    "mtime": 1781663004.2037292,
+    "ast_hash": "18229147578f92ecb2b921b26f65424c",
+    "semantic_hash": "18229147578f92ecb2b921b26f65424c"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u9e21\u86cb\u706b\u817f\u7092\u9ec4\u74dc.md": {
+    "mtime": 1781663004.1996152,
+    "ast_hash": "0026369518d16d5263773ff81e3adb14",
+    "semantic_hash": "0026369518d16d5263773ff81e3adb14"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u9e21\u86cb\u7fb9/\u5fae\u6ce2\u7089\u9e21\u86cb\u7fb9.md": {
+    "mtime": 1781663004.2201912,
+    "ast_hash": "39bf57ee5a8f08c82e72959a4487f445",
+    "semantic_hash": "39bf57ee5a8f08c82e72959a4487f445"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u9e21\u86cb\u7fb9/\u84b8\u7bb1\u9e21\u86cb\u7fb9.md": {
+    "mtime": 1781663004.219511,
+    "ast_hash": "4a29e559d63d75b8fe604bf679da7b74",
+    "semantic_hash": "4a29e559d63d75b8fe604bf679da7b74"
+  },
+  "/Users/leigang.zhang/Workspace/cook-rag/data/cook/dishes/vegetable_dish/\u9e21\u86cb\u7fb9/\u9e21\u86cb\u7fb9.md": {
+    "mtime": 1781663004.2205148,
+    "ast_hash": "094b09f44e5a0e341b80e6c3cad06ab8",
+    "semantic_hash": "094b09f44e5a0e341b80e6c3cad06ab8"
+  }
+}

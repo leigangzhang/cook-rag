@@ -7,6 +7,8 @@ class RAGConf:
     # 路径配置
     data_path: str = "./data/cook"
     index_save_path: str = "./vector_index"
+    recipes_metadata_path: str = './graphify-out/.graphify_recipes.json'
+    graph_json_path: str = './graphify-out/graph.json'
 
     # 模型配置
     embedding_model: str = "BAAI/bge-small-zh-v1.5"

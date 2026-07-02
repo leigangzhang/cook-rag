@@ -18,7 +18,7 @@
 - **Embedding模型**：BAAI/bge-small-zh-v1.5（远程连接HuggingFace使用,需🪜）
 
 ## 安装使用
-### 初始化python环境
+### 初始化环境
 **安装miniConda**
 ```bash
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh
@@ -55,17 +55,53 @@ conda create -n cook-rag python=3.12.11
 conda activate cook-rag
 ```
 
-**安装依赖文件**
+### 安装依赖文件
 ```bash
 pip install -r requirements.txt
 ```
 
-**启动程序**
+### 启动程序
 ```bash
 python main.py
 ```
 
+## 项目文件结构
+```markdown
+├── main.py                           # 主程序入口
+├── config.py                         # 配置文件
+├── prompt.py                         # RAG提示词
+├── README.md                         # 项目整体介绍
+├── requirements.txt                  # Python依赖包
+├── modules                           # RAG核心流程模块
+│   ├── baike_crawler.py              # 更新菜品词条摘要流程(Summary)
+│   ├── build_index.py                # 索引构建和增强流程(Embedding)
+│   ├── graph_generator.py            # 图索引构建流程(Graphify)
+│   ├── llm_generator.py              # LLM生成集成流程(Generate)
+│   ├── query_retrial.py              # 向量检索流程(Retrial)
+│   └── question_refactor.py          # 用户查询优化流程(Query)
+├── data                              # 数据目录
+│   ├── cook                          # 菜品总目录
+│   │   └── dishes                    # 菜品主目录
+│   └── imgs                          # 文档中嵌入的图片
+├── graphify-out                      # 图索引本地文件(使用Graphify生成)
+│   ├── GRAPH_REPORT.md               # 审计报告 (God Nodes, 意外关联, 建议问题)
+│   ├── graph.html                    # 交互式可视化
+│   ├── graph.json                    # 完整图谱数据
+│   └── manifest.json                 # 文件清单
+├── docs                              # 文档目录
+│   ├── baike_api_crawler.md          # 更新菜品词条摘要实现文档
+│   └── graphify-pipeline.md          # 使用Graphify构建图索引实现文档
+└── vector_index                      # FAISS本地向量存储目录
+```
 ## 版本及功能
+多版本管理和功能迭代概览：
+| 版本号 | GitHub Tag | 版本介绍 | 实现模块 | 新增功能 | 
+|:-----:|:----------:|:--------|:--------|:-------|
+|V1|v1.0.0|最简单的RAG系统——文本分块做向量化后直接基于TopK检索并调大模型生成答复|文本分块、索引构建<br>向量检索、LLM生成|可实现简单的菜品推荐和菜品做法检索|
+|V1.2|v1.2.0|优化了索引构建(Embedding)流程和向量检索流程|元数据增强、上下文扩展、父文档智能去重<br>向量化和关键字(BM25)混合检索和重排|可以给出完整的菜品做法，菜品推荐也更准确了，但回答冗长|
+|V1.5|v1.5.0|添加了用户查询意图分类和模糊意图LLM重写模块，并按照查询分类路由到不同的LLM生成大幅|用户查询路由(用户查询意图分类)、查询重写、LLM生成路由和多提示词|菜品推荐的结果更精简了，用户查询比较模糊时也可以给出更准确的答复了|
+|V1.8|v1.8.0|完善菜品基本信息(含菜系、地域、口味等)，添加相似度检索降低Token数提升命中率|更新菜品词条摘要、向量检索路由(支持TopK和相似度检索)|菜品做法向量检索更精准，支持基于菜系、口味、地域等的菜品推荐和常规问题类检索|
+|V2.0|v2.0.0|使用Graphify构建菜品知识图谱，支持图检索和向量检索，实现复杂语义的交叉类查询|知识图谱索引构建(Graphify)<br>查询路由(向量检索/图检索)<br>图结构化检索(GraphRetriever)|复杂关系推理和多跳查询能力提升，支持跨菜品关联分析(如食材、技法、菜系的交叉查询)|
 ### V1（tag-v1.0.0)
 #### 版本介绍
 使用通用RAG架构对数据做「基于Markdown文档结构的」分块和使用FAISS向量化，并存储到本地。用户输入问题后直接检索后，使用提示词发给大模型生成答案。
@@ -1034,3 +1070,253 @@ GENERATE_LIST_TOPK = """
 
 #### 存在问题
 1. **复杂推理能力和多跳查询能力较弱**：目前基于向量检索的知识库只能理解用户单一维度上的查询意图，对于复杂关系和多跳查询的处理能力比较差，用户问到「减肥期间适合吃什么菜」这类复杂的问题时，就无法准确获取用户意图给出答复，下一个版本会借助图数据库的关系图谱来实现。
+
+### V2.0（tag-v2.0.0)
+#### 版本介绍
+该版本在V1.8的基础上，针对向量检索在复杂关系推理和多跳查询方面的局限性，引入知识图谱（Graphify）作为增强检索手段：
+
+- **引入知识图谱**：基于Graphify库，对323道菜谱进行结构化提取，构建包含菜品、食材、技法、菜系、难度、烹饪时间、碳水含量等多维关系的知识图谱（1,550节点，4,677条边），并完成社区聚类、标注与交互式可视化。
+- **智能查询路由**：新增 `QueryRouter` 模块，通过LLM分析用户查询的复杂度、关系密集度和推理需求，自动判断使用向量检索（传统RAG）还是图检索（Graph RAG），实现检索策略的智能切换。
+- **图结构化检索**：新增 `GraphRetriever` 模块，将用户用自然语言描述的查询条件（如菜系、难度、食材、技法、时间等）解析为结构化图查询，在图谱中做多维度交集检索，精准匹配满足复合条件的菜品。
+- **复杂的交叉类查询**：用户可进行跨维度的复杂查询（如"快速又低糖的早餐"、"适合新手的川菜"等），基于图结构的推理能精准理解多个维度的交叉约束。
+
+#### 项目流程
+```mermaid
+flowchart LR
+
+%% 多流程分支
+START[开始] --> |完善原始文档| CookSummary
+CookSummary --> |Embedding流程| BuildIndex
+BuildIndex --> FAISS_STORE[本地向量数据库]
+CookSummary --> |图索引构建| GraphBuild
+GraphBuild --> GRAPH_STORE[知识图谱<br>graph.json]
+START[开始] --> |用户交互流程| SYSTEM_INIT[初始化]
+
+%% 知识库构建
+SYSTEM_INIT --> INDEX_CHECK[检查是否存在索引]
+INDEX_CHECK --> LOAD_INDEX[加载索引]
+
+%% 用户检索
+LOAD_INDEX --> UserQuestionRefactor
+UserQuestionRefactor --> QueryRouter
+
+%% 查询路由
+QueryRouter --> VECTOR_RETRIAL
+FAISS_STORE --> |加载向量索引| VECTOR_RETRIAL
+QueryRouter --> GRAPH_RETRIAL
+GRAPH_STORE --> |加载图索引| GRAPH_RETRIAL
+
+
+%% LLM生成
+VECTOR_RETRIAL --> LLMGenerate
+GRAPH_RETRIAL --> LLMGenerate
+LLMGenerate --> RESPONSE_USER[返回结果]
+
+%% 追加菜品词条摘要
+subgraph CookSummary ["更新菜品词条摘要(Summary)"]
+   ORIGINAL_DATA[原始<菜品名>.md文档] --> EXTRACT_COOK_NAME[提取菜品名]
+   EXTRACT_COOK_NAME --> CITIAO_API_FETCH[访问百度百科API]
+   CITIAO_API_FETCH --> EXTRACT_COOK_SUMMARY[提取词条摘要]
+   EXTRACT_COOK_SUMMARY --> APPEND_COOK_DOCUMENT[更新<菜品名>.md文档]
+end
+
+%% 构建索引子流程
+subgraph BuildIndex ["构建索引流程(Embedding)"]
+    LOAD_DATA[加载数据] --> ADD_METADATA[元数据增强]
+    ADD_METADATA --> DATA_CHUNCK[文本分块] 
+    DATA_CHUNCK --> RELATION_MAPPING[父子关系映射]
+    RELATION_MAPPING --> BUILD_INDEX[构建索引]
+    BUILD_INDEX --> STORE_INDEX[存储到本地]
+end
+
+%% 图索引构建子流程
+subgraph GraphBuild ["图索引构建流程(Graphify)"]
+    LOAD_RECIPES[加载菜谱元数据] --> BUILD_SEMANTIC[构建语义节点和边]
+    BUILD_SEMANTIC --> GRAPH_CLUSTER[社区聚类]
+    GRAPH_CLUSTER --> GRAPH_ANALYZE[God Nodes分析]
+    GRAPH_ANALYZE --> GRAPH_EXPORT[导出图谱文件<br>graph.json/graph.html]
+end
+
+%% 用户问题子流程
+subgraph UserQuestionRefactor ["用户查询优化流程(QuestionRefactor)"]
+    USER_QUERSTION[用户问题] --> QUESTION_ROUTER[查询路由]
+    QUESTION_ROUTER --> |list|LIST_QUESTION[查询菜品列表]
+    QUESTION_ROUTER --> |detail|DETAIL_QUESTION[查询菜品做法]
+    QUESTION_ROUTER --> |general|DENERAL_QUESTION[查询一般问题]
+    LIST_QUESTION --> KEEP_QUESTION[保持原查询]
+    DETAIL_QUESTION --> QUESTION_REWRITE[查询重写]
+    DENERAL_QUESTION --> QUESTION_REWRITE
+end
+
+%% 查询路由子流程
+subgraph QueryRouter ["查询路由(QueryRouter)"]
+    QUERY_INPUT[用户查询] --> LLM_ANALYSIS[LLM分析查询特征]
+    LLM_ANALYSIS --> COMPLEXITY{复杂度/关系密集度}
+    COMPLEXITY --> |低-混合检索| HYBRID_STRATEGY["传统混合检索"]
+    COMPLEXITY --> |高-图检索| GRAPH_STRATEGY["图RAG检索"]
+end
+
+%% 向量检索子流程
+subgraph VECTOR_RETRIAL ["向量检索流程(Retrial)"]
+    QUESTION_TYPE[用户问题类型] --> |list|LIST_QUESTION_TOPK[查询用户想要的最大菜品数量TopK]
+    LIST_QUESTION_TOPK --> EXACT_VECTOR_RETRILA[基于精确TopK的向量检索]
+    QUESTION_TYPE --> |"detail | general"|THRESHOLD_VECTOR_RETRILA[基于相似度的向量检索]
+    EXACT_VECTOR_RETRILA --> METADATA_FILTER[元数据过滤检索] 
+    THRESHOLD_VECTOR_RETRILA --> METADATA_FILTER
+    METADATA_FILTER --> FETCH_SUB_CHUNCKS[检索到子块]
+    FETCH_SUB_CHUNCKS --> DISTINCT_RANK[智能去重]
+    DISTINCT_RANK --> FETCH_PARENT_CHUNCKS[获取父文档]
+end
+
+%% 图检索子流程
+subgraph GRAPH_RETRIAL ["图检索流程(GraphRetriever)"]
+    GRAPH_QUERY[用户查询] --> LLM_PARSE[LLM解析为结构化条件]
+    LLM_PARSE --> STRUCTURED_SEARCH[图结构交集检索]
+    STRUCTURED_SEARCH --> MATCH_DISHES[匹配菜品名称列表]
+    MATCH_DISHES --> READ_DOCUMENTS[读取菜品完整文档]
+end
+
+%% LLM生成子流程
+subgraph LLMGenerate ["LLM生成结果(Generate)"]
+    GENERATE_ROUTER[生成路由] --> |list|GENERATE_FOOD_LIST[生成菜品列表]
+    GENERATE_ROUTER --> |detail|GENERATE_FOOD_DETAIL[生成菜品做法]
+    GENERATE_ROUTER --> |general|GENERATE_NORMAL_INFO[生成一般答复]
+end
+
+%% 样式定义
+classDef module fill:#f1f8e9,stroke:#33691e,stroke-width:2px
+classDef retrieval fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px
+
+%% 样式应用
+class CookSummary,BuildIndex,GraphBuild,VECTOR_RETRIAL,GRAPH_RETRIAL,UserQuestionRefactor,QueryRouter,LLMGenerate module
+class ORIGINAL_DATA,EXTRACT_COOK_NAME,CITIAO_API_FETCH,EXTRACT_COOK_SUMMARY,APPEND_COOK_DOCUMENT retrieval
+class LOAD_DATA,ADD_METADATA,DATA_CHUNCK,RELATION_MAPPING,BUILD_INDEX,STORE_INDEX retrieval
+class LOAD_RECIPES,BUILD_SEMANTIC,GRAPH_CLUSTER,GRAPH_ANALYZE,GRAPH_EXPORT retrieval
+class METADATA_FILTER,VECTOR_RETRILA,EXACT_VECTOR_RETRILA,THRESHOLD_VECTOR_RETRILA,FETCH_SUB_CHUNCKS,DISTINCT_RANK,FETCH_PARENT_CHUNCKS retrieval
+class GENERATE_ROUTER,GENERATE_FOOD_LIST,GENERATE_FOOD_DETAIL,GENERATE_NORMAL_INFO retrieval
+class USER_QUERSTION,QUESTION_ROUTER,LIST_QUESTION,DETAIL_QUESTION,DENERAL_QUESTION,KEEP_QUESTION,QUESTION_REWRITE,LIST_QUESTION_TOPK,QUESTION_TYPE retrieval
+class GRAPH_QUERY,LLM_PARSE,STRUCTURED_SEARCH,MATCH_DISHES,READ_DOCUMENTS retrieval
+class QUERY_INPUT,LLM_ANALYSIS,COMPLEXITY,HYBRID_STRATEGY,GRAPH_STRATEGY retrieval
+```
+
+#### 提示词
+该版本在V1.5和V1.8的提示词基础上，新增了两个与图检索相关的提示词：
+
+**查询复杂度分析提示词**
+<details>
+  <summary>点击查看提示词</summary>
+
+```python
+QUERY_ANALYSIS = """
+作为RAG系统的查询分析专家，请深度分析以下查询的特征：
+
+查询：{query}
+
+请从以下维度分析：
+
+1. 查询复杂度 (0-1)：
+   - 0.0-0.3: 简单信息查找（如：红烧肉怎么做？）
+   - 0.4-0.7: 中等复杂度（如：川菜有哪些特色菜？）
+   - 0.8-1.0: 高复杂度推理（如：为什么川菜用花椒而不是胡椒？）
+
+2. 关系密集度 (0-1)：
+   - 0.0-0.3: 单一实体信息（如：西红柿的营养价值）
+   - 0.4-0.7: 实体间关系（如：鸡肉配什么蔬菜？）
+   - 0.8-1.0: 复杂关系网络（如：川菜的形成与地理、历史的关系）
+
+3. 推理需求：
+   - 是否需要多跳推理？
+   - 是否需要因果分析？
+   - 是否需要对比分析？
+
+4. 实体识别：
+   - 查询中包含多少个明确实体？
+   - 实体类型是什么？
+
+基于分析推荐检索策略：
+- hybrid_traditional: 适合简单直接的信息查找
+- graph_rag: 适合复杂关系推理和知识发现
+
+请严格按照JSON字符串格式返回，不要包含多余的文字：
+{{
+   "query_complexity": 0.6,
+   "relationship_intensity": 0.8,
+   "reasoning_required": true,
+   "entity_count": 3,
+   "recommended_strategy": "graph_rag",
+   "confidence": 0.85,
+   "reasoning": "该查询涉及多个实体间的复杂关系，需要图结构推理"
+}}
+"""
+```
+</details>
+
+**图检索条件提取提示词**
+<details>
+  <summary>点击查看提示词</summary>
+
+```python
+GRAPH_CONDITION_EXTRACT_PROMPT = """
+将用户的烹饪问题提取为结构化的查询条件。只返回 JSON，不要解释。
+
+支持的维度：
+- cuisines: 菜系（川菜/粤菜/湘菜/鲁菜/苏菜/浙菜/闽菜/徽菜/鄂菜/东北菜/西北/黔菜/新疆菜/京菜/沪菜）
+- difficulty: 难度（很简单/简单/中等）
+- cooking_time_min: 烹饪时间（分钟），用户提到“快手菜”或“快速”就填15，用户提到"30分钟"就填30，没有就不填
+- carb_amount_g: 碳水化合物含量（克），用户提到"无糖"就填5，提到"低碳"或"低碳水"就填20，没有就不填
+- ingredients: 用户指定的食材列表，如["鸡肉","豆腐","土豆"]，单食材也写成列表，没有则不填
+- methods: 用户指定的技法列表，如["清蒸","炒","炖"]，单技法也写成列表，没有则不填
+- category: 菜品种类（荤菜/素菜/汤品/主食/水产/甜品/饮品/早餐/调料/半成品）
+- fast: 是否快速烹饪（布尔值），用户提到"快手菜"或"快速"就填 true，没有就默认 false
+
+规则：
+1. 提取所有你能识别出的维度，不要遗漏
+2. 用户没提到的维度不要填
+3. "简单""适合新手""零基础" → difficulty: "简单" + fast: true
+4. "低糖"“低脂”"适合糖尿病人""不放糖" → carb_amount_g: 5
+5. "减肥""低碳""低碳水""少碳水" → carb_amount_g: 20
+6. "快手菜""快速""15分钟" → cooking_time_min: 15
+7. "家常菜" → 不映射到 category，这是泛指
+8. 只输出合法 JSON，不要任何解释文字
+9. ingredients 和 methods 必须输出为 JSON 数组，即使只有一个值也写成数组
+
+用户问题: {query}
+
+JSON:"""
+```
+</details>
+
+#### 模型效果
+针对V1.8版本中存在的「复杂推理能力和多跳查询能力较弱」的问题，V2.0主要改进体现在以下两类场景：
+
+1. **减肥期间适合吃什么菜？**：V1.8中基于向量检索只能理解"减肥"这个单一关键词，返回的菜品推荐不准确；V2.0的图检索能理解"减肥"的多个维度约束——低碳水、清淡烹饪技法（蒸/煮）、低脂食材等，在图谱中做多维度交集检索，精准匹配符合条件菜品。
+
+<details>
+  <summary>点击查看示例</summary>
+
+```markdown
+> 减肥期间适合吃什么菜？
+为您推荐以下菜品：
+1. 瘦肉土豆片
+2. 麻辣香锅
+3. 农家一碗香
+4. 韩式拌饭
+5. 炒青菜
+```
+</details>
+
+2. **适合糖尿病人吃的低糖川菜有哪些，并且制作时间不超过30分钟？**：这类涉及多维度交叉约束的查询，向量检索难以同时理解和匹配多个条件；图检索可以将查询解析为 `cuisines: 川菜`、`carb_amount_g: 5`（低糖）、`cooking_time_min: 30`（最长制作时间） 等多个维度条件，在图谱中取交集匹配。
+
+<details>
+  <summary>点击查看示例</summary>
+
+```markdown
+> 适合糖尿病人吃的低糖川菜有哪些，并且制作时间不超过30分钟？
+为您推荐以下菜品：
+1. 凉拌鸡丝
+```
+</details>
+
+#### 存在问题
+当前版本中的图检索支持的查询场景有限，只实现了多条件交叉查询的检索规则，对其他复杂查询如相关查询、多跳推理、子图提取等支持的并不好，下个版本将会使用Neo4j来实现更复杂的图检索的功能。
+
